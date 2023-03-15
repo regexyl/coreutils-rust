@@ -2365,3 +2365,2363 @@ error[E0658]: use of unstable library feature 'rustc_private': this crate is bei
 [?2004lexit
 
 Script done on 2023-03-10 15:04:11+08:00 [COMMAND_EXIT_CODE="1"]
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+   --> src//basename.rs:219:16
+    |
+219 |             (::core::mem::size_of::<[libc::c_char; 4]>() as libc::c_ulong)
+    |                ^^^^ maybe a missing crate `core`?
+    |
+    = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+   --> src//basename.rs:567:17
+    |
+567 |     args.push(::core::ptr::null_mut());
+    |                 ^^^^ maybe a missing crate `core`?
+    |
+    = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+ --> src//basename.rs:5:1
+  |
+5 | extern crate libc;
+  | ^^^^^^^^^^^^^^^^^^
+  |
+  = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+  = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:74:22
+   |
+74 |     pub name: *const libc::c_char,
+   |                      ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:75:18
+   |
+75 |     pub has_arg: libc::c_int,
+   |                  ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:76:20
+   |
+76 |     pub flag: *mut libc::c_int,
+   |                    ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:77:14
+   |
+77 |     pub val: libc::c_int,
+   |              ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:79:19
+   |
+79 | pub type size_t = libc::c_ulong;
+   |                   ^^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:80:20
+   |
+80 | pub type __off_t = libc::c_long;
+   |                    ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:81:22
+   |
+81 | pub type __off64_t = libc::c_long;
+   |                      ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:85:17
+   |
+85 |     pub _flags: libc::c_int,
+   |                 ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:86:28
+   |
+86 |     pub _IO_read_ptr: *mut libc::c_char,
+   |                            ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:87:28
+   |
+87 |     pub _IO_read_end: *mut libc::c_char,
+   |                            ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:88:29
+   |
+88 |     pub _IO_read_base: *mut libc::c_char,
+   |                             ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:89:30
+   |
+89 |     pub _IO_write_base: *mut libc::c_char,
+   |                              ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:90:29
+   |
+90 |     pub _IO_write_ptr: *mut libc::c_char,
+   |                             ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:91:29
+   |
+91 |     pub _IO_write_end: *mut libc::c_char,
+   |                             ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:92:28
+   |
+92 |     pub _IO_buf_base: *mut libc::c_char,
+   |                            ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:93:27
+   |
+93 |     pub _IO_buf_end: *mut libc::c_char,
+   |                           ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:94:29
+   |
+94 |     pub _IO_save_base: *mut libc::c_char,
+   |                             ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:95:31
+   |
+95 |     pub _IO_backup_base: *mut libc::c_char,
+   |                               ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:96:28
+   |
+96 |     pub _IO_save_end: *mut libc::c_char,
+   |                            ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:99:18
+   |
+99 |     pub _fileno: libc::c_int,
+   |                  ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:100:18
+    |
+100 |     pub _flags2: libc::c_int,
+    |                  ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:102:22
+    |
+102 |     pub _cur_column: libc::c_ushort,
+    |                      ^^^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:103:25
+    |
+103 |     pub _vtable_offset: libc::c_schar,
+    |                         ^^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:104:21
+    |
+104 |     pub _shortbuf: [libc::c_char; 1],
+    |                     ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:105:21
+    |
+105 |     pub _lock: *mut libc::c_void,
+    |                     ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:110:28
+    |
+110 |     pub _freeres_buf: *mut libc::c_void,
+    |                            ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:112:16
+    |
+112 |     pub _mode: libc::c_int,
+    |                ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:113:20
+    |
+113 |     pub _unused2: [libc::c_char; 20],
+    |                    ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:117:26
+    |
+117 | pub type C2RustUnnamed = libc::c_int;
+    |                          ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:123:25
+    |
+123 |     pub program: *const libc::c_char,
+    |                         ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:124:22
+    |
+124 |     pub node: *const libc::c_char,
+    |                      ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:127:48
+    |
+127 | unsafe extern "C" fn putchar_unlocked(mut __c: libc::c_int) -> libc::c_int {
+    |                                                ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:127:64
+    |
+127 | unsafe extern "C" fn putchar_unlocked(mut __c: libc::c_int) -> libc::c_int {
+    |                                                                ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:128:71
+    |
+128 |     return if ((*stdout)._IO_write_ptr >= (*stdout)._IO_write_end) as libc::c_int
+    |                                                                       ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:129:12
+    |
+129 |         as libc::c_long != 0
+    |            ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:131:35
+    |
+131 |         __overflow(stdout, __c as libc::c_uchar as libc::c_int)
+    |                                   ^^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:131:52
+    |
+131 |         __overflow(stdout, __c as libc::c_uchar as libc::c_int)
+    |                                                    ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:135:26
+    |
+135 |         *fresh0 = __c as libc::c_char;
+    |                          ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:136:20
+    |
+136 |         *fresh0 as libc::c_uchar as libc::c_int
+    |                    ^^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:136:37
+    |
+136 |         *fresh0 as libc::c_uchar as libc::c_int
+    |                                     ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:140:62
+    |
+140 | unsafe extern "C" fn emit_ancillary_info(mut program: *const libc::c_char) {
+    |                                                              ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:144:56
+    |
+144 |                 program: b"[\0" as *const u8 as *const libc::c_char,
+    |                                                        ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:145:67
+    |
+145 |                 node: b"test invocation\0" as *const u8 as *const libc::c_char,
+    |                                                                   ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:151:64
+    |
+151 |                 program: b"coreutils\0" as *const u8 as *const libc::c_char,
+    |                                                                ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:152:73
+    |
+152 |                 node: b"Multi-call invocation\0" as *const u8 as *const libc::c_char,
+    |                                                                         ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:158:64
+    |
+158 |                 program: b"sha224sum\0" as *const u8 as *const libc::c_char,
+    |                                                                ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:159:66
+    |
+159 |                 node: b"sha2 utilities\0" as *const u8 as *const libc::c_char,
+    |                                                                  ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:165:64
+    |
+165 |                 program: b"sha256sum\0" as *const u8 as *const libc::c_char,
+    |                                                                ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:166:66
+    |
+166 |                 node: b"sha2 utilities\0" as *const u8 as *const libc::c_char,
+    |                                                                  ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:172:64
+    |
+172 |                 program: b"sha384sum\0" as *const u8 as *const libc::c_char,
+    |                                                                ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:173:66
+    |
+173 |                 node: b"sha2 utilities\0" as *const u8 as *const libc::c_char,
+    |                                                                  ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:179:64
+    |
+179 |                 program: b"sha512sum\0" as *const u8 as *const libc::c_char,
+    |                                                                ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:180:66
+    |
+180 |                 node: b"sha2 utilities\0" as *const u8 as *const libc::c_char,
+    |                                                                  ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:186:38
+    |
+186 |                 program: 0 as *const libc::c_char,
+    |                                      ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:187:35
+    |
+187 |                 node: 0 as *const libc::c_char,
+    |                                   ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:192:26
+    |
+192 |     let mut node: *const libc::c_char = program;
+    |                          ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:195:59
+    |
+195 |         && !(strcmp(program, (*map_prog).program) == 0 as libc::c_int)
+    |                                                           ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:204:25
+    |
+204 |             0 as *const libc::c_char,
+    |                         ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:205:66
+    |
+205 |             b"\n%s online help: <%s>\n\0" as *const u8 as *const libc::c_char,
+    |                                                                  ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:206:18
+    |
+206 |             5 as libc::c_int,
+    |                  ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:208:51
+    |
+208 |         b"GNU coreutils\0" as *const u8 as *const libc::c_char,
+    |                                                   ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:209:77
+    |
+209 |         b"https://www.gnu.org/software/coreutils/\0" as *const u8 as *const libc::c_char,
+    |                                                                             ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:212:14
+    |
+212 |         5 as libc::c_int,
+    |              ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:213:21
+    |
+213 |         0 as *const libc::c_char,
+    |                     ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:211:33
+    |
+211 |     let mut lc_messages: *const libc::c_char = setlocale(
+    |                                 ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:218:45
+    |
+218 |             b"en_\0" as *const u8 as *const libc::c_char,
+    |                                             ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:219:38
+    |
+219 |             (::core::mem::size_of::<[libc::c_char; 4]>() as libc::c_ulong)
+    |                                      ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:219:61
+    |
+219 |             (::core::mem::size_of::<[libc::c_char; 4]>() as libc::c_ulong)
+    |                                                             ^^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:220:36
+    |
+220 |                 .wrapping_sub(1 as libc::c_int as libc::c_ulong),
+    |                                    ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:220:51
+    |
+220 |                 .wrapping_sub(1 as libc::c_int as libc::c_ulong),
+    |                                                   ^^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:225:29
+    |
+225 |                 0 as *const libc::c_char,
+    |                             ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:227:44
+    |
+227 |                     as *const u8 as *const libc::c_char,
+    |                                            ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:228:22
+    |
+228 |                 5 as libc::c_int,
+    |                      ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:235:39
+    |
+235 |         b"[\0" as *const u8 as *const libc::c_char,
+    |                                       ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:236:15
+    |
+236 |     ) == 0 as libc::c_int
+    |               ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:238:42
+    |
+238 |         b"test\0" as *const u8 as *const libc::c_char
+    |                                          ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:233:33
+    |
+233 |     let mut url_program: *const libc::c_char = if strcmp(
+    |                                 ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:244:25
+    |
+244 |             0 as *const libc::c_char,
+    |                         ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:245:69
+    |
+245 |             b"Full documentation <%s%s>\n\0" as *const u8 as *const libc::c_char,
+    |                                                                     ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:246:18
+    |
+246 |             5 as libc::c_int,
+    |                  ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:248:77
+    |
+248 |         b"https://www.gnu.org/software/coreutils/\0" as *const u8 as *const libc::c_char,
+    |                                                                             ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:253:25
+    |
+253 |             0 as *const libc::c_char,
+    |                         ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:255:27
+    |
+255 |                 as *const libc::c_char,
+    |                           ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:256:18
+    |
+256 |             5 as libc::c_int,
+    |                  ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:260:53
+    |
+260 |             b" invocation\0" as *const u8 as *const libc::c_char
+    |                                                     ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:262:42
+    |
+262 |             b"\0" as *const u8 as *const libc::c_char
+    |                                          ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:270:25
+    |
+270 |             0 as *const libc::c_char,
+    |                         ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:272:40
+    |
+272 |                 as *const u8 as *const libc::c_char,
+    |                                        ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:273:18
+    |
+273 |             5 as libc::c_int,
+    |                  ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:281:56
+    |
+281 |             name: b"multiple\0" as *const u8 as *const libc::c_char,
+    |                                                        ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:282:27
+    |
+282 |             has_arg: 0 as libc::c_int,
+    |                           ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:283:31
+    |
+283 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                               ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:283:51
+    |
+283 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                                                   ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:290:54
+    |
+290 |             name: b"suffix\0" as *const u8 as *const libc::c_char,
+    |                                                      ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:291:27
+    |
+291 |             has_arg: 1 as libc::c_int,
+    |                           ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:292:31
+    |
+292 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                               ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:292:51
+    |
+292 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                                                   ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:299:52
+    |
+299 |             name: b"zero\0" as *const u8 as *const libc::c_char,
+    |                                                    ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:300:27
+    |
+300 |             has_arg: 0 as libc::c_int,
+    |                           ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:301:31
+    |
+301 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                               ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:301:51
+    |
+301 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                                                   ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:308:52
+    |
+308 |             name: b"help\0" as *const u8 as *const libc::c_char,
+    |                                                    ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:309:27
+    |
+309 |             has_arg: 0 as libc::c_int,
+    |                           ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:310:31
+    |
+310 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                               ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:310:51
+    |
+310 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                                                   ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:311:38
+    |
+311 |             val: GETOPT_HELP_CHAR as libc::c_int,
+    |                                      ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:317:55
+    |
+317 |             name: b"version\0" as *const u8 as *const libc::c_char,
+    |                                                       ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:318:27
+    |
+318 |             has_arg: 0 as libc::c_int,
+    |                           ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:319:31
+    |
+319 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                               ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:319:51
+    |
+319 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                                                   ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:320:41
+    |
+320 |             val: GETOPT_VERSION_CHAR as libc::c_int,
+    |                                         ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:326:31
+    |
+326 |             name: 0 as *const libc::c_char,
+    |                               ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:327:27
+    |
+327 |             has_arg: 0 as libc::c_int,
+    |                           ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:328:31
+    |
+328 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                               ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:328:51
+    |
+328 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                                                   ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:329:23
+    |
+329 |             val: 0 as libc::c_int,
+    |                       ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:335:44
+    |
+335 | pub unsafe extern "C" fn usage(mut status: libc::c_int) {
+    |                                            ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:336:23
+    |
+336 |     if status != 0 as libc::c_int {
+    |                       ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:340:29
+    |
+340 |                 0 as *const libc::c_char,
+    |                             ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:342:31
+    |
+342 |                     as *const libc::c_char,
+    |                               ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:343:22
+    |
+343 |                 5 as libc::c_int,
+    |                      ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:350:29
+    |
+350 |                 0 as *const libc::c_char,
+    |                             ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:352:31
+    |
+352 |                     as *const libc::c_char,
+    |                               ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:353:22
+    |
+353 |                 5 as libc::c_int,
+    |                      ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:360:29
+    |
+360 |                 0 as *const libc::c_char,
+    |                             ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:362:44
+    |
+362 |                     as *const u8 as *const libc::c_char,
+    |                                            ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:363:22
+    |
+363 |                 5 as libc::c_int,
+    |                      ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:370:29
+    |
+370 |                 0 as *const libc::c_char,
+    |                             ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:372:44
+    |
+372 |                     as *const u8 as *const libc::c_char,
+    |                                            ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:373:22
+    |
+373 |                 5 as libc::c_int,
+    |                      ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:379:29
+    |
+379 |                 0 as *const libc::c_char,
+    |                             ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:381:31
+    |
+381 |                     as *const libc::c_char,
+    |                               ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:382:22
+    |
+382 |                 5 as libc::c_int,
+    |                      ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:388:29
+    |
+388 |                 0 as *const libc::c_char,
+    |                             ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:390:44
+    |
+390 |                     as *const u8 as *const libc::c_char,
+    |                                            ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:391:22
+    |
+391 |                 5 as libc::c_int,
+    |                      ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:397:29
+    |
+397 |                 0 as *const libc::c_char,
+    |                             ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:399:44
+    |
+399 |                     as *const u8 as *const libc::c_char,
+    |                                            ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:400:22
+    |
+400 |                 5 as libc::c_int,
+    |                      ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:407:66
+    |
+407 |         emit_ancillary_info(b"basename\0" as *const u8 as *const libc::c_char);
+    |                                                                  ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:412:20
+    |
+412 |     mut name: *mut libc::c_char,
+    |                    ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:413:24
+    |
+413 |     mut suffix: *const libc::c_char,
+    |                        ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:415:47
+    |
+415 |     let mut np: *mut libc::c_char = 0 as *mut libc::c_char;
+    |                                               ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:415:22
+    |
+415 |     let mut np: *mut libc::c_char = 0 as *mut libc::c_char;
+    |                      ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:416:51
+    |
+416 |     let mut sp: *const libc::c_char = 0 as *const libc::c_char;
+    |                                                   ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:416:24
+    |
+416 |     let mut sp: *const libc::c_char = 0 as *const libc::c_char;
+    |                        ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:422:19
+    |
+422 |         if *np as libc::c_int != *sp as libc::c_int {
+    |                   ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:422:41
+    |
+422 |         if *np as libc::c_int != *sp as libc::c_int {
+    |                                         ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:427:30
+    |
+427 |         *np = '\0' as i32 as libc::c_char;
+    |                              ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:431:24
+    |
+431 |     mut string: *const libc::c_char,
+    |                        ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:432:24
+    |
+432 |     mut suffix: *const libc::c_char,
+    |                        ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:435:24
+    |
+435 |     let mut name: *mut libc::c_char = base_name(string);
+    |                        ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:438:32
+    |
+438 |         && !(*name.offset(0 as libc::c_int as isize) as libc::c_int == '/' as i32)
+    |                                ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:438:57
+    |
+438 |         && !(*name.offset(0 as libc::c_int as isize) as libc::c_int == '/' as i32)
+    |                                                         ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:439:17
+    |
+439 |         && 0 as libc::c_int == 0
+    |                 ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:445:24
+    |
+445 |         if use_nuls as libc::c_int != 0 { '\0' as i32 } else { '\n' as i32 },
+    |                        ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:447:23
+    |
+447 |     free(name as *mut libc::c_void);
+    |                       ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:450:15
+    |
+450 |     mut argc: libc::c_int,
+    |               ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:451:25
+    |
+451 |     mut argv: *mut *mut libc::c_char,
+    |                         ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:452:6
+    |
+452 | ) -> libc::c_int {
+    |      ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:453:41
+    |
+453 |     let mut multiple_names: bool = 0 as libc::c_int != 0;
+    |                                         ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:454:35
+    |
+454 |     let mut use_nuls: bool = 0 as libc::c_int != 0;
+    |                                   ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:455:55
+    |
+455 |     let mut suffix: *const libc::c_char = 0 as *const libc::c_char;
+    |                                                       ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:455:28
+    |
+455 |     let mut suffix: *const libc::c_char = 0 as *const libc::c_char;
+    |                            ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:456:40
+    |
+456 |     set_program_name(*argv.offset(0 as libc::c_int as isize));
+    |                                        ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:457:20
+    |
+457 |     setlocale(6 as libc::c_int, b"\0" as *const u8 as *const libc::c_char);
+    |                    ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:457:62
+    |
+457 |     setlocale(6 as libc::c_int, b"\0" as *const u8 as *const libc::c_char);
+    |                                                              ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:459:47
+    |
+459 |         b"coreutils\0" as *const u8 as *const libc::c_char,
+    |                                               ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:460:61
+    |
+460 |         b"/usr/local/share/locale\0" as *const u8 as *const libc::c_char,
+    |                                                             ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:462:54
+    |
+462 |     textdomain(b"coreutils\0" as *const u8 as *const libc::c_char);
+    |                                                      ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:468:47
+    |
+468 |             b"+as:z\0" as *const u8 as *const libc::c_char,
+    |                                               ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:470:23
+    |
+470 |             0 as *mut libc::c_int,
+    |                       ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:465:20
+    |
+465 |         let mut c: libc::c_int = getopt_long(
+    |                    ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:472:24
+    |
+472 |         if c == -(1 as libc::c_int) {
+    |                        ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:485:33
+    |
+485 |                 use_nuls = 1 as libc::c_int != 0;
+    |                                 ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:489:28
+    |
+489 |                 usage(0 as libc::c_int);
+    |                            ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:495:58
+    |
+495 |                     b"basename\0" as *const u8 as *const libc::c_char,
+    |                                                          ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:496:63
+    |
+496 |                     b"GNU coreutils\0" as *const u8 as *const libc::c_char,
+    |                                                               ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:498:65
+    |
+498 |                     b"David MacKenzie\0" as *const u8 as *const libc::c_char,
+    |                                                                 ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:499:31
+    |
+499 |                     0 as *mut libc::c_void as *mut libc::c_char,
+    |                               ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:499:52
+    |
+499 |                     0 as *mut libc::c_void as *mut libc::c_char,
+    |                                                    ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:501:27
+    |
+501 |                 exit(0 as libc::c_int);
+    |                           ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:504:28
+    |
+504 |                 usage(1 as libc::c_int);
+    |                            ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:510:39
+    |
+510 |                 multiple_names = 1 as libc::c_int != 0;
+    |                                       ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:515:29
+    |
+515 |     if argc < optind + 1 as libc::c_int {
+    |                             ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:517:18
+    |
+517 |             0 as libc::c_int,
+    |                  ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:518:18
+    |
+518 |             0 as libc::c_int,
+    |                  ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:520:29
+    |
+520 |                 0 as *const libc::c_char,
+    |                             ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:521:61
+    |
+521 |                 b"missing operand\0" as *const u8 as *const libc::c_char,
+    |                                                             ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:522:22
+    |
+522 |                 5 as libc::c_int,
+    |                      ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:525:20
+    |
+525 |         usage(1 as libc::c_int);
+    |                    ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:527:42
+    |
+527 |     if !multiple_names && (optind + 2 as libc::c_int) < argc {
+    |                                          ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:529:18
+    |
+529 |             0 as libc::c_int,
+    |                  ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:530:18
+    |
+530 |             0 as libc::c_int,
+    |                  ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:532:29
+    |
+532 |                 0 as *const libc::c_char,
+    |                             ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:533:62
+    |
+533 |                 b"extra operand %s\0" as *const u8 as *const libc::c_char,
+    |                                                              ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:534:22
+    |
+534 |                 5 as libc::c_int,
+    |                      ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:536:47
+    |
+536 |             quote(*argv.offset((optind + 2 as libc::c_int) as isize)),
+    |                                               ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:538:20
+    |
+538 |         usage(1 as libc::c_int);
+    |                    ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:548:30
+    |
+548 |             if optind + 2 as libc::c_int == argc {
+    |                              ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:549:45
+    |
+549 |                 *argv.offset((optind + 1 as libc::c_int) as isize)
+    |                                             ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:551:27
+    |
+551 |                 0 as *mut libc::c_char
+    |                           ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:556:17
+    |
+556 |     return 0 as libc::c_int;
+    |                 ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:559:30
+    |
+559 |     let mut args: Vec::<*mut libc::c_char> = Vec::new();
+    |                              ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:571:37
+    |
+571 |                 (args.len() - 1) as libc::c_int,
+    |                                     ^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+   --> src//basename.rs:572:48
+    |
+572 |                 args.as_mut_ptr() as *mut *mut libc::c_char,
+    |                                                ^^^^^^^^^^^^
+    |
+    = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+    = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:11:29
+   |
+11 |     static mut optarg: *mut libc::c_char;
+   |                             ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:12:24
+   |
+12 |     static mut optind: libc::c_int;
+   |                        ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:14:18
+   |
+14 |         ___argc: libc::c_int,
+   |                  ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:15:30
+   |
+15 |         ___argv: *const *mut libc::c_char,
+   |                              ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:16:29
+   |
+16 |         __shortopts: *const libc::c_char,
+   |                             ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:18:25
+   |
+18 |         __longind: *mut libc::c_int,
+   |                         ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:19:10
+   |
+19 |     ) -> libc::c_int;
+   |          ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:22:40
+   |
+22 |     fn fprintf(_: *mut FILE, _: *const libc::c_char, _: ...) -> libc::c_int;
+   |                                        ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:22:65
+   |
+22 |     fn fprintf(_: *mut FILE, _: *const libc::c_char, _: ...) -> libc::c_int;
+   |                                                                 ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:23:25
+   |
+23 |     fn printf(_: *const libc::c_char, _: ...) -> libc::c_int;
+   |                         ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:23:50
+   |
+23 |     fn printf(_: *const libc::c_char, _: ...) -> libc::c_int;
+   |                                                  ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:24:36
+   |
+24 |     fn __overflow(_: *mut FILE, _: libc::c_int) -> libc::c_int;
+   |                                    ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:24:52
+   |
+24 |     fn __overflow(_: *mut FILE, _: libc::c_int) -> libc::c_int;
+   |                                                    ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:25:35
+   |
+25 |     fn fputs_unlocked(__s: *const libc::c_char, __stream: *mut FILE) -> libc::c_int;
+   |                                   ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:25:73
+   |
+25 |     fn fputs_unlocked(__s: *const libc::c_char, __stream: *mut FILE) -> libc::c_int;
+   |                                                                         ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:26:25
+   |
+26 |     fn strcmp(_: *const libc::c_char, _: *const libc::c_char) -> libc::c_int;
+   |                         ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:26:49
+   |
+26 |     fn strcmp(_: *const libc::c_char, _: *const libc::c_char) -> libc::c_int;
+   |                                                 ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:26:66
+   |
+26 |     fn strcmp(_: *const libc::c_char, _: *const libc::c_char) -> libc::c_int;
+   |                                                                  ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:28:19
+   |
+28 |         _: *const libc::c_char,
+   |                   ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:29:19
+   |
+29 |         _: *const libc::c_char,
+   |                   ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:30:12
+   |
+30 |         _: libc::c_ulong,
+   |            ^^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:31:10
+   |
+31 |     ) -> libc::c_int;
+   |          ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:32:25
+   |
+32 |     fn strlen(_: *const libc::c_char) -> libc::c_ulong;
+   |                         ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:32:42
+   |
+32 |     fn strlen(_: *const libc::c_char) -> libc::c_ulong;
+   |                                          ^^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:33:21
+   |
+33 |     fn free(_: *mut libc::c_void);
+   |                     ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:34:39
+   |
+34 |     fn set_program_name(argv0: *const libc::c_char);
+   |                                       ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:35:37
+   |
+35 |     static mut program_name: *const libc::c_char;
+   |                                     ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:38:30
+   |
+38 |         command_name: *const libc::c_char,
+   |                              ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:39:25
+   |
+39 |         package: *const libc::c_char,
+   |                         ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:40:25
+   |
+40 |         version: *const libc::c_char,
+   |                         ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:44:32
+   |
+44 |     static mut Version: *const libc::c_char;
+   |                                ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:46:21
+   |
+46 |         __category: libc::c_int,
+   |                     ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:47:26
+   |
+47 |         __locale: *const libc::c_char,
+   |                          ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:48:15
+   |
+48 |     ) -> *mut libc::c_char;
+   |               ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:50:30
+   |
+50 |         __domainname: *const libc::c_char,
+   |                              ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:51:25
+   |
+51 |         __msgid: *const libc::c_char,
+   |                         ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:52:21
+   |
+52 |         __category: libc::c_int,
+   |                     ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:53:15
+   |
+53 |     ) -> *mut libc::c_char;
+   |               ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:54:40
+   |
+54 |     fn textdomain(__domainname: *const libc::c_char) -> *mut libc::c_char;
+   |                                        ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:54:62
+   |
+54 |     fn textdomain(__domainname: *const libc::c_char) -> *mut libc::c_char;
+   |                                                              ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:56:30
+   |
+56 |         __domainname: *const libc::c_char,
+   |                              ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:57:27
+   |
+57 |         __dirname: *const libc::c_char,
+   |                           ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:58:15
+   |
+58 |     ) -> *mut libc::c_char;
+   |               ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:59:31
+   |
+59 |     fn base_name(file: *const libc::c_char) -> *mut libc::c_char;
+   |                               ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:59:53
+   |
+59 |     fn base_name(file: *const libc::c_char) -> *mut libc::c_char;
+   |                                                     ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:60:42
+   |
+60 |     fn strip_trailing_slashes(file: *mut libc::c_char) -> bool;
+   |                                          ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:61:66
+   |
+61 |     fn atexit(__func: Option::<unsafe extern "C" fn() -> ()>) -> libc::c_int;
+   |                                                                  ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:62:16
+   |
+62 |     fn exit(_: libc::c_int) -> !;
+   |                ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:64:19
+   |
+64 |         __status: libc::c_int,
+   |                   ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:65:19
+   |
+65 |         __errnum: libc::c_int,
+   |                   ^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:66:26
+   |
+66 |         __format: *const libc::c_char,
+   |                          ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:69:26
+   |
+69 |     fn quote(arg: *const libc::c_char) -> *const libc::c_char;
+   |                          ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?
+  --> src//basename.rs:69:50
+   |
+69 |     fn quote(arg: *const libc::c_char) -> *const libc::c_char;
+   |                                                  ^^^^^^^^^^^^
+   |
+   = note: see issue #27812 <https://github.com/rust-lang/rust/issues/27812> for more information
+   = help: add `#![feature(rustc_private)]` to the crate attributes to enable
+
+error: aborting due to 262 previous errors
+
+Some errors have detailed explanations: E0433, E0658.
+For more information about an error, try `rustc --explain E0433`.

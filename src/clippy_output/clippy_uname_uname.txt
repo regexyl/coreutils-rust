@@ -1,0 +1,22 @@
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//uname_uname.rs:3:28
+  |
+3 | pub static mut uname_mode: libc::c_int = 1 as libc::c_int;
+  |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//uname_uname.rs:3:47
+  |
+3 | pub static mut uname_mode: libc::c_int = 1 as libc::c_int;
+  |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0601]: `main` function not found in crate `uname_uname`
+ --> src//uname_uname.rs:3:59
+  |
+3 | pub static mut uname_mode: libc::c_int = 1 as libc::c_int;
+  |                                                           ^ consider adding a `main` function to `src//uname_uname.rs`
+
+error: aborting due to 3 previous errors
+
+Some errors have detailed explanations: E0433, E0601.
+For more information about an error, try `rustc --explain E0433`.

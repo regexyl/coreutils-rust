@@ -1,0 +1,1169 @@
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//iopoll.rs:8:29
+  |
+8 |         __assertion: *const libc::c_char,
+  |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//iopoll.rs:9:24
+  |
+9 |         __file: *const libc::c_char,
+  |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:10:17
+   |
+10 |         __line: libc::c_uint,
+   |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:11:28
+   |
+11 |         __function: *const libc::c_char,
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:13:60
+   |
+13 |     fn poll(__fds: *mut pollfd, __nfds: nfds_t, __timeout: libc::c_int) -> libc::c_int;
+   |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:13:76
+   |
+13 |     fn poll(__fds: *mut pollfd, __nfds: nfds_t, __timeout: libc::c_int) -> libc::c_int;
+   |                                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:14:20
+   |
+14 |     fn fstat(__fd: libc::c_int, __buf: *mut stat) -> libc::c_int;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:14:54
+   |
+14 |     fn fstat(__fd: libc::c_int, __buf: *mut stat) -> libc::c_int;
+   |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:15:35
+   |
+15 |     fn __errno_location() -> *mut libc::c_int;
+   |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:16:36
+   |
+16 |     fn __overflow(_: *mut FILE, _: libc::c_int) -> libc::c_int;
+   |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:16:52
+   |
+16 |     fn __overflow(_: *mut FILE, _: libc::c_int) -> libc::c_int;
+   |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:18:23
+   |
+18 |         __ptr: *const libc::c_void,
+   |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:24:39
+   |
+24 |     fn fileno(__stream: *mut FILE) -> libc::c_int;
+   |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:25:41
+   |
+25 |     fn rpl_fclose(stream: *mut FILE) -> libc::c_int;
+   |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:26:20
+   |
+26 |     fn isapipe(fd: libc::c_int) -> libc::c_int;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:26:36
+   |
+26 |     fn isapipe(fd: libc::c_int) -> libc::c_int;
+   |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:28:20
+   |
+28 | pub type __dev_t = libc::c_ulong;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:29:20
+   |
+29 | pub type __uid_t = libc::c_uint;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:30:20
+   |
+30 | pub type __gid_t = libc::c_uint;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:31:20
+   |
+31 | pub type __ino_t = libc::c_ulong;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:32:21
+   |
+32 | pub type __mode_t = libc::c_uint;
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:33:22
+   |
+33 | pub type __nlink_t = libc::c_uint;
+   |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:34:20
+   |
+34 | pub type __off_t = libc::c_long;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:35:22
+   |
+35 | pub type __off64_t = libc::c_long;
+   |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:36:21
+   |
+36 | pub type __time_t = libc::c_long;
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:37:24
+   |
+37 | pub type __blksize_t = libc::c_int;
+   |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:38:23
+   |
+38 | pub type __blkcnt_t = libc::c_long;
+   |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:39:22
+   |
+39 | pub type __ssize_t = libc::c_long;
+   |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:40:30
+   |
+40 | pub type __syscall_slong_t = libc::c_long;
+   |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:47:19
+   |
+47 | pub type nfds_t = libc::c_ulong;
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:51:13
+   |
+51 |     pub fd: libc::c_int,
+   |             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:52:17
+   |
+52 |     pub events: libc::c_short,
+   |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:53:18
+   |
+53 |     pub revents: libc::c_short,
+   |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:56:19
+   |
+56 | pub type size_t = libc::c_ulong;
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:70:17
+   |
+70 |     pub __pad2: libc::c_int,
+   |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:75:28
+   |
+75 |     pub __glibc_reserved: [libc::c_int; 2],
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:80:17
+   |
+80 |     pub _flags: libc::c_int,
+   |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:81:28
+   |
+81 |     pub _IO_read_ptr: *mut libc::c_char,
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:82:28
+   |
+82 |     pub _IO_read_end: *mut libc::c_char,
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:83:29
+   |
+83 |     pub _IO_read_base: *mut libc::c_char,
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:84:30
+   |
+84 |     pub _IO_write_base: *mut libc::c_char,
+   |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:85:29
+   |
+85 |     pub _IO_write_ptr: *mut libc::c_char,
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:86:29
+   |
+86 |     pub _IO_write_end: *mut libc::c_char,
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:87:28
+   |
+87 |     pub _IO_buf_base: *mut libc::c_char,
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:88:27
+   |
+88 |     pub _IO_buf_end: *mut libc::c_char,
+   |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:89:29
+   |
+89 |     pub _IO_save_base: *mut libc::c_char,
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:90:31
+   |
+90 |     pub _IO_backup_base: *mut libc::c_char,
+   |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:91:28
+   |
+91 |     pub _IO_save_end: *mut libc::c_char,
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:94:18
+   |
+94 |     pub _fileno: libc::c_int,
+   |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:95:18
+   |
+95 |     pub _flags2: libc::c_int,
+   |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:97:22
+   |
+97 |     pub _cur_column: libc::c_ushort,
+   |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:98:25
+   |
+98 |     pub _vtable_offset: libc::c_schar,
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//iopoll.rs:99:21
+   |
+99 |     pub _shortbuf: [libc::c_char; 1],
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:100:21
+    |
+100 |     pub _lock: *mut libc::c_void,
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:105:28
+    |
+105 |     pub _freeres_buf: *mut libc::c_void,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:107:16
+    |
+107 |     pub _mode: libc::c_int,
+    |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:108:20
+    |
+108 |     pub _unused2: [libc::c_char; 20],
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:114:14
+    |
+114 |     mut __c: libc::c_int,
+    |              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:116:6
+    |
+116 | ) -> libc::c_int {
+    |      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:117:75
+    |
+117 |     return if ((*__stream)._IO_write_ptr >= (*__stream)._IO_write_end) as libc::c_int
+    |                                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:118:12
+    |
+118 |         as libc::c_long != 0
+    |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:120:37
+    |
+120 |         __overflow(__stream, __c as libc::c_uchar as libc::c_int)
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:120:54
+    |
+120 |         __overflow(__stream, __c as libc::c_uchar as libc::c_int)
+    |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:124:26
+    |
+124 |         *fresh0 = __c as libc::c_char;
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:125:20
+    |
+125 |         *fresh0 as libc::c_uchar as libc::c_int
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:125:37
+    |
+125 |         *fresh0 as libc::c_uchar as libc::c_int
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:129:15
+    |
+129 |     mut fdin: libc::c_int,
+    |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:130:16
+    |
+130 |     mut fdout: libc::c_int,
+    |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:133:6
+    |
+133 | ) -> libc::c_int {
+    |      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:134:23
+    |
+134 |     if fdin != -(1 as libc::c_int) || fdout != -(1 as libc::c_int) {} else {
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:134:55
+    |
+134 |     if fdin != -(1 as libc::c_int) || fdout != -(1 as libc::c_int) {} else {
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:136:67
+    |
+136 |             b"fdin != -1 || fdout != -1\0" as *const u8 as *const libc::c_char,
+    |                                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:137:54
+    |
+137 |             b"src/iopoll.c\0" as *const u8 as *const libc::c_char,
+    |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:138:19
+    |
+138 |             64 as libc::c_int as libc::c_uint,
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:138:34
+    |
+138 |             64 as libc::c_int as libc::c_uint,
+    |                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+   --> src//iopoll.rs:139:17
+    |
+139 |             (*::core::mem::transmute::<
+    |                 ^^^^ maybe a missing crate `core`?
+    |
+    = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:141:19
+    |
+141 |                 &[libc::c_char; 44],
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:150:33
+    |
+150 |                 events: (0x1 as libc::c_int | 0x80 as libc::c_int) as libc::c_short,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:150:55
+    |
+150 |                 events: (0x1 as libc::c_int | 0x80 as libc::c_int) as libc::c_short,
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:150:71
+    |
+150 |                 events: (0x1 as libc::c_int | 0x80 as libc::c_int) as libc::c_short,
+    |                                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:151:31
+    |
+151 |                 revents: 0 as libc::c_int as libc::c_short,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:151:46
+    |
+151 |                 revents: 0 as libc::c_int as libc::c_short,
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:158:33
+    |
+158 |                 events: 0x80 as libc::c_int as libc::c_short,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:158:48
+    |
+158 |                 events: 0x80 as libc::c_int as libc::c_short,
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:159:31
+    |
+159 |                 revents: 0 as libc::c_int as libc::c_short,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:159:46
+    |
+159 |                 revents: 0 as libc::c_int as libc::c_short,
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:164:31
+    |
+164 |     let mut check_out_events: libc::c_int = 0x8 as libc::c_int | 0x10 as libc::c_int
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:164:52
+    |
+164 |     let mut check_out_events: libc::c_int = 0x8 as libc::c_int | 0x10 as libc::c_int
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:164:74
+    |
+164 |     let mut check_out_events: libc::c_int = 0x8 as libc::c_int | 0x10 as libc::c_int
+    |                                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:165:19
+    |
+165 |         | 0x20 as libc::c_int;
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:166:18
+    |
+166 |     let mut ret: libc::c_int = 0 as libc::c_int;
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:166:37
+    |
+166 |     let mut ret: libc::c_int = 0 as libc::c_int;
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:168:19
+    |
+168 |         pfds[1 as libc::c_int as usize].events = 0x4 as libc::c_int as libc::c_short;
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:168:57
+    |
+168 |         pfds[1 as libc::c_int as usize].events = 0x4 as libc::c_int as libc::c_short;
+    |                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:168:72
+    |
+168 |         pfds[1 as libc::c_int as usize].events = 0x4 as libc::c_int as libc::c_short;
+    |                                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:169:19
+    |
+169 |         pfds[0 as libc::c_int as usize].events = pfds[1 as libc::c_int as usize].events;
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:169:60
+    |
+169 |         pfds[0 as libc::c_int as usize].events = pfds[1 as libc::c_int as usize].events;
+    |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:170:35
+    |
+170 |         check_out_events = 0x4 as libc::c_int;
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:172:16
+    |
+172 |     while 0 as libc::c_int <= ret || *__errno_location() == 4 as libc::c_int {
+    |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:172:66
+    |
+172 |     while 0 as libc::c_int <= ret || *__errno_location() == 4 as libc::c_int {
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:175:18
+    |
+175 |             2 as libc::c_int as nfds_t,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:176:25
+    |
+176 |             if block as libc::c_int != 0 {
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:177:24
+    |
+177 |                 -(1 as libc::c_int)
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:179:22
+    |
+179 |                 0 as libc::c_int
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:182:23
+    |
+182 |         if ret < 0 as libc::c_int {
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:185:24
+    |
+185 |         if ret == 0 as libc::c_int && !block {
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:186:25
+    |
+186 |             return 0 as libc::c_int;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:188:18
+    |
+188 |         if (0 as libc::c_int) < ret {} else {
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:190:53
+    |
+190 |                 b"0 < ret\0" as *const u8 as *const libc::c_char,
+    |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:191:58
+    |
+191 |                 b"src/iopoll.c\0" as *const u8 as *const libc::c_char,
+    |                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:192:23
+    |
+192 |                 88 as libc::c_int as libc::c_uint,
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:192:38
+    |
+192 |                 88 as libc::c_int as libc::c_uint,
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+   --> src//iopoll.rs:193:21
+    |
+193 |                 (*::core::mem::transmute::<
+    |                     ^^^^ maybe a missing crate `core`?
+    |
+    = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:195:23
+    |
+195 |                     &[libc::c_char; 44],
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:200:22
+    |
+200 |         if pfds[0 as libc::c_int as usize].revents != 0 {
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:201:25
+    |
+201 |             return 0 as libc::c_int;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:203:22
+    |
+203 |         if pfds[1 as libc::c_int as usize].revents as libc::c_int & check_out_events != 0
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:203:55
+    |
+203 |         if pfds[1 as libc::c_int as usize].revents as libc::c_int & check_out_events != 0
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:205:40
+    |
+205 |             return if broken_output as libc::c_int != 0 {
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:206:24
+    |
+206 |                 -(2 as libc::c_int)
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:208:22
+    |
+208 |                 0 as libc::c_int
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:212:19
+    |
+212 |     return -(3 as libc::c_int);
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:216:15
+    |
+216 |     mut fdin: libc::c_int,
+    |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:217:16
+    |
+217 |     mut fdout: libc::c_int,
+    |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:219:6
+    |
+219 | ) -> libc::c_int {
+    |      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:220:53
+    |
+220 |     return iopoll_internal(fdin, fdout, block, 1 as libc::c_int != 0);
+    |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:223:52
+    |
+223 | pub unsafe extern "C" fn iopoll_input_ok(mut fdin: libc::c_int) -> bool {
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:242:63
+    |
+242 |     let mut always_ready: bool = fstat(fdin, &mut st) == 0 as libc::c_int
+    |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:243:38
+    |
+243 |         && (st.st_mode & 0o170000 as libc::c_int as libc::c_uint
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:243:53
+    |
+243 |         && (st.st_mode & 0o170000 as libc::c_int as libc::c_uint
+    |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:244:28
+    |
+244 |             == 0o100000 as libc::c_int as libc::c_uint
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:244:43
+    |
+244 |             == 0o100000 as libc::c_int as libc::c_uint
+    |                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:245:41
+    |
+245 |             || st.st_mode & 0o170000 as libc::c_int as libc::c_uint
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:245:56
+    |
+245 |             || st.st_mode & 0o170000 as libc::c_int as libc::c_uint
+    |                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:246:31
+    |
+246 |                 == 0o60000 as libc::c_int as libc::c_uint);
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:246:46
+    |
+246 |                 == 0o60000 as libc::c_int as libc::c_uint);
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:250:54
+    |
+250 | pub unsafe extern "C" fn iopoll_output_ok(mut fdout: libc::c_int) -> bool {
+    |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:251:34
+    |
+251 |     return isapipe(fdout) > 0 as libc::c_int;
+    |                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:254:39
+    |
+254 |     if !(*__errno_location() == 11 as libc::c_int
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:255:41
+    |
+255 |         || *__errno_location() == 11 as libc::c_int)
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:257:21
+    |
+257 |         return 0 as libc::c_int != 0;
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:259:17
+    |
+259 |     let mut fd: libc::c_int = fileno(f);
+    |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:260:23
+    |
+260 |     if !(fd == -(1 as libc::c_int)) {
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:262:20
+    |
+262 |             -(1 as libc::c_int),
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:264:18
+    |
+264 |             1 as libc::c_int != 0,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:265:18
+    |
+265 |             0 as libc::c_int != 0,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:266:19
+    |
+266 |         ) != 0 as libc::c_int)
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:269:25
+    |
+269 |             return 1 as libc::c_int != 0;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:272:33
+    |
+272 |     *__errno_location() = 11 as libc::c_int;
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:273:17
+    |
+273 |     return 0 as libc::c_int != 0;
+    |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:278:34
+    |
+278 |         if rpl_fclose(f) == 0 as libc::c_int {
+    |                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:279:25
+    |
+279 |             return 1 as libc::c_int != 0;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:282:25
+    |
+282 |             return 0 as libc::c_int != 0;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:288:21
+    |
+288 |     mut buf: *const libc::c_char,
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:294:22
+    |
+294 |             && (1 as libc::c_int as size_t).wrapping_mul(size as size_t)
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:295:25
+    |
+295 |                 <= 8 as libc::c_int as libc::c_ulong
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:295:40
+    |
+295 |                 <= 8 as libc::c_int as libc::c_ulong
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:296:21
+    |
+296 |             && 1 as libc::c_int as size_t != 0 as libc::c_int as libc::c_ulong
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:296:51
+    |
+296 |             && 1 as libc::c_int as size_t != 0 as libc::c_int as libc::c_ulong
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:296:66
+    |
+296 |             && 1 as libc::c_int as size_t != 0 as libc::c_int as libc::c_ulong
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:299:39
+    |
+299 |                 let mut __ptr: *const libc::c_char = buf;
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:302:31
+    |
+302 |                 __cnt = (1 as libc::c_int as size_t).wrapping_mul(size as size_t);
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:303:36
+    |
+303 |                 while __cnt > 0 as libc::c_int as libc::c_ulong {
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:303:51
+    |
+303 |                 while __cnt > 0 as libc::c_int as libc::c_ulong {
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:306:49
+    |
+306 |                     if putc_unlocked(*fresh1 as libc::c_int, __stream)
+    |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:307:35
+    |
+307 |                         == -(1 as libc::c_int)
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:313:23
+    |
+313 |                 (1 as libc::c_int as size_t)
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:316:40
+    |
+316 |                     .wrapping_div(1 as libc::c_int as size_t)
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:319:21
+    |
+319 |             && 1 as libc::c_int as size_t == 0 as libc::c_int as libc::c_ulong
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:319:51
+    |
+319 |             && 1 as libc::c_int as size_t == 0 as libc::c_int as libc::c_ulong
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:319:66
+    |
+319 |             && 1 as libc::c_int as size_t == 0 as libc::c_int as libc::c_ulong
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:320:49
+    |
+320 |             || 0 != 0 && size as size_t == 0 as libc::c_int as libc::c_ulong
+    |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:320:64
+    |
+320 |             || 0 != 0 && size as size_t == 0 as libc::c_int as libc::c_ulong
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:322:18
+    |
+322 |             0 as libc::c_int as size_t
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:325:31
+    |
+325 |                 buf as *const libc::c_void,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:326:22
+    |
+326 |                 1 as libc::c_int as size_t,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:331:25
+    |
+331 |         size = (size as libc::c_ulong).wrapping_sub(written) as ssize_t as ssize_t;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:332:25
+    |
+332 |         if size >= 0 as libc::c_int as libc::c_long {} else {
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:332:40
+    |
+332 |         if size >= 0 as libc::c_int as libc::c_long {} else {
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:334:55
+    |
+334 |                 b"size >= 0\0" as *const u8 as *const libc::c_char,
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:335:58
+    |
+335 |                 b"src/iopoll.c\0" as *const u8 as *const libc::c_char,
+    |                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:336:24
+    |
+336 |                 229 as libc::c_int as libc::c_uint,
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:336:39
+    |
+336 |                 229 as libc::c_int as libc::c_uint,
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+   --> src//iopoll.rs:337:21
+    |
+337 |                 (*::core::mem::transmute::<
+    |                     ^^^^ maybe a missing crate `core`?
+    |
+    = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:339:23
+    |
+339 |                     &[libc::c_char; 53],
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:344:25
+    |
+344 |         if size <= 0 as libc::c_int as libc::c_long {
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:344:40
+    |
+344 |         if size <= 0 as libc::c_int as libc::c_long {
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:345:25
+    |
+345 |             return 1 as libc::c_int != 0;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//iopoll.rs:348:25
+    |
+348 |             return 0 as libc::c_int != 0;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+warning: unnecessary parentheses around block return value
+   --> src//iopoll.rs:298:13
+    |
+298 |             ({
+    |             ^
+...
+317 |             })
+    |              ^
+    |
+    = note: `#[warn(unused_parens)]` on by default
+help: remove these parentheses
+    |
+298 ~             {
+299 |                 let mut __ptr: *const libc::c_char = buf;
+  ...
+316 |                     .wrapping_div(1 as libc::c_int as size_t)
+317 ~             }
+    |
+
+error[E0601]: `main` function not found in crate `iopoll`
+   --> src//iopoll.rs:352:2
+    |
+352 | }
+    |  ^ consider adding a `main` function to `src//iopoll.rs`
+
+error: aborting due to 190 previous errors; 1 warning emitted
+
+Some errors have detailed explanations: E0433, E0601.
+For more information about an error, try `rustc --explain E0433`.

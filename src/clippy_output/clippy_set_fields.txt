@@ -1,0 +1,1699 @@
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//set_fields.rs:3:21
+  |
+3 |     fn free(_: *mut libc::c_void);
+  |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//set_fields.rs:5:17
+  |
+5 |         _: *mut libc::c_void,
+  |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//set_fields.rs:6:19
+  |
+6 |         _: *const libc::c_void,
+  |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//set_fields.rs:7:12
+  |
+7 |         _: libc::c_ulong,
+  |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//set_fields.rs:8:15
+  |
+8 |     ) -> *mut libc::c_void;
+  |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//set_fields.rs:9:25
+  |
+9 |     fn strcmp(_: *const libc::c_char, _: *const libc::c_char) -> libc::c_int;
+  |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//set_fields.rs:9:49
+  |
+9 |     fn strcmp(_: *const libc::c_char, _: *const libc::c_char) -> libc::c_int;
+  |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//set_fields.rs:9:66
+  |
+9 |     fn strcmp(_: *const libc::c_char, _: *const libc::c_char) -> libc::c_int;
+  |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:10:25
+   |
+10 |     fn strspn(_: *const libc::c_char, _: *const libc::c_char) -> libc::c_ulong;
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:10:49
+   |
+10 |     fn strspn(_: *const libc::c_char, _: *const libc::c_char) -> libc::c_ulong;
+   |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:10:66
+   |
+10 |     fn strspn(_: *const libc::c_char, _: *const libc::c_char) -> libc::c_ulong;
+   |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:12:22
+   |
+12 |         __base: *mut libc::c_void,
+   |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:17:39
+   |
+17 |     fn __ctype_b_loc() -> *mut *const libc::c_ushort;
+   |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:19:30
+   |
+19 |         __domainname: *const libc::c_char,
+   |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:20:25
+   |
+20 |         __msgid: *const libc::c_char,
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:21:21
+   |
+21 |         __category: libc::c_int,
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:22:15
+   |
+22 |     ) -> *mut libc::c_char;
+   |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:23:25
+   |
+23 |     fn xrealloc(p: *mut libc::c_void, s: size_t) -> *mut libc::c_void;
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:23:58
+   |
+23 |     fn xrealloc(p: *mut libc::c_void, s: size_t) -> *mut libc::c_void;
+   |                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:24:27
+   |
+24 |     fn x2nrealloc(p: *mut libc::c_void, pn: *mut size_t, s: size_t) -> *mut libc::c_void;
+   |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:24:77
+   |
+24 |     fn x2nrealloc(p: *mut libc::c_void, pn: *mut size_t, s: size_t) -> *mut libc::c_void;
+   |                                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:25:28
+   |
+25 |     fn ximemdup0(p: *const libc::c_void, s: idx_t) -> *mut libc::c_char;
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:25:60
+   |
+25 |     fn ximemdup0(p: *const libc::c_void, s: idx_t) -> *mut libc::c_char;
+   |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:26:22
+   |
+26 |     fn usage(status: libc::c_int);
+   |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:28:19
+   |
+28 |         __status: libc::c_int,
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:29:19
+   |
+29 |         __errnum: libc::c_int,
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:30:26
+   |
+30 |         __format: *const libc::c_char,
+   |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:33:26
+   |
+33 |     fn quote(arg: *const libc::c_char) -> *const libc::c_char;
+   |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:33:50
+   |
+33 |     fn quote(arg: *const libc::c_char) -> *const libc::c_char;
+   |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:35:24
+   |
+35 | pub type __uintmax_t = libc::c_ulong;
+   |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:36:19
+   |
+36 | pub type size_t = libc::c_ulong;
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:37:22
+   |
+37 | pub type ptrdiff_t = libc::c_long;
+   |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:39:33
+   |
+39 |     unsafe extern "C" fn(*const libc::c_void, *const libc::c_void) -> libc::c_int,
+   |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:39:54
+   |
+39 |     unsafe extern "C" fn(*const libc::c_void, *const libc::c_void) -> libc::c_int,
+   |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:39:71
+   |
+39 |     unsafe extern "C" fn(*const libc::c_void, *const libc::c_void) -> libc::c_int,
+   |                                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:42:26
+   |
+42 | pub type C2RustUnnamed = libc::c_uint;
+   |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:62:28
+   |
+62 | pub type C2RustUnnamed_0 = libc::c_uint;
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:69:20
+   |
+69 |     pub _gl_dummy: libc::c_int,
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:74:20
+   |
+74 |     pub _gl_dummy: libc::c_int,
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:77:39
+   |
+77 | unsafe extern "C" fn to_uchar(mut ch: libc::c_char) -> libc::c_uchar {
+   |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:77:56
+   |
+77 | unsafe extern "C" fn to_uchar(mut ch: libc::c_char) -> libc::c_uchar {
+   |                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:78:18
+   |
+78 |     return ch as libc::c_uchar;
+   |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+  --> src//set_fields.rs:88:21
+   |
+88 |         frp = (if ::core::mem::size_of::<C2RustUnnamed_1>() as libc::c_ulong != 0 {
+   |                     ^^^^ maybe a missing crate `core`?
+   |
+   = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:88:64
+   |
+88 |         frp = (if ::core::mem::size_of::<C2RustUnnamed_1>() as libc::c_ulong != 0 {
+   |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:90:29
+   |
+90 |                 frp as *mut libc::c_void,
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+  --> src//set_fields.rs:92:19
+   |
+92 |                 ::core::mem::size_of::<field_range_pair>() as libc::c_ulong,
+   |                   ^^^^ maybe a missing crate `core`?
+   |
+   = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:92:63
+   |
+92 |                 ::core::mem::size_of::<field_range_pair>() as libc::c_ulong,
+   |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:96:29
+   |
+96 |                 frp as *mut libc::c_void,
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+  --> src//set_fields.rs:98:19
+   |
+98 |                 ::core::mem::size_of::<field_range_pair>() as libc::c_ulong,
+   |                   ^^^^ maybe a missing crate `core`?
+   |
+   = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//set_fields.rs:98:63
+   |
+98 |                 ::core::mem::size_of::<field_range_pair>() as libc::c_ulong,
+   |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:107:19
+    |
+107 |     mut a: *const libc::c_void,
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:108:19
+    |
+108 |     mut b: *const libc::c_void,
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:109:6
+    |
+109 | ) -> libc::c_int {
+    |      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:112:37
+    |
+112 |     return ((*ap).lo > (*bp).lo) as libc::c_int - ((*ap).lo < (*bp).lo) as libc::c_int;
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:112:76
+    |
+112 |     return ((*ap).lo > (*bp).lo) as libc::c_int - ((*ap).lo < (*bp).lo) as libc::c_int;
+    |                                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:118:18
+    |
+118 |     n_frp = 0 as libc::c_int as size_t;
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:119:28
+    |
+119 |     n_frp_allocated = 0 as libc::c_int as size_t;
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:120:24
+    |
+120 |     if (*c.offset(0 as libc::c_int as isize)).lo > 1 as libc::c_int as libc::c_ulong {
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:120:57
+    |
+120 |     if (*c.offset(0 as libc::c_int as isize)).lo > 1 as libc::c_int as libc::c_ulong {
+    |                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:120:72
+    |
+120 |     if (*c.offset(0 as libc::c_int as isize)).lo > 1 as libc::c_int as libc::c_ulong {
+    |                                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:122:18
+    |
+122 |             1 as libc::c_int as uintmax_t,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:123:30
+    |
+123 |             ((*c.offset(0 as libc::c_int as isize)).lo)
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:124:36
+    |
+124 |                 .wrapping_sub(1 as libc::c_int as libc::c_ulong),
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:124:51
+    |
+124 |                 .wrapping_sub(1 as libc::c_int as libc::c_ulong),
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:127:30
+    |
+127 |     let mut i: size_t = 1 as libc::c_int as size_t;
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:129:46
+    |
+129 |         if !(((*c.offset(i.wrapping_sub(1 as libc::c_int as libc::c_ulong) as isize)).hi)
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:129:61
+    |
+129 |         if !(((*c.offset(i.wrapping_sub(1 as libc::c_int as libc::c_ulong) as isize)).hi)
+    |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:130:32
+    |
+130 |             .wrapping_add(1 as libc::c_int as libc::c_ulong)
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:130:47
+    |
+130 |             .wrapping_add(1 as libc::c_int as libc::c_ulong)
+    |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:134:49
+    |
+134 |                 ((*c.offset(i.wrapping_sub(1 as libc::c_int as libc::c_ulong) as isize))
+    |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:134:64
+    |
+134 |                 ((*c.offset(i.wrapping_sub(1 as libc::c_int as libc::c_ulong) as isize))
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:136:40
+    |
+136 |                     .wrapping_add(1 as libc::c_int as libc::c_ulong),
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:136:55
+    |
+136 |                     .wrapping_add(1 as libc::c_int as libc::c_ulong),
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:138:40
+    |
+138 |                     .wrapping_sub(1 as libc::c_int as libc::c_ulong),
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:138:55
+    |
+138 |                     .wrapping_sub(1 as libc::c_int as libc::c_ulong),
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:143:39
+    |
+143 |     if (*c.offset(n.wrapping_sub(1 as libc::c_int as libc::c_ulong) as isize)).hi
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:143:54
+    |
+143 |     if (*c.offset(n.wrapping_sub(1 as libc::c_int as libc::c_ulong) as isize)).hi
+    |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:144:35
+    |
+144 |         < 18446744073709551615 as libc::c_ulong
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:147:45
+    |
+147 |             ((*c.offset(n.wrapping_sub(1 as libc::c_int as libc::c_ulong) as isize)).hi)
+    |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:147:60
+    |
+147 |             ((*c.offset(n.wrapping_sub(1 as libc::c_int as libc::c_ulong) as isize)).hi)
+    |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:148:36
+    |
+148 |                 .wrapping_add(1 as libc::c_int as libc::c_ulong),
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:148:51
+    |
+148 |                 .wrapping_add(1 as libc::c_int as libc::c_ulong),
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:149:37
+    |
+149 |             18446744073709551615 as libc::c_ulong,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:152:20
+    |
+152 |     free(c as *mut libc::c_void);
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:156:26
+    |
+156 |     mut fieldstr: *const libc::c_char,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:157:18
+    |
+157 |     mut options: libc::c_uint,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:159:39
+    |
+159 |     let mut initial: uintmax_t = 1 as libc::c_int as uintmax_t;
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:160:37
+    |
+160 |     let mut value: uintmax_t = 0 as libc::c_int as uintmax_t;
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:161:40
+    |
+161 |     let mut lhs_specified: bool = 0 as libc::c_int != 0;
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:162:40
+    |
+162 |     let mut rhs_specified: bool = 0 as libc::c_int != 0;
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:163:37
+    |
+163 |     let mut dash_found: bool = 0 as libc::c_int != 0;
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:164:36
+    |
+164 |     let mut in_digits: bool = 0 as libc::c_int != 0;
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:165:39
+    |
+165 |     if options & SETFLD_ALLOW_DASH as libc::c_int as libc::c_uint != 0
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:165:54
+    |
+165 |     if options & SETFLD_ALLOW_DASH as libc::c_int as libc::c_uint != 0
+    |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:166:59
+    |
+166 |         && strcmp(fieldstr, b"-\0" as *const u8 as *const libc::c_char)
+    |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:167:21
+    |
+167 |             == 0 as libc::c_int
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:169:22
+    |
+169 |         value = 1 as libc::c_int as uintmax_t;
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:170:30
+    |
+170 |         lhs_specified = 1 as libc::c_int != 0;
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:171:27
+    |
+171 |         dash_found = 1 as libc::c_int != 0;
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:175:25
+    |
+175 |         if *fieldstr as libc::c_int == '-' as i32 {
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:176:30
+    |
+176 |             in_digits = 0 as libc::c_int != 0;
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:179:26
+    |
+179 |                     0 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:180:26
+    |
+180 |                     0 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:181:59
+    |
+181 |                     if options & SETFLD_ERRMSG_USE_POS as libc::c_int as libc::c_uint
+    |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:181:74
+    |
+181 |                     if options & SETFLD_ERRMSG_USE_POS as libc::c_int as libc::c_uint
+    |                                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:185:41
+    |
+185 | ...                   0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:187:43
+    |
+187 | ...                   as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:188:34
+    |
+188 | ...                   5 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:192:41
+    |
+192 | ...                   0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:193:77
+    |
+193 | ...                   b"invalid field range\0" as *const u8 as *const libc::c_char,
+    |                                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:194:34
+    |
+194 | ...                   5 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:198:28
+    |
+198 |                 usage(1 as libc::c_int);
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:200:31
+    |
+200 |             dash_found = 1 as libc::c_int != 0;
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:202:33
+    |
+202 |             if lhs_specified as libc::c_int != 0 && value == 0 {
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:204:26
+    |
+204 |                     0 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:205:26
+    |
+205 |                     0 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:206:59
+    |
+206 |                     if options & SETFLD_ERRMSG_USE_POS as libc::c_int as libc::c_uint
+    |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:206:74
+    |
+206 |                     if options & SETFLD_ERRMSG_USE_POS as libc::c_int as libc::c_uint
+    |                                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:210:41
+    |
+210 | ...                   0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:212:56
+    |
+212 | ...                   as *const u8 as *const libc::c_char,
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:213:34
+    |
+213 | ...                   5 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:217:41
+    |
+217 | ...                   0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:219:43
+    |
+219 | ...                   as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:220:34
+    |
+220 | ...                   5 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:224:28
+    |
+224 |                 usage(1 as libc::c_int);
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:226:43
+    |
+226 |             initial = if lhs_specified as libc::c_int != 0 {
+    |                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:229:22
+    |
+229 |                 1 as libc::c_int as libc::c_ulong
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:229:37
+    |
+229 |                 1 as libc::c_int as libc::c_ulong
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:231:26
+    |
+231 |             value = 0 as libc::c_int as uintmax_t;
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:232:32
+    |
+232 |         } else if *fieldstr as libc::c_int == ',' as i32
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:233:66
+    |
+233 |             || *(*__ctype_b_loc()).offset(to_uchar(*fieldstr) as libc::c_int as isize)
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:234:20
+    |
+234 |                 as libc::c_int & _ISblank as libc::c_int as libc::c_ushort as libc::c_int
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:234:46
+    |
+234 |                 as libc::c_int & _ISblank as libc::c_int as libc::c_ushort as libc::c_int
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:234:61
+    |
+234 |                 as libc::c_int & _ISblank as libc::c_int as libc::c_ushort as libc::c_int
+    |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:234:79
+    |
+234 |                 as libc::c_int & _ISblank as libc::c_int as libc::c_ushort as libc::c_int
+    |                                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:235:38
+    |
+235 |                 != 0 || *fieldstr as libc::c_int == '\0' as i32
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:237:30
+    |
+237 |             in_digits = 0 as libc::c_int != 0;
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:239:35
+    |
+239 |                 dash_found = 0 as libc::c_int != 0;
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:241:55
+    |
+241 |                     if options & SETFLD_ALLOW_DASH as libc::c_int as libc::c_uint != 0 {
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:241:70
+    |
+241 |                     if options & SETFLD_ALLOW_DASH as libc::c_int as libc::c_uint != 0 {
+    |                                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:242:40
+    |
+242 |                         initial = 1 as libc::c_int as uintmax_t;
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:245:34
+    |
+245 | ...                   0 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:246:34
+    |
+246 | ...                   0 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:248:45
+    |
+248 | ...                   0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:250:47
+    |
+250 | ...                   as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:251:38
+    |
+251 | ...                   5 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:254:36
+    |
+254 |                         usage(1 as libc::c_int);
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:258:69
+    |
+258 |                     add_range_pair(initial, 18446744073709551615 as libc::c_ulong);
+    |                                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:262:34
+    |
+262 | ...                   0 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:263:34
+    |
+263 | ...                   0 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:265:45
+    |
+265 | ...                   0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:267:47
+    |
+267 | ...                   as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:268:38
+    |
+268 | ...                   5 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:271:36
+    |
+271 |                         usage(1 as libc::c_int);
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:275:30
+    |
+275 |                 value = 0 as libc::c_int as uintmax_t;
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:277:34
+    |
+277 |                 if value == 0 as libc::c_int as libc::c_ulong {
+    |                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:277:49
+    |
+277 |                 if value == 0 as libc::c_int as libc::c_ulong {
+    |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:279:30
+    |
+279 |                         0 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:280:30
+    |
+280 |                         0 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:281:63
+    |
+281 |                         if options & SETFLD_ERRMSG_USE_POS as libc::c_int as libc::c_uint
+    |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:281:78
+    |
+281 |                         if options & SETFLD_ERRMSG_USE_POS as libc::c_int as libc::c_uint
+    |                                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:285:45
+    |
+285 | ...                   0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:287:60
+    |
+287 | ...                   as *const u8 as *const libc::c_char,
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:288:38
+    |
+288 | ...                   5 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:292:45
+    |
+292 | ...                   0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:294:47
+    |
+294 | ...                   as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:295:38
+    |
+295 | ...                   5 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:299:32
+    |
+299 |                     usage(1 as libc::c_int);
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:302:30
+    |
+302 |                 value = 0 as libc::c_int as uintmax_t;
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:304:29
+    |
+304 |             if *fieldstr as libc::c_int == '\0' as i32 {
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:308:34
+    |
+308 |             lhs_specified = 0 as libc::c_int != 0;
+    |                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:309:34
+    |
+309 |             rhs_specified = 0 as libc::c_int != 0;
+    |                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:310:33
+    |
+310 |         } else if (*fieldstr as libc::c_uint).wrapping_sub('0' as i32 as libc::c_uint)
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:310:74
+    |
+310 |         } else if (*fieldstr as libc::c_uint).wrapping_sub('0' as i32 as libc::c_uint)
+    |                                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:311:21
+    |
+311 |             <= 9 as libc::c_int as libc::c_uint
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:311:36
+    |
+311 |             <= 9 as libc::c_int as libc::c_uint
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:313:42
+    |
+313 |             static mut num_start: *const libc::c_char = 0 as *const libc::c_char;
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:313:69
+    |
+313 |             static mut num_start: *const libc::c_char = 0 as *const libc::c_char;
+    |                                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:317:30
+    |
+317 |             in_digits = 1 as libc::c_int != 0;
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:319:38
+    |
+319 |                 rhs_specified = 1 as libc::c_int != 0;
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:321:38
+    |
+321 |                 lhs_specified = 1 as libc::c_int != 0;
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+   --> src//set_fields.rs:323:22
+    |
+323 |             if (if ::core::mem::size_of::<C2RustUnnamed_2>() as libc::c_ulong != 0 {
+    |                      ^^^^ maybe a missing crate `core`?
+    |
+    = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:323:65
+    |
+323 |             if (if ::core::mem::size_of::<C2RustUnnamed_2>() as libc::c_ulong != 0 {
+    |                                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:324:29
+    |
+324 |                 (if (-(1 as libc::c_int) as uintmax_t)
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:325:41
+    |
+325 |                     .wrapping_div(10 as libc::c_int as libc::c_ulong) < value
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:325:56
+    |
+325 |                     .wrapping_div(10 as libc::c_int as libc::c_ulong) < value
+    |                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:327:45
+    |
+327 |                         .wrapping_mul(10 as libc::c_int as libc::c_ulong)
+    |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:327:60
+    |
+327 |                         .wrapping_mul(10 as libc::c_int as libc::c_ulong)
+    |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:329:43
+    |
+329 | ...                   (*fieldstr as libc::c_int - '0' as i32) as libc::c_ulong,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:329:72
+    |
+329 | ...                   (*fieldstr as libc::c_int - '0' as i32) as libc::c_ulong,
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:332:26
+    |
+332 |                     0 as libc::c_int
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:335:45
+    |
+335 |                         .wrapping_mul(10 as libc::c_int as libc::c_ulong)
+    |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:335:60
+    |
+335 |                         .wrapping_mul(10 as libc::c_int as libc::c_ulong)
+    |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:337:43
+    |
+337 | ...                   (*fieldstr as libc::c_int - '0' as i32) as libc::c_ulong,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:337:72
+    |
+337 | ...                   (*fieldstr as libc::c_int - '0' as i32) as libc::c_ulong,
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:339:26
+    |
+339 |                     1 as libc::c_int
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:342:29
+    |
+342 |                 (if (-(1 as libc::c_int) as uintmax_t)
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:343:41
+    |
+343 |                     .wrapping_div(10 as libc::c_int as libc::c_ulong) < value
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:343:56
+    |
+343 |                     .wrapping_div(10 as libc::c_int as libc::c_ulong) < value
+    |                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:345:45
+    |
+345 |                         .wrapping_mul(10 as libc::c_int as libc::c_ulong)
+    |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:345:60
+    |
+345 |                         .wrapping_mul(10 as libc::c_int as libc::c_ulong)
+    |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:347:43
+    |
+347 | ...                   (*fieldstr as libc::c_int - '0' as i32) as libc::c_ulong,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:347:72
+    |
+347 | ...                   (*fieldstr as libc::c_int - '0' as i32) as libc::c_ulong,
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:350:26
+    |
+350 |                     0 as libc::c_int
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:353:45
+    |
+353 |                         .wrapping_mul(10 as libc::c_int as libc::c_ulong)
+    |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:353:60
+    |
+353 |                         .wrapping_mul(10 as libc::c_int as libc::c_ulong)
+    |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:355:43
+    |
+355 | ...                   (*fieldstr as libc::c_int - '0' as i32) as libc::c_ulong,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:355:72
+    |
+355 | ...                   (*fieldstr as libc::c_int - '0' as i32) as libc::c_ulong,
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:357:26
+    |
+357 |                     1 as libc::c_int
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:359:57
+    |
+359 |             }) == 0 || value == 18446744073709551615 as libc::c_ulong
+    |                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:363:60
+    |
+363 |                     b"0123456789\0" as *const u8 as *const libc::c_char,
+    |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:365:39
+    |
+365 |                 let mut bad_num: *mut libc::c_char = ximemdup0(
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:366:41
+    |
+366 |                     num_start as *const libc::c_void,
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:370:26
+    |
+370 |                     0 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:371:26
+    |
+371 |                     0 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:372:59
+    |
+372 |                     if options & SETFLD_ERRMSG_USE_POS as libc::c_int as libc::c_uint
+    |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:372:74
+    |
+372 |                     if options & SETFLD_ERRMSG_USE_POS as libc::c_int as libc::c_uint
+    |                                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:376:41
+    |
+376 | ...                   0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:378:43
+    |
+378 | ...                   as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:379:34
+    |
+379 | ...                   5 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:383:41
+    |
+383 | ...                   0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:385:43
+    |
+385 | ...                   as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:386:34
+    |
+386 | ...                   5 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:391:38
+    |
+391 |                 free(bad_num as *mut libc::c_void);
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:392:28
+    |
+392 |                 usage(1 as libc::c_int);
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:397:22
+    |
+397 |                 0 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:398:22
+    |
+398 |                 0 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:399:55
+    |
+399 |                 if options & SETFLD_ERRMSG_USE_POS as libc::c_int as libc::c_uint != 0 {
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:399:70
+    |
+399 |                 if options & SETFLD_ERRMSG_USE_POS as libc::c_int as libc::c_uint != 0 {
+    |                                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:401:37
+    |
+401 |                         0 as *const libc::c_char,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:403:39
+    |
+403 | ...                   as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:404:30
+    |
+404 |                         5 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:408:37
+    |
+408 |                         0 as *const libc::c_char,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:409:76
+    |
+409 |                         b"invalid field value %s\0" as *const u8 as *const libc::c_char,
+    |                                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:410:30
+    |
+410 |                         5 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:415:24
+    |
+415 |             usage(1 as libc::c_int);
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:420:18
+    |
+420 |             0 as libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:421:18
+    |
+421 |             0 as libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:422:51
+    |
+422 |             if options & SETFLD_ERRMSG_USE_POS as libc::c_int as libc::c_uint != 0 {
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:422:66
+    |
+422 |             if options & SETFLD_ERRMSG_USE_POS as libc::c_int as libc::c_uint != 0 {
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:424:33
+    |
+424 |                     0 as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:426:35
+    |
+426 |                         as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:427:26
+    |
+427 |                     5 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:431:33
+    |
+431 |                     0 as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:432:72
+    |
+432 |                     b"missing list of fields\0" as *const u8 as *const libc::c_char,
+    |                                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:433:26
+    |
+433 |                     5 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:437:20
+    |
+437 |         usage(1 as libc::c_int);
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:440:21
+    |
+440 |         frp as *mut libc::c_void,
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+   --> src//set_fields.rs:442:11
+    |
+442 |         ::core::mem::size_of::<field_range_pair>() as libc::c_ulong,
+    |           ^^^^ maybe a missing crate `core`?
+    |
+    = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:442:55
+    |
+442 |         ::core::mem::size_of::<field_range_pair>() as libc::c_ulong,
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:446:28
+    |
+446 |                     *const libc::c_void,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:447:28
+    |
+447 |                     *const libc::c_void,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:448:22
+    |
+448 |                 ) -> libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:451:30
+    |
+451 |     let mut i: size_t = 0 as libc::c_int as size_t;
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:453:49
+    |
+453 |         let mut j: size_t = i.wrapping_add(1 as libc::c_int as libc::c_ulong);
+    |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:453:64
+    |
+453 |         let mut j: size_t = i.wrapping_add(1 as libc::c_int as libc::c_ulong);
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:465:48
+    |
+465 |                 frp.offset(j as isize) as *mut libc::c_void,
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:466:52
+    |
+466 |                 frp.offset(j as isize).offset(1 as libc::c_int as isize)
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:467:31
+    |
+467 |                     as *const libc::c_void,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:470:40
+    |
+470 |                     .wrapping_sub(1 as libc::c_int as libc::c_ulong)
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:470:55
+    |
+470 |                     .wrapping_sub(1 as libc::c_int as libc::c_ulong)
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+   --> src//set_fields.rs:472:27
+    |
+472 |                         ::core::mem::size_of::<field_range_pair>() as libc::c_ulong,
+    |                           ^^^^ maybe a missing crate `core`?
+    |
+    = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:472:71
+    |
+472 |                         ::core::mem::size_of::<field_range_pair>() as libc::c_ulong,
+    |                                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:481:39
+    |
+481 |     if options & SETFLD_COMPLEMENT as libc::c_int as libc::c_uint != 0 {
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:481:54
+    |
+481 |     if options & SETFLD_COMPLEMENT as libc::c_int as libc::c_uint != 0 {
+    |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:486:21
+    |
+486 |         frp as *mut libc::c_void,
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+   --> src//set_fields.rs:487:30
+    |
+487 |         n_frp.wrapping_mul(::core::mem::size_of::<field_range_pair>() as libc::c_ulong),
+    |                              ^^^^ maybe a missing crate `core`?
+    |
+    = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:487:74
+    |
+487 |         n_frp.wrapping_mul(::core::mem::size_of::<field_range_pair>() as libc::c_ulong),
+    |                                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:490:41
+    |
+490 |         .offset(n_frp.wrapping_sub(1 as libc::c_int as libc::c_ulong) as isize))
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:490:56
+    |
+490 |         .offset(n_frp.wrapping_sub(1 as libc::c_int as libc::c_ulong) as isize))
+    |                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:492:39
+    |
+492 |     *fresh0 = 18446744073709551615 as libc::c_ulong;
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:493:42
+    |
+493 |     (*frp.offset(n_frp.wrapping_sub(1 as libc::c_int as libc::c_ulong) as isize))
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//set_fields.rs:493:57
+    |
+493 |     (*frp.offset(n_frp.wrapping_sub(1 as libc::c_int as libc::c_ulong) as isize))
+    |                                                         ^^^^ use of undeclared crate or module `libc`
+
+warning: unnecessary parentheses around block return value
+   --> src//set_fields.rs:324:17
+    |
+324 |                 (if (-(1 as libc::c_int) as uintmax_t)
+    |                 ^
+...
+340 |                 })
+    |                  ^
+    |
+    = note: `#[warn(unused_parens)]` on by default
+help: remove these parentheses
+    |
+324 ~                 if (-(1 as libc::c_int) as uintmax_t)
+325 |                     .wrapping_div(10 as libc::c_int as libc::c_ulong) < value
+  ...
+339 |                     1 as libc::c_int
+340 ~                 }
+    |
+
+warning: unnecessary parentheses around block return value
+   --> src//set_fields.rs:342:17
+    |
+342 |                 (if (-(1 as libc::c_int) as uintmax_t)
+    |                 ^
+...
+358 |                 })
+    |                  ^
+    |
+help: remove these parentheses
+    |
+342 ~                 if (-(1 as libc::c_int) as uintmax_t)
+343 |                     .wrapping_div(10 as libc::c_int as libc::c_ulong) < value
+  ...
+357 |                     1 as libc::c_int
+358 ~                 }
+    |
+
+error[E0601]: `main` function not found in crate `set_fields`
+   --> src//set_fields.rs:495:2
+    |
+495 | }
+    |  ^ consider adding a `main` function to `src//set_fields.rs`
+
+error: aborting due to 274 previous errors; 2 warnings emitted
+
+Some errors have detailed explanations: E0433, E0601.
+For more information about an error, try `rustc --explain E0433`.

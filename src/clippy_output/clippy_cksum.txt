@@ -1,0 +1,1525 @@
+error: Binary expression is not supposed to be used
+   --> src//cksum.rs:375:17
+    |
+375 |                 compile_error!("Binary expression is not supposed to be used")
+    |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//cksum.rs:8:25
+  |
+8 |     fn printf(_: *const libc::c_char, _: ...) -> libc::c_int;
+  |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//cksum.rs:8:50
+  |
+8 |     fn printf(_: *const libc::c_char, _: ...) -> libc::c_int;
+  |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//cksum.rs:9:33
+  |
+9 |     fn __uflow(_: *mut FILE) -> libc::c_int;
+  |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:10:36
+   |
+10 |     fn __overflow(_: *mut FILE, _: libc::c_int) -> libc::c_int;
+   |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:10:52
+   |
+10 |     fn __overflow(_: *mut FILE, _: libc::c_int) -> libc::c_int;
+   |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:12:21
+   |
+12 |         __ptr: *mut libc::c_void,
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:18:23
+   |
+18 |         __ptr: *const libc::c_void,
+   |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:24:17
+   |
+24 |         _: *mut libc::c_void,
+   |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:25:19
+   |
+25 |         _: *const libc::c_void,
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:26:12
+   |
+26 |         _: libc::c_ulong,
+   |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:27:15
+   |
+27 |     ) -> *mut libc::c_void;
+   |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:28:35
+   |
+28 |     fn __errno_location() -> *mut libc::c_int;
+   |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:29:40
+   |
+29 |     fn umaxtostr(_: uintmax_t, _: *mut libc::c_char) -> *mut libc::c_char;
+   |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:29:62
+   |
+29 |     fn umaxtostr(_: uintmax_t, _: *mut libc::c_char) -> *mut libc::c_char;
+   |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:31:30
+   |
+31 |         __domainname: *const libc::c_char,
+   |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:32:25
+   |
+32 |         __msgid: *const libc::c_char,
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:33:21
+   |
+33 |         __category: libc::c_int,
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:34:15
+   |
+34 |     ) -> *mut libc::c_char;
+   |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:36:19
+   |
+36 |         __status: libc::c_int,
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:37:19
+   |
+37 |         __errnum: libc::c_int,
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:38:26
+   |
+38 |         __format: *const libc::c_char,
+   |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:44:19
+   |
+44 | pub type size_t = libc::c_ulong;
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:45:23
+   |
+45 | pub type __uint32_t = libc::c_uint;
+   |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:46:24
+   |
+46 | pub type __uintmax_t = libc::c_ulong;
+   |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:47:20
+   |
+47 | pub type __off_t = libc::c_long;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:48:22
+   |
+48 | pub type __off64_t = libc::c_long;
+   |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:52:17
+   |
+52 |     pub _flags: libc::c_int,
+   |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:53:28
+   |
+53 |     pub _IO_read_ptr: *mut libc::c_char,
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:54:28
+   |
+54 |     pub _IO_read_end: *mut libc::c_char,
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:55:29
+   |
+55 |     pub _IO_read_base: *mut libc::c_char,
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:56:30
+   |
+56 |     pub _IO_write_base: *mut libc::c_char,
+   |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:57:29
+   |
+57 |     pub _IO_write_ptr: *mut libc::c_char,
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:58:29
+   |
+58 |     pub _IO_write_end: *mut libc::c_char,
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:59:28
+   |
+59 |     pub _IO_buf_base: *mut libc::c_char,
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:60:27
+   |
+60 |     pub _IO_buf_end: *mut libc::c_char,
+   |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:61:29
+   |
+61 |     pub _IO_save_base: *mut libc::c_char,
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:62:31
+   |
+62 |     pub _IO_backup_base: *mut libc::c_char,
+   |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:63:28
+   |
+63 |     pub _IO_save_end: *mut libc::c_char,
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:66:18
+   |
+66 |     pub _fileno: libc::c_int,
+   |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:67:18
+   |
+67 |     pub _flags2: libc::c_int,
+   |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:69:22
+   |
+69 |     pub _cur_column: libc::c_ushort,
+   |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:70:25
+   |
+70 |     pub _vtable_offset: libc::c_schar,
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:71:21
+   |
+71 |     pub _shortbuf: [libc::c_char; 1],
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:72:21
+   |
+72 |     pub _lock: *mut libc::c_void,
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:77:28
+   |
+77 |     pub _freeres_buf: *mut libc::c_void,
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:79:16
+   |
+79 |     pub _mode: libc::c_int,
+   |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:80:20
+   |
+80 |     pub _unused2: [libc::c_char; 20],
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:85:26
+   |
+85 | pub type uint_fast32_t = libc::c_ulong;
+   |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:88:60
+   |
+88 | unsafe extern "C" fn getc_unlocked(mut __fp: *mut FILE) -> libc::c_int {
+   |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:89:65
+   |
+89 |     return if ((*__fp)._IO_read_ptr >= (*__fp)._IO_read_end) as libc::c_int
+   |                                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:90:12
+   |
+90 |         as libc::c_long != 0
+   |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:96:26
+   |
+96 |         *(fresh0 as *mut libc::c_uchar) as libc::c_int
+   |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//cksum.rs:96:44
+   |
+96 |         *(fresh0 as *mut libc::c_uchar) as libc::c_int
+   |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:101:14
+    |
+101 |     mut __c: libc::c_int,
+    |              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:103:6
+    |
+103 | ) -> libc::c_int {
+    |      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:104:75
+    |
+104 |     return if ((*__stream)._IO_write_ptr >= (*__stream)._IO_write_end) as libc::c_int
+    |                                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:105:12
+    |
+105 |         as libc::c_long != 0
+    |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:107:37
+    |
+107 |         __overflow(__stream, __c as libc::c_uchar as libc::c_int)
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:107:54
+    |
+107 |         __overflow(__stream, __c as libc::c_uchar as libc::c_int)
+    |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:111:26
+    |
+111 |         *fresh1 = __c as libc::c_char;
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:112:20
+    |
+112 |         *fresh1 as libc::c_uchar as libc::c_int
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:112:37
+    |
+112 |         *fresh1 as libc::c_uchar as libc::c_int
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:116:48
+    |
+116 | unsafe extern "C" fn putchar_unlocked(mut __c: libc::c_int) -> libc::c_int {
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:116:64
+    |
+116 | unsafe extern "C" fn putchar_unlocked(mut __c: libc::c_int) -> libc::c_int {
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:117:71
+    |
+117 |     return if ((*stdout)._IO_write_ptr >= (*stdout)._IO_write_end) as libc::c_int
+    |                                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:118:12
+    |
+118 |         as libc::c_long != 0
+    |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:120:35
+    |
+120 |         __overflow(stdout, __c as libc::c_uchar as libc::c_int)
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:120:52
+    |
+120 |         __overflow(stdout, __c as libc::c_uchar as libc::c_int)
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:124:26
+    |
+124 |         *fresh2 = __c as libc::c_char;
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:125:20
+    |
+125 |         *fresh2 as libc::c_uchar as libc::c_int
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:125:37
+    |
+125 |         *fresh2 as libc::c_uchar as libc::c_int
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:129:64
+    |
+129 | unsafe extern "C" fn feof_unlocked(mut __stream: *mut FILE) -> libc::c_int {
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:130:42
+    |
+130 |     return ((*__stream)._flags & 0x10 as libc::c_int != 0 as libc::c_int) as libc::c_int;
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:130:62
+    |
+130 |     return ((*__stream)._flags & 0x10 as libc::c_int != 0 as libc::c_int) as libc::c_int;
+    |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:130:78
+    |
+130 |     return ((*__stream)._flags & 0x10 as libc::c_int != 0 as libc::c_int) as libc::c_int;
+    |                                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:133:66
+    |
+133 | unsafe extern "C" fn ferror_unlocked(mut __stream: *mut FILE) -> libc::c_int {
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:134:42
+    |
+134 |     return ((*__stream)._flags & 0x20 as libc::c_int != 0 as libc::c_int) as libc::c_int;
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:134:62
+    |
+134 |     return ((*__stream)._flags & 0x20 as libc::c_int != 0 as libc::c_int) as libc::c_int;
+    |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:134:78
+    |
+134 |     return ((*__stream)._flags & 0x20 as libc::c_int != 0 as libc::c_int) as libc::c_int;
+    |                                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:138:35
+    |
+138 |     return (__bsx & 0xff000000 as libc::c_uint) >> 24 as libc::c_int
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:138:58
+    |
+138 |     return (__bsx & 0xff000000 as libc::c_uint) >> 24 as libc::c_int
+    |                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:139:32
+    |
+139 |         | (__bsx & 0xff0000 as libc::c_uint) >> 8 as libc::c_int
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:139:54
+    |
+139 |         | (__bsx & 0xff0000 as libc::c_uint) >> 8 as libc::c_int
+    |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:140:30
+    |
+140 |         | (__bsx & 0xff00 as libc::c_uint) << 8 as libc::c_int
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:140:52
+    |
+140 |         | (__bsx & 0xff00 as libc::c_uint) << 8 as libc::c_int
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:141:28
+    |
+141 |         | (__bsx & 0xff as libc::c_uint) << 24 as libc::c_int;
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:141:51
+    |
+141 |         | (__bsx & 0xff as libc::c_uint) << 24 as libc::c_int;
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:149:18
+    |
+149 |             0 as libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:150:18
+    |
+150 |             0 as libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:151:44
+    |
+151 |             b"%s\0" as *const u8 as *const libc::c_char,
+    |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:153:29
+    |
+153 |                 0 as *const libc::c_char,
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:154:76
+    |
+154 |                 b"using generic hardware support\0" as *const u8 as *const libc::c_char,
+    |                                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:155:22
+    |
+155 |                 5 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:159:17
+    |
+159 |     return 0 as libc::c_int != 0;
+    |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:167:39
+    |
+167 |     let mut crc: uint_fast32_t = 0 as libc::c_int as uint_fast32_t;
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:168:38
+    |
+168 |     let mut length: uintmax_t = 0 as libc::c_int as uintmax_t;
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:171:21
+    |
+171 |         return 0 as libc::c_int != 0;
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:175:22
+    |
+175 |             && (1 as libc::c_int as size_t)
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:176:38
+    |
+176 |                 .wrapping_mul(((1 as libc::c_int) << 16 as libc::c_int) as size_t)
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:176:60
+    |
+176 |                 .wrapping_mul(((1 as libc::c_int) << 16 as libc::c_int) as size_t)
+    |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:177:25
+    |
+177 |                 <= 8 as libc::c_int as libc::c_ulong
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:177:40
+    |
+177 |                 <= 8 as libc::c_int as libc::c_ulong
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:178:21
+    |
+178 |             && 1 as libc::c_int as size_t != 0 as libc::c_int as libc::c_ulong
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:178:51
+    |
+178 |             && 1 as libc::c_int as size_t != 0 as libc::c_int as libc::c_ulong
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:178:66
+    |
+178 |             && 1 as libc::c_int as size_t != 0 as libc::c_int as libc::c_ulong
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:181:37
+    |
+181 |                 let mut __ptr: *mut libc::c_char = buf.as_mut_ptr() as *mut libc::c_char;
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:181:77
+    |
+181 |                 let mut __ptr: *mut libc::c_char = buf.as_mut_ptr() as *mut libc::c_char;
+    |                                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:184:31
+    |
+184 |                 __cnt = (1 as libc::c_int as size_t)
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:185:42
+    |
+185 |                     .wrapping_mul(((1 as libc::c_int) << 16 as libc::c_int) as size_t);
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:185:64
+    |
+185 |                     .wrapping_mul(((1 as libc::c_int) << 16 as libc::c_int) as size_t);
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:186:36
+    |
+186 |                 while __cnt > 0 as libc::c_int as libc::c_ulong {
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:186:51
+    |
+186 |                 while __cnt > 0 as libc::c_int as libc::c_ulong {
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:187:34
+    |
+187 |                     let mut __c: libc::c_int = getc_unlocked(__stream);
+    |                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:188:38
+    |
+188 |                     if __c == -(1 as libc::c_int) {
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:193:38
+    |
+193 |                     *fresh3 = __c as libc::c_char;
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:196:23
+    |
+196 |                 (1 as libc::c_int as size_t)
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:197:42
+    |
+197 |                     .wrapping_mul(((1 as libc::c_int) << 16 as libc::c_int) as size_t)
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:197:64
+    |
+197 |                     .wrapping_mul(((1 as libc::c_int) << 16 as libc::c_int) as size_t)
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:199:40
+    |
+199 |                     .wrapping_div(1 as libc::c_int as size_t)
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:202:32
+    |
+202 |             (if 0 != 0 && 1 as libc::c_int as size_t == 0 as libc::c_int as libc::c_ulong
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:202:62
+    |
+202 |             (if 0 != 0 && 1 as libc::c_int as size_t == 0 as libc::c_int as libc::c_ulong
+    |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:202:77
+    |
+202 |             (if 0 != 0 && 1 as libc::c_int as size_t == 0 as libc::c_int as libc::c_ulong
+    |                                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:204:31
+    |
+204 |                     && ((1 as libc::c_int) << 16 as libc::c_int) as size_t
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:204:53
+    |
+204 |                     && ((1 as libc::c_int) << 16 as libc::c_int) as size_t
+    |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:205:33
+    |
+205 |                         == 0 as libc::c_int as libc::c_ulong
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:205:48
+    |
+205 |                         == 0 as libc::c_int as libc::c_ulong
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:207:22
+    |
+207 |                 0 as libc::c_int as size_t
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:210:46
+    |
+210 |                     buf.as_mut_ptr() as *mut libc::c_void,
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:211:26
+    |
+211 |                     1 as libc::c_int as size_t,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:212:28
+    |
+212 |                     ((1 as libc::c_int) << 16 as libc::c_int) as size_t,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:212:50
+    |
+212 |                     ((1 as libc::c_int) << 16 as libc::c_int) as size_t,
+    |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:217:32
+    |
+217 |         if !(bytes_read > 0 as libc::c_int as libc::c_ulong) {
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:217:47
+    |
+217 |         if !(bytes_read > 0 as libc::c_int as libc::c_ulong) {
+    |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:222:41
+    |
+222 |             *__errno_location() = 75 as libc::c_int;
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:223:25
+    |
+223 |             return 0 as libc::c_int != 0;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:225:29
+    |
+225 |         length = (length as libc::c_ulong).wrapping_add(bytes_read) as uintmax_t
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:227:31
+    |
+227 |         if bytes_read == 0 as libc::c_int as libc::c_ulong {
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:227:46
+    |
+227 |         if bytes_read == 0 as libc::c_int as libc::c_ulong {
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:229:29
+    |
+229 |                 return 0 as libc::c_int != 0;
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:233:34
+    |
+233 |         while bytes_read >= 8 as libc::c_int as libc::c_ulong {
+    |                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:233:49
+    |
+233 |         while bytes_read >= 8 as libc::c_int as libc::c_ulong {
+    |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:240:41
+    |
+240 |             crc ^= __bswap_32(first) as libc::c_ulong;
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:242:31
+    |
+242 |             crc = crctab[7 as libc::c_int
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:243:41
+    |
+243 |                 as usize][(crc >> 24 as libc::c_int
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:244:27
+    |
+244 |                 & 0xff as libc::c_int as libc::c_ulong) as usize]
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:244:42
+    |
+244 |                 & 0xff as libc::c_int as libc::c_ulong) as usize]
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:245:31
+    |
+245 |                 ^ crctab[6 as libc::c_int
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:246:45
+    |
+246 |                     as usize][(crc >> 16 as libc::c_int
+    |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:247:31
+    |
+247 |                     & 0xff as libc::c_int as libc::c_ulong) as usize]
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:247:46
+    |
+247 |                     & 0xff as libc::c_int as libc::c_ulong) as usize]
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:248:31
+    |
+248 |                 ^ crctab[5 as libc::c_int
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:249:44
+    |
+249 |                     as usize][(crc >> 8 as libc::c_int
+    |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:250:31
+    |
+250 |                     & 0xff as libc::c_int as libc::c_ulong) as usize]
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:250:46
+    |
+250 |                     & 0xff as libc::c_int as libc::c_ulong) as usize]
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:251:31
+    |
+251 |                 ^ crctab[4 as libc::c_int
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:252:46
+    |
+252 |                     as usize][(crc & 0xff as libc::c_int as libc::c_ulong) as usize]
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:252:61
+    |
+252 |                     as usize][(crc & 0xff as libc::c_int as libc::c_ulong) as usize]
+    |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:253:31
+    |
+253 |                 ^ crctab[3 as libc::c_int
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:254:48
+    |
+254 |                     as usize][(second >> 24 as libc::c_int
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:255:31
+    |
+255 |                     & 0xff as libc::c_int as libc::c_uint) as usize]
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:255:46
+    |
+255 |                     & 0xff as libc::c_int as libc::c_uint) as usize]
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:256:31
+    |
+256 |                 ^ crctab[2 as libc::c_int
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:257:48
+    |
+257 |                     as usize][(second >> 16 as libc::c_int
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:258:31
+    |
+258 |                     & 0xff as libc::c_int as libc::c_uint) as usize]
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:258:46
+    |
+258 |                     & 0xff as libc::c_int as libc::c_uint) as usize]
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:259:31
+    |
+259 |                 ^ crctab[1 as libc::c_int
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:260:47
+    |
+260 |                     as usize][(second >> 8 as libc::c_int
+    |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:261:31
+    |
+261 |                     & 0xff as libc::c_int as libc::c_uint) as usize]
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:261:46
+    |
+261 |                     & 0xff as libc::c_int as libc::c_uint) as usize]
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:262:31
+    |
+262 |                 ^ crctab[0 as libc::c_int
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:263:49
+    |
+263 |                     as usize][(second & 0xff as libc::c_int as libc::c_uint) as usize];
+    |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:263:64
+    |
+263 |                     as usize][(second & 0xff as libc::c_int as libc::c_uint) as usize];
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:264:41
+    |
+264 |             bytes_read = (bytes_read as libc::c_ulong)
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:265:36
+    |
+265 |                 .wrapping_sub(8 as libc::c_int as libc::c_ulong) as size_t as size_t;
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:265:51
+    |
+265 |                 .wrapping_sub(8 as libc::c_int as libc::c_ulong) as size_t as size_t;
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:267:26
+    |
+267 |         let mut cp: *mut libc::c_uchar = datap as *mut libc::c_uchar;
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:267:56
+    |
+267 |         let mut cp: *mut libc::c_uchar = datap as *mut libc::c_uchar;
+    |                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:276:31
+    |
+276 |             crc = crc << 8 as libc::c_int
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:277:31
+    |
+277 |                 ^ crctab[0 as libc::c_int
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:278:46
+    |
+278 |                     as usize][((crc >> 24 as libc::c_int ^ *fresh7 as libc::c_ulong)
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:278:71
+    |
+278 |                     as usize][((crc >> 24 as libc::c_int ^ *fresh7 as libc::c_ulong)
+    |                                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:279:31
+    |
+279 |                     & 0xff as libc::c_int as libc::c_ulong) as usize];
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:279:46
+    |
+279 |                     & 0xff as libc::c_int as libc::c_ulong) as usize];
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:287:17
+    |
+287 |     return 1 as libc::c_int != 0;
+    |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:292:25
+    |
+292 |     mut resstream: *mut libc::c_void,
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:294:6
+    |
+294 | ) -> libc::c_int {
+    |      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:295:43
+    |
+295 |     let mut total_bytes: uintmax_t = 0 as libc::c_int as uintmax_t;
+    |                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:296:39
+    |
+296 |     let mut crc: uint_fast32_t = 0 as libc::c_int as uint_fast32_t;
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:320:23
+    |
+320 |         return -(1 as libc::c_int);
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:324:27
+    |
+324 |         crc = crc << 8 as libc::c_int
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:325:27
+    |
+325 |             ^ crctab[0 as libc::c_int
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:326:42
+    |
+326 |                 as usize][((crc >> 24 as libc::c_int ^ total_bytes)
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:327:27
+    |
+327 |                 & 0xff as libc::c_int as libc::c_ulong) as usize];
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:327:42
+    |
+327 |                 & 0xff as libc::c_int as libc::c_ulong) as usize];
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:328:30
+    |
+328 |         total_bytes >>= 8 as libc::c_int;
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:330:32
+    |
+330 |     crc = !crc & 0xffffffff as libc::c_uint as libc::c_ulong;
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:330:48
+    |
+330 |     crc = !crc & 0xffffffff as libc::c_uint as libc::c_ulong;
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:331:22
+    |
+331 |     let mut crc_out: libc::c_uint = crc as libc::c_uint;
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:331:44
+    |
+331 |     let mut crc_out: libc::c_uint = crc as libc::c_uint;
+    |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:334:30
+    |
+334 |         &mut crc_out as *mut libc::c_uint as *const libc::c_void,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:334:53
+    |
+334 |         &mut crc_out as *mut libc::c_uint as *const libc::c_void,
+    |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+   --> src//cksum.rs:335:11
+    |
+335 |         ::core::mem::size_of::<libc::c_uint>() as libc::c_ulong,
+    |           ^^^^ maybe a missing crate `core`?
+    |
+    = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:335:32
+    |
+335 |         ::core::mem::size_of::<libc::c_uint>() as libc::c_ulong,
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:335:51
+    |
+335 |         ::core::mem::size_of::<libc::c_uint>() as libc::c_ulong,
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:337:17
+    |
+337 |     return 0 as libc::c_int;
+    |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:341:22
+    |
+341 |     mut file: *const libc::c_char,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:342:22
+    |
+342 |     mut binary_file: libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:343:24
+    |
+343 |     mut digest: *const libc::c_void,
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:346:16
+    |
+346 |     mut delim: libc::c_uchar,
+    |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:353:22
+    |
+353 |             && (1 as libc::c_int as size_t)
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:354:38
+    |
+354 |                 .wrapping_mul((32 as libc::c_int / 8 as libc::c_int) as size_t)
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:354:57
+    |
+354 |                 .wrapping_mul((32 as libc::c_int / 8 as libc::c_int) as size_t)
+    |                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:355:25
+    |
+355 |                 <= 8 as libc::c_int as libc::c_ulong
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:355:40
+    |
+355 |                 <= 8 as libc::c_int as libc::c_ulong
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:356:21
+    |
+356 |             && 1 as libc::c_int as size_t != 0 as libc::c_int as libc::c_ulong
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:356:51
+    |
+356 |             && 1 as libc::c_int as size_t != 0 as libc::c_int as libc::c_ulong
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:356:66
+    |
+356 |             && 1 as libc::c_int as size_t != 0 as libc::c_int as libc::c_ulong
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:359:39
+    |
+359 |                 let mut __ptr: *const libc::c_char = &mut out_int as *mut uint32_t
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:360:31
+    |
+360 |                     as *const libc::c_char;
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:363:31
+    |
+363 |                 __cnt = (1 as libc::c_int as size_t)
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:364:42
+    |
+364 |                     .wrapping_mul((32 as libc::c_int / 8 as libc::c_int) as size_t);
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:364:61
+    |
+364 |                     .wrapping_mul((32 as libc::c_int / 8 as libc::c_int) as size_t);
+    |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:365:36
+    |
+365 |                 while __cnt > 0 as libc::c_int as libc::c_ulong {
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:365:51
+    |
+365 |                 while __cnt > 0 as libc::c_int as libc::c_ulong {
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:368:49
+    |
+368 |                     if putc_unlocked(*fresh8 as libc::c_int, __stream)
+    |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:369:35
+    |
+369 |                         == -(1 as libc::c_int)
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:378:31
+    |
+378 |             if 0 != 0 && 1 as libc::c_int as size_t == 0 as libc::c_int as libc::c_ulong
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:378:61
+    |
+378 |             if 0 != 0 && 1 as libc::c_int as size_t == 0 as libc::c_int as libc::c_ulong
+    |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:378:76
+    |
+378 |             if 0 != 0 && 1 as libc::c_int as size_t == 0 as libc::c_int as libc::c_ulong
+    |                                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:380:31
+    |
+380 |                     && (32 as libc::c_int / 8 as libc::c_int) as size_t
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:380:50
+    |
+380 |                     && (32 as libc::c_int / 8 as libc::c_int) as size_t
+    |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:381:33
+    |
+381 |                         == 0 as libc::c_int as libc::c_ulong
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:381:48
+    |
+381 |                         == 0 as libc::c_int as libc::c_ulong
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:384:61
+    |
+384 |                     &mut out_int as *mut uint32_t as *const libc::c_void,
+    |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:385:26
+    |
+385 |                     1 as libc::c_int as size_t,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:386:28
+    |
+386 |                     (32 as libc::c_int / 8 as libc::c_int) as size_t,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:386:47
+    |
+386 |                     (32 as libc::c_int / 8 as libc::c_int) as size_t,
+    |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:393:26
+    |
+393 |     let mut length_buf: [libc::c_char; 21] = [0; 21];
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:395:43
+    |
+395 |         b"%u %s\0" as *const u8 as *const libc::c_char,
+    |                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:396:26
+    |
+396 |         *(digest as *mut libc::c_uint),
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:400:48
+    |
+400 |         printf(b" %s\0" as *const u8 as *const libc::c_char, file);
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//cksum.rs:402:31
+    |
+402 |     putchar_unlocked(delim as libc::c_int);
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+warning: unnecessary parentheses around assigned value
+   --> src//cksum.rs:174:22
+    |
+174 |         bytes_read = (if 0 != 0 && 0 != 0
+    |                      ^
+...
+216 |         });
+    |          ^
+    |
+    = note: `#[warn(unused_parens)]` on by default
+help: remove these parentheses
+    |
+174 ~         bytes_read = if 0 != 0 && 0 != 0
+175 |             && (1 as libc::c_int as size_t)
+  ...
+215 |             })
+216 ~         };
+    |
+
+warning: unnecessary parentheses around block return value
+   --> src//cksum.rs:180:13
+    |
+180 |             ({
+    |             ^
+...
+200 |             })
+    |              ^
+    |
+help: remove these parentheses
+    |
+180 ~             {
+181 |                 let mut __ptr: *mut libc::c_char = buf.as_mut_ptr() as *mut libc::c_char;
+  ...
+199 |                     .wrapping_div(1 as libc::c_int as size_t)
+200 ~             }
+    |
+
+warning: unnecessary parentheses around block return value
+   --> src//cksum.rs:202:13
+    |
+202 |             (if 0 != 0 && 1 as libc::c_int as size_t == 0 as libc::c_int as libc::c_ulong
+    |             ^
+...
+215 |             })
+    |              ^
+    |
+help: remove these parentheses
+    |
+202 ~             if 0 != 0 && 1 as libc::c_int as size_t == 0 as libc::c_int as libc::c_ulong
+203 |                 || 0 != 0
+  ...
+214 |                 )
+215 ~             }
+    |
+
+error[E0601]: `main` function not found in crate `cksum`
+   --> src//cksum.rs:403:2
+    |
+403 | }
+    |  ^ consider adding a `main` function to `src//cksum.rs`
+
+error: aborting due to 244 previous errors; 3 warnings emitted
+
+Some errors have detailed explanations: E0433, E0601.
+For more information about an error, try `rustc --explain E0433`.

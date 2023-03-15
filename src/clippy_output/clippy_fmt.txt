@@ -1,0 +1,4419 @@
+error: Binary expression is not supposed to be used
+    --> src//fmt.rs:1181:17
+     |
+1181 |                 compile_error!("Binary expression is not supposed to be used")
+     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error: cannot find derive macro `BitfieldStruct` in this scope
+   --> src//fmt.rs:193:23
+    |
+193 | #[derive(Copy, Clone, BitfieldStruct)]
+    |                       ^^^^^^^^^^^^^^
+
+error: cannot find attribute `bitfield` in this scope
+   --> src//fmt.rs:199:7
+    |
+199 |     #[bitfield(name = "paren", ty = "libc::c_uint", bits = "0..=0")]
+    |       ^^^^^^^^
+
+error: cannot find attribute `bitfield` in this scope
+   --> src//fmt.rs:200:7
+    |
+200 |     #[bitfield(name = "period", ty = "libc::c_uint", bits = "1..=1")]
+    |       ^^^^^^^^
+
+error: cannot find attribute `bitfield` in this scope
+   --> src//fmt.rs:201:7
+    |
+201 |     #[bitfield(name = "punct", ty = "libc::c_uint", bits = "2..=2")]
+    |       ^^^^^^^^
+
+error: cannot find attribute `bitfield` in this scope
+   --> src//fmt.rs:202:7
+    |
+202 |     #[bitfield(name = "final_0", ty = "libc::c_uint", bits = "3..=3")]
+    |       ^^^^^^^^
+
+error: cannot find attribute `bitfield` in this scope
+   --> src//fmt.rs:204:7
+    |
+204 |     #[bitfield(padding)]
+    |       ^^^^^^^^
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//fmt.rs:8:29
+  |
+8 |         __assertion: *const libc::c_char,
+  |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//fmt.rs:9:24
+  |
+9 |         __file: *const libc::c_char,
+  |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:10:17
+   |
+10 |         __line: libc::c_uint,
+   |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:11:28
+   |
+11 |         __function: *const libc::c_char,
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:16:24
+   |
+16 |     fn fopen(_: *const libc::c_char, _: *const libc::c_char) -> *mut FILE;
+   |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:16:48
+   |
+16 |     fn fopen(_: *const libc::c_char, _: *const libc::c_char) -> *mut FILE;
+   |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:17:40
+   |
+17 |     fn fprintf(_: *mut FILE, _: *const libc::c_char, _: ...) -> libc::c_int;
+   |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:17:65
+   |
+17 |     fn fprintf(_: *mut FILE, _: *const libc::c_char, _: ...) -> libc::c_int;
+   |                                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:18:25
+   |
+18 |     fn printf(_: *const libc::c_char, _: ...) -> libc::c_int;
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:18:50
+   |
+18 |     fn printf(_: *const libc::c_char, _: ...) -> libc::c_int;
+   |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:19:35
+   |
+19 |     fn fputs_unlocked(__s: *const libc::c_char, __stream: *mut FILE) -> libc::c_int;
+   |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:19:73
+   |
+19 |     fn fputs_unlocked(__s: *const libc::c_char, __stream: *mut FILE) -> libc::c_int;
+   |                                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:21:23
+   |
+21 |         __ptr: *const libc::c_void,
+   |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:27:33
+   |
+27 |     fn __uflow(_: *mut FILE) -> libc::c_int;
+   |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:28:36
+   |
+28 |     fn __overflow(_: *mut FILE, _: libc::c_int) -> libc::c_int;
+   |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:28:52
+   |
+28 |     fn __overflow(_: *mut FILE, _: libc::c_int) -> libc::c_int;
+   |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:29:41
+   |
+29 |     fn rpl_fclose(stream: *mut FILE) -> libc::c_int;
+   |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:30:29
+   |
+30 |     static mut optarg: *mut libc::c_char;
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:32:18
+   |
+32 |         ___argc: libc::c_int,
+   |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:33:30
+   |
+33 |         ___argv: *const *mut libc::c_char,
+   |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:34:29
+   |
+34 |         __shortopts: *const libc::c_char,
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:36:25
+   |
+36 |         __longind: *mut libc::c_int,
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:37:10
+   |
+37 |     ) -> libc::c_int;
+   |          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:38:24
+   |
+38 |     static mut optind: libc::c_int;
+   |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:40:17
+   |
+40 |         _: *mut libc::c_void,
+   |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:41:19
+   |
+41 |         _: *const libc::c_void,
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:42:12
+   |
+42 |         _: libc::c_ulong,
+   |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:43:15
+   |
+43 |     ) -> *mut libc::c_void;
+   |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:44:25
+   |
+44 |     fn strcmp(_: *const libc::c_char, _: *const libc::c_char) -> libc::c_int;
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:44:49
+   |
+44 |     fn strcmp(_: *const libc::c_char, _: *const libc::c_char) -> libc::c_int;
+   |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:44:66
+   |
+44 |     fn strcmp(_: *const libc::c_char, _: *const libc::c_char) -> libc::c_int;
+   |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:46:19
+   |
+46 |         _: *const libc::c_char,
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:47:19
+   |
+47 |         _: *const libc::c_char,
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:48:12
+   |
+48 |         _: libc::c_ulong,
+   |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:49:10
+   |
+49 |     ) -> libc::c_int;
+   |          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:50:25
+   |
+50 |     fn strchr(_: *const libc::c_char, _: libc::c_int) -> *mut libc::c_char;
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:50:42
+   |
+50 |     fn strchr(_: *const libc::c_char, _: libc::c_int) -> *mut libc::c_char;
+   |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:50:63
+   |
+50 |     fn strchr(_: *const libc::c_char, _: libc::c_int) -> *mut libc::c_char;
+   |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:51:25
+   |
+51 |     fn strlen(_: *const libc::c_char) -> libc::c_ulong;
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:51:42
+   |
+51 |     fn strlen(_: *const libc::c_char) -> libc::c_ulong;
+   |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:52:35
+   |
+52 |     fn __errno_location() -> *mut libc::c_int;
+   |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:53:66
+   |
+53 |     fn atexit(__func: Option::<unsafe extern "C" fn() -> ()>) -> libc::c_int;
+   |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:54:16
+   |
+54 |     fn exit(_: libc::c_int) -> !;
+   |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:56:12
+   |
+56 |         n: libc::c_int,
+   |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:58:21
+   |
+58 |         arg: *const libc::c_char,
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:59:15
+   |
+59 |     ) -> *mut libc::c_char;
+   |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:60:53
+   |
+60 |     fn quotearg_style(s: quoting_style, arg: *const libc::c_char) -> *mut libc::c_char;
+   |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:60:75
+   |
+60 |     fn quotearg_style(s: quoting_style, arg: *const libc::c_char) -> *mut libc::c_char;
+   |                                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:61:32
+   |
+61 |     static mut Version: *const libc::c_char;
+   |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:62:39
+   |
+62 |     fn __ctype_b_loc() -> *mut *const libc::c_ushort;
+   |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:64:21
+   |
+64 |         __category: libc::c_int,
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:65:26
+   |
+65 |         __locale: *const libc::c_char,
+   |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:66:15
+   |
+66 |     ) -> *mut libc::c_char;
+   |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:68:30
+   |
+68 |         __domainname: *const libc::c_char,
+   |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:69:25
+   |
+69 |         __msgid: *const libc::c_char,
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:70:21
+   |
+70 |         __category: libc::c_int,
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:71:15
+   |
+71 |     ) -> *mut libc::c_char;
+   |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:72:40
+   |
+72 |     fn textdomain(__domainname: *const libc::c_char) -> *mut libc::c_char;
+   |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:72:62
+   |
+72 |     fn textdomain(__domainname: *const libc::c_char) -> *mut libc::c_char;
+   |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:74:30
+   |
+74 |         __domainname: *const libc::c_char,
+   |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:75:27
+   |
+75 |         __dirname: *const libc::c_char,
+   |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:76:15
+   |
+76 |     ) -> *mut libc::c_char;
+   |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:80:30
+   |
+80 |         command_name: *const libc::c_char,
+   |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:81:25
+   |
+81 |         package: *const libc::c_char,
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:82:25
+   |
+82 |         version: *const libc::c_char,
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:85:37
+   |
+85 |     static mut program_name: *const libc::c_char;
+   |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:86:39
+   |
+86 |     fn set_program_name(argv0: *const libc::c_char);
+   |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:88:19
+   |
+88 |         __status: libc::c_int,
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:89:19
+   |
+89 |         __errnum: libc::c_int,
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:90:26
+   |
+90 |         __format: *const libc::c_char,
+   |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:95:23
+   |
+95 |         n_str: *const libc::c_char,
+   |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:98:26
+   |
+98 |         suffixes: *const libc::c_char,
+   |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//fmt.rs:99:21
+   |
+99 |         err: *const libc::c_char,
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:100:19
+    |
+100 |         err_exit: libc::c_int,
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:103:19
+    |
+103 | pub type size_t = libc::c_ulong;
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:104:24
+    |
+104 | pub type __uintmax_t = libc::c_ulong;
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:105:20
+    |
+105 | pub type __off_t = libc::c_long;
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:106:22
+    |
+106 | pub type __off64_t = libc::c_long;
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:110:17
+    |
+110 |     pub _flags: libc::c_int,
+    |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:111:28
+    |
+111 |     pub _IO_read_ptr: *mut libc::c_char,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:112:28
+    |
+112 |     pub _IO_read_end: *mut libc::c_char,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:113:29
+    |
+113 |     pub _IO_read_base: *mut libc::c_char,
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:114:30
+    |
+114 |     pub _IO_write_base: *mut libc::c_char,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:115:29
+    |
+115 |     pub _IO_write_ptr: *mut libc::c_char,
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:116:29
+    |
+116 |     pub _IO_write_end: *mut libc::c_char,
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:117:28
+    |
+117 |     pub _IO_buf_base: *mut libc::c_char,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:118:27
+    |
+118 |     pub _IO_buf_end: *mut libc::c_char,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:119:29
+    |
+119 |     pub _IO_save_base: *mut libc::c_char,
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:120:31
+    |
+120 |     pub _IO_backup_base: *mut libc::c_char,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:121:28
+    |
+121 |     pub _IO_save_end: *mut libc::c_char,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:124:18
+    |
+124 |     pub _fileno: libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:125:18
+    |
+125 |     pub _flags2: libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:127:22
+    |
+127 |     pub _cur_column: libc::c_ushort,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:128:25
+    |
+128 |     pub _vtable_offset: libc::c_schar,
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:129:21
+    |
+129 |     pub _shortbuf: [libc::c_char; 1],
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:130:21
+    |
+130 |     pub _lock: *mut libc::c_void,
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:135:28
+    |
+135 |     pub _freeres_buf: *mut libc::c_void,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:137:16
+    |
+137 |     pub _mode: libc::c_int,
+    |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:138:20
+    |
+138 |     pub _unused2: [libc::c_char; 20],
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:145:22
+    |
+145 |     pub name: *const libc::c_char,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:146:18
+    |
+146 |     pub has_arg: libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:147:20
+    |
+147 |     pub flag: *mut libc::c_int,
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:148:14
+    |
+148 |     pub val: libc::c_int,
+    |              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:151:26
+    |
+151 | pub type C2RustUnnamed = libc::c_uint;
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:164:28
+    |
+164 | pub type C2RustUnnamed_0 = libc::c_int;
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:170:25
+    |
+170 |     pub program: *const libc::c_char,
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:171:22
+    |
+171 |     pub node: *const libc::c_char,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:173:26
+    |
+173 | pub type quoting_style = libc::c_uint;
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:185:22
+    |
+185 | pub type fadvice_t = libc::c_uint;
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:192:17
+    |
+192 | pub type COST = libc::c_long;
+    |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:196:22
+    |
+196 |     pub text: *const libc::c_char,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:197:17
+    |
+197 |     pub length: libc::c_int,
+    |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:198:16
+    |
+198 |     pub space: libc::c_int,
+    |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:206:22
+    |
+206 |     pub line_length: libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:214:20
+    |
+214 |     pub _gl_dummy: libc::c_int,
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:217:60
+    |
+217 | unsafe extern "C" fn getc_unlocked(mut __fp: *mut FILE) -> libc::c_int {
+    |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:218:65
+    |
+218 |     return if ((*__fp)._IO_read_ptr >= (*__fp)._IO_read_end) as libc::c_int
+    |                                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:219:12
+    |
+219 |         as libc::c_long != 0
+    |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:225:26
+    |
+225 |         *(fresh0 as *mut libc::c_uchar) as libc::c_int
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:225:44
+    |
+225 |         *(fresh0 as *mut libc::c_uchar) as libc::c_int
+    |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:230:14
+    |
+230 |     mut __c: libc::c_int,
+    |              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:232:6
+    |
+232 | ) -> libc::c_int {
+    |      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:233:75
+    |
+233 |     return if ((*__stream)._IO_write_ptr >= (*__stream)._IO_write_end) as libc::c_int
+    |                                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:234:12
+    |
+234 |         as libc::c_long != 0
+    |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:236:37
+    |
+236 |         __overflow(__stream, __c as libc::c_uchar as libc::c_int)
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:236:54
+    |
+236 |         __overflow(__stream, __c as libc::c_uchar as libc::c_int)
+    |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:240:26
+    |
+240 |         *fresh1 = __c as libc::c_char;
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:241:20
+    |
+241 |         *fresh1 as libc::c_uchar as libc::c_int
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:241:37
+    |
+241 |         *fresh1 as libc::c_uchar as libc::c_int
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:245:48
+    |
+245 | unsafe extern "C" fn putchar_unlocked(mut __c: libc::c_int) -> libc::c_int {
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:245:64
+    |
+245 | unsafe extern "C" fn putchar_unlocked(mut __c: libc::c_int) -> libc::c_int {
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:246:71
+    |
+246 |     return if ((*stdout)._IO_write_ptr >= (*stdout)._IO_write_end) as libc::c_int
+    |                                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:247:12
+    |
+247 |         as libc::c_long != 0
+    |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:249:35
+    |
+249 |         __overflow(stdout, __c as libc::c_uchar as libc::c_int)
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:249:52
+    |
+249 |         __overflow(stdout, __c as libc::c_uchar as libc::c_int)
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:253:26
+    |
+253 |         *fresh2 = __c as libc::c_char;
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:254:20
+    |
+254 |         *fresh2 as libc::c_uchar as libc::c_int
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:254:37
+    |
+254 |         *fresh2 as libc::c_uchar as libc::c_int
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:258:66
+    |
+258 | unsafe extern "C" fn ferror_unlocked(mut __stream: *mut FILE) -> libc::c_int {
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:259:42
+    |
+259 |     return ((*__stream)._flags & 0x20 as libc::c_int != 0 as libc::c_int) as libc::c_int;
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:259:62
+    |
+259 |     return ((*__stream)._flags & 0x20 as libc::c_int != 0 as libc::c_int) as libc::c_int;
+    |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:259:78
+    |
+259 |     return ((*__stream)._flags & 0x20 as libc::c_int != 0 as libc::c_int) as libc::c_int;
+    |                                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:262:39
+    |
+262 | unsafe extern "C" fn c_isspace(mut c: libc::c_int) -> bool {
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:264:51
+    |
+264 |         32 | 9 | 10 | 11 | 12 | 13 => return 1 as libc::c_int != 0,
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:265:26
+    |
+265 |         _ => return 0 as libc::c_int != 0,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:272:25
+    |
+272 |             0 as *const libc::c_char,
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:274:27
+    |
+274 |                 as *const libc::c_char,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:275:18
+    |
+275 |             5 as libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:284:25
+    |
+284 |             0 as *const libc::c_char,
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:286:40
+    |
+286 |                 as *const u8 as *const libc::c_char,
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:287:18
+    |
+287 |             5 as libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:293:62
+    |
+293 | unsafe extern "C" fn emit_ancillary_info(mut program: *const libc::c_char) {
+    |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:297:56
+    |
+297 |                 program: b"[\0" as *const u8 as *const libc::c_char,
+    |                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:298:67
+    |
+298 |                 node: b"test invocation\0" as *const u8 as *const libc::c_char,
+    |                                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:304:64
+    |
+304 |                 program: b"coreutils\0" as *const u8 as *const libc::c_char,
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:305:73
+    |
+305 |                 node: b"Multi-call invocation\0" as *const u8 as *const libc::c_char,
+    |                                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:311:64
+    |
+311 |                 program: b"sha224sum\0" as *const u8 as *const libc::c_char,
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:312:66
+    |
+312 |                 node: b"sha2 utilities\0" as *const u8 as *const libc::c_char,
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:318:64
+    |
+318 |                 program: b"sha256sum\0" as *const u8 as *const libc::c_char,
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:319:66
+    |
+319 |                 node: b"sha2 utilities\0" as *const u8 as *const libc::c_char,
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:325:64
+    |
+325 |                 program: b"sha384sum\0" as *const u8 as *const libc::c_char,
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:326:66
+    |
+326 |                 node: b"sha2 utilities\0" as *const u8 as *const libc::c_char,
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:332:64
+    |
+332 |                 program: b"sha512sum\0" as *const u8 as *const libc::c_char,
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:333:66
+    |
+333 |                 node: b"sha2 utilities\0" as *const u8 as *const libc::c_char,
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:339:38
+    |
+339 |                 program: 0 as *const libc::c_char,
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:340:35
+    |
+340 |                 node: 0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:345:26
+    |
+345 |     let mut node: *const libc::c_char = program;
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:348:59
+    |
+348 |         && !(strcmp(program, (*map_prog).program) == 0 as libc::c_int)
+    |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:357:25
+    |
+357 |             0 as *const libc::c_char,
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:358:66
+    |
+358 |             b"\n%s online help: <%s>\n\0" as *const u8 as *const libc::c_char,
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:359:18
+    |
+359 |             5 as libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:361:51
+    |
+361 |         b"GNU coreutils\0" as *const u8 as *const libc::c_char,
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:362:77
+    |
+362 |         b"https://www.gnu.org/software/coreutils/\0" as *const u8 as *const libc::c_char,
+    |                                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:364:33
+    |
+364 |     let mut lc_messages: *const libc::c_char = setlocale(
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:365:14
+    |
+365 |         5 as libc::c_int,
+    |              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:366:21
+    |
+366 |         0 as *const libc::c_char,
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:371:45
+    |
+371 |             b"en_\0" as *const u8 as *const libc::c_char,
+    |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+   --> src//fmt.rs:372:16
+    |
+372 |             (::core::mem::size_of::<[libc::c_char; 4]>() as libc::c_ulong)
+    |                ^^^^ maybe a missing crate `core`?
+    |
+    = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:372:38
+    |
+372 |             (::core::mem::size_of::<[libc::c_char; 4]>() as libc::c_ulong)
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:372:61
+    |
+372 |             (::core::mem::size_of::<[libc::c_char; 4]>() as libc::c_ulong)
+    |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:373:36
+    |
+373 |                 .wrapping_sub(1 as libc::c_int as libc::c_ulong),
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:373:51
+    |
+373 |                 .wrapping_sub(1 as libc::c_int as libc::c_ulong),
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:378:29
+    |
+378 |                 0 as *const libc::c_char,
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:380:44
+    |
+380 |                     as *const u8 as *const libc::c_char,
+    |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:381:22
+    |
+381 |                 5 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:386:33
+    |
+386 |     let mut url_program: *const libc::c_char = if strcmp(
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:388:39
+    |
+388 |         b"[\0" as *const u8 as *const libc::c_char,
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:389:15
+    |
+389 |     ) == 0 as libc::c_int
+    |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:391:42
+    |
+391 |         b"test\0" as *const u8 as *const libc::c_char
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:397:25
+    |
+397 |             0 as *const libc::c_char,
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:398:69
+    |
+398 |             b"Full documentation <%s%s>\n\0" as *const u8 as *const libc::c_char,
+    |                                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:399:18
+    |
+399 |             5 as libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:401:77
+    |
+401 |         b"https://www.gnu.org/software/coreutils/\0" as *const u8 as *const libc::c_char,
+    |                                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:406:25
+    |
+406 |             0 as *const libc::c_char,
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:408:27
+    |
+408 |                 as *const libc::c_char,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:409:18
+    |
+409 |             5 as libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:413:53
+    |
+413 |             b" invocation\0" as *const u8 as *const libc::c_char
+    |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:415:42
+    |
+415 |             b"\0" as *const u8 as *const libc::c_char
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:423:27
+    |
+423 | static mut prefix: *const libc::c_char = 0 as *const libc::c_char;
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:423:54
+    |
+423 | static mut prefix: *const libc::c_char = 0 as *const libc::c_char;
+    |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:424:23
+    |
+424 | static mut max_width: libc::c_int = 0;
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:425:32
+    |
+425 | static mut prefix_full_length: libc::c_int = 0;
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:426:31
+    |
+426 | static mut prefix_lead_space: libc::c_int = 0;
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:427:27
+    |
+427 | static mut prefix_length: libc::c_int = 0;
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:428:24
+    |
+428 | static mut goal_width: libc::c_int = 0;
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:429:23
+    |
+429 | static mut in_column: libc::c_int = 0;
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:430:24
+    |
+430 | static mut out_column: libc::c_int = 0;
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:431:22
+    |
+431 | static mut parabuf: [libc::c_char; 5000] = [0; 5000];
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:432:23
+    |
+432 | static mut wptr: *mut libc::c_char = 0 as *const libc::c_char as *mut libc::c_char;
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:432:50
+    |
+432 | static mut wptr: *mut libc::c_char = 0 as *const libc::c_char as *mut libc::c_char;
+    |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:432:71
+    |
+432 | static mut wptr: *mut libc::c_char = 0 as *const libc::c_char as *mut libc::c_char;
+    |                                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:434:23
+    |
+434 |     text: 0 as *const libc::c_char,
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:445:27
+    |
+445 | static mut prefix_indent: libc::c_int = 0;
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:446:26
+    |
+446 | static mut first_indent: libc::c_int = 0;
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:447:26
+    |
+447 | static mut other_indent: libc::c_int = 0;
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:448:23
+    |
+448 | static mut next_char: libc::c_int = 0;
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:449:32
+    |
+449 | static mut next_prefix_indent: libc::c_int = 0;
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:450:30
+    |
+450 | static mut last_line_length: libc::c_int = 0;
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:452:44
+    |
+452 | pub unsafe extern "C" fn usage(mut status: libc::c_int) {
+    |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:453:23
+    |
+453 |     if status != 0 as libc::c_int {
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:457:29
+    |
+457 |                 0 as *const libc::c_char,
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:459:31
+    |
+459 |                     as *const libc::c_char,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:460:22
+    |
+460 |                 5 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:467:29
+    |
+467 |                 0 as *const libc::c_char,
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:469:31
+    |
+469 |                     as *const libc::c_char,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:470:22
+    |
+470 |                 5 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:476:29
+    |
+476 |                 0 as *const libc::c_char,
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:478:44
+    |
+478 |                     as *const u8 as *const libc::c_char,
+    |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:479:22
+    |
+479 |                 5 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:487:29
+    |
+487 |                 0 as *const libc::c_char,
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:489:44
+    |
+489 |                     as *const u8 as *const libc::c_char,
+    |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:490:22
+    |
+490 |                 5 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:496:29
+    |
+496 |                 0 as *const libc::c_char,
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:498:44
+    |
+498 |                     as *const u8 as *const libc::c_char,
+    |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:499:22
+    |
+499 |                 5 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:505:29
+    |
+505 |                 0 as *const libc::c_char,
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:507:31
+    |
+507 |                     as *const libc::c_char,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:508:22
+    |
+508 |                 5 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:514:29
+    |
+514 |                 0 as *const libc::c_char,
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:516:44
+    |
+516 |                     as *const u8 as *const libc::c_char,
+    |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:517:22
+    |
+517 |                 5 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:521:61
+    |
+521 |         emit_ancillary_info(b"fmt\0" as *const u8 as *const libc::c_char);
+    |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:528:60
+    |
+528 |             name: b"crown-margin\0" as *const u8 as *const libc::c_char,
+    |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:529:27
+    |
+529 |             has_arg: 0 as libc::c_int,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:530:31
+    |
+530 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:530:51
+    |
+530 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:537:54
+    |
+537 |             name: b"prefix\0" as *const u8 as *const libc::c_char,
+    |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:538:27
+    |
+538 |             has_arg: 1 as libc::c_int,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:539:31
+    |
+539 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:539:51
+    |
+539 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:546:58
+    |
+546 |             name: b"split-only\0" as *const u8 as *const libc::c_char,
+    |                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:547:27
+    |
+547 |             has_arg: 0 as libc::c_int,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:548:31
+    |
+548 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:548:51
+    |
+548 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:555:64
+    |
+555 |             name: b"tagged-paragraph\0" as *const u8 as *const libc::c_char,
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:556:27
+    |
+556 |             has_arg: 0 as libc::c_int,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:557:31
+    |
+557 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:557:51
+    |
+557 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:564:63
+    |
+564 |             name: b"uniform-spacing\0" as *const u8 as *const libc::c_char,
+    |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:565:27
+    |
+565 |             has_arg: 0 as libc::c_int,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:566:31
+    |
+566 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:566:51
+    |
+566 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:573:53
+    |
+573 |             name: b"width\0" as *const u8 as *const libc::c_char,
+    |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:574:27
+    |
+574 |             has_arg: 1 as libc::c_int,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:575:31
+    |
+575 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:575:51
+    |
+575 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:582:52
+    |
+582 |             name: b"goal\0" as *const u8 as *const libc::c_char,
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:583:27
+    |
+583 |             has_arg: 1 as libc::c_int,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:584:31
+    |
+584 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:584:51
+    |
+584 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:591:52
+    |
+591 |             name: b"help\0" as *const u8 as *const libc::c_char,
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:592:27
+    |
+592 |             has_arg: 0 as libc::c_int,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:593:31
+    |
+593 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:593:51
+    |
+593 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:594:38
+    |
+594 |             val: GETOPT_HELP_CHAR as libc::c_int,
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:600:55
+    |
+600 |             name: b"version\0" as *const u8 as *const libc::c_char,
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:601:27
+    |
+601 |             has_arg: 0 as libc::c_int,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:602:31
+    |
+602 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:602:51
+    |
+602 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:603:41
+    |
+603 |             val: GETOPT_VERSION_CHAR as libc::c_int,
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:609:31
+    |
+609 |             name: 0 as *const libc::c_char,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:610:27
+    |
+610 |             has_arg: 0 as libc::c_int,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:611:31
+    |
+611 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:611:51
+    |
+611 |             flag: 0 as *const libc::c_int as *mut libc::c_int,
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:612:23
+    |
+612 |             val: 0 as libc::c_int,
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:618:15
+    |
+618 |     mut argc: libc::c_int,
+    |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:619:25
+    |
+619 |     mut argv: *mut *mut libc::c_char,
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:620:6
+    |
+620 | ) -> libc::c_int {
+    |      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:621:22
+    |
+621 |     let mut optchar: libc::c_int = 0;
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:622:29
+    |
+622 |     let mut ok: bool = 1 as libc::c_int != 0;
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:623:38
+    |
+623 |     let mut max_width_option: *const libc::c_char = 0 as *const libc::c_char;
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:623:65
+    |
+623 |     let mut max_width_option: *const libc::c_char = 0 as *const libc::c_char;
+    |                                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:624:39
+    |
+624 |     let mut goal_width_option: *const libc::c_char = 0 as *const libc::c_char;
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:624:66
+    |
+624 |     let mut goal_width_option: *const libc::c_char = 0 as *const libc::c_char;
+    |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:625:40
+    |
+625 |     set_program_name(*argv.offset(0 as libc::c_int as isize));
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:626:20
+    |
+626 |     setlocale(6 as libc::c_int, b"\0" as *const u8 as *const libc::c_char);
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:626:62
+    |
+626 |     setlocale(6 as libc::c_int, b"\0" as *const u8 as *const libc::c_char);
+    |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:628:47
+    |
+628 |         b"coreutils\0" as *const u8 as *const libc::c_char,
+    |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:629:61
+    |
+629 |         b"/usr/local/share/locale\0" as *const u8 as *const libc::c_char,
+    |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:631:54
+    |
+631 |     textdomain(b"coreutils\0" as *const u8 as *const libc::c_char);
+    |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:633:20
+    |
+633 |     uniform = 0 as libc::c_int != 0;
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:637:23
+    |
+637 |     max_width = 75 as libc::c_int;
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:638:43
+    |
+638 |     prefix = b"\0" as *const u8 as *const libc::c_char;
+    |                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:639:31
+    |
+639 |     prefix_full_length = 0 as libc::c_int;
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:642:20
+    |
+642 |     if argc > 1 as libc::c_int
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:643:32
+    |
+643 |         && *(*argv.offset(1 as libc::c_int as isize)).offset(0 as libc::c_int as isize)
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:643:67
+    |
+643 |         && *(*argv.offset(1 as libc::c_int as isize)).offset(0 as libc::c_int as isize)
+    |                                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:644:16
+    |
+644 |             as libc::c_int == '-' as i32
+    |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:645:33
+    |
+645 |         && (*(*argv.offset(1 as libc::c_int as isize)).offset(1 as libc::c_int as isize)
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:645:68
+    |
+645 |         && (*(*argv.offset(1 as libc::c_int as isize)).offset(1 as libc::c_int as isize)
+    |                                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:646:16
+    |
+646 |             as libc::c_uint)
+    |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:647:41
+    |
+647 |             .wrapping_sub('0' as i32 as libc::c_uint) <= 9 as libc::c_int as libc::c_uint
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:647:63
+    |
+647 |             .wrapping_sub('0' as i32 as libc::c_uint) <= 9 as libc::c_int as libc::c_uint
+    |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:647:78
+    |
+647 |             .wrapping_sub('0' as i32 as libc::c_uint) <= 9 as libc::c_int as libc::c_uint
+    |                                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:649:47
+    |
+649 |         max_width_option = (*argv.offset(1 as libc::c_int as isize))
+    |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:650:26
+    |
+650 |             .offset(1 as libc::c_int as isize);
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:651:48
+    |
+651 |         let ref mut fresh3 = *argv.offset(1 as libc::c_int as isize);
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:652:37
+    |
+652 |         *fresh3 = *argv.offset(0 as libc::c_int as isize);
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:660:62
+    |
+660 |             b"0123456789cstuw:p:g:\0" as *const u8 as *const libc::c_char,
+    |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:662:23
+    |
+662 |             0 as *mut libc::c_int,
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:664:32
+    |
+664 |         if !(optchar != -(1 as libc::c_int)) {
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:673:30
+    |
+673 |                 split = 1 as libc::c_int != 0;
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:677:31
+    |
+677 |                 tagged = 1 as libc::c_int != 0;
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:681:32
+    |
+681 |                 uniform = 1 as libc::c_int != 0;
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:697:28
+    |
+697 |                 usage(0 as libc::c_int);
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:703:53
+    |
+703 |                     b"fmt\0" as *const u8 as *const libc::c_char,
+    |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:704:63
+    |
+704 |                     b"GNU coreutils\0" as *const u8 as *const libc::c_char,
+    |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:706:63
+    |
+706 |                     b"Ross Paterson\0" as *const u8 as *const libc::c_char,
+    |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:707:31
+    |
+707 |                     0 as *mut libc::c_void as *mut libc::c_char,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:707:52
+    |
+707 |                     0 as *mut libc::c_void as *mut libc::c_char,
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:709:27
+    |
+709 |                 exit(0 as libc::c_int);
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:712:32
+    |
+712 |                 if (optchar as libc::c_uint).wrapping_sub('0' as i32 as libc::c_uint)
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:712:73
+    |
+712 |                 if (optchar as libc::c_uint).wrapping_sub('0' as i32 as libc::c_uint)
+    |                                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:713:29
+    |
+713 |                     <= 9 as libc::c_int as libc::c_uint
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:713:44
+    |
+713 |                     <= 9 as libc::c_int as libc::c_uint
+    |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:716:30
+    |
+716 |                         0 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:717:30
+    |
+717 |                         0 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:719:41
+    |
+719 | ...                   0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:721:56
+    |
+721 | ...                   as *const u8 as *const libc::c_char,
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:722:34
+    |
+722 | ...                   5 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:727:28
+    |
+727 |                 usage(1 as libc::c_int);
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:733:30
+    |
+733 |                 crown = 1 as libc::c_int != 0;
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:741:18
+    |
+741 |             0 as libc::c_int as uintmax_t,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:742:22
+    |
+742 |             (5000 as libc::c_int / 2 as libc::c_int) as uintmax_t,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:742:41
+    |
+742 |             (5000 as libc::c_int / 2 as libc::c_int) as uintmax_t,
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:743:42
+    |
+743 |             b"\0" as *const u8 as *const libc::c_char,
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:745:29
+    |
+745 |                 0 as *const libc::c_char,
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:746:59
+    |
+746 |                 b"invalid width\0" as *const u8 as *const libc::c_char,
+    |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:747:22
+    |
+747 |                 5 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:749:18
+    |
+749 |             0 as libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:750:14
+    |
+750 |         ) as libc::c_int;
+    |              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:755:18
+    |
+755 |             0 as libc::c_int as uintmax_t,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:757:42
+    |
+757 |             b"\0" as *const u8 as *const libc::c_char,
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:759:29
+    |
+759 |                 0 as *const libc::c_char,
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:760:59
+    |
+760 |                 b"invalid width\0" as *const u8 as *const libc::c_char,
+    |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:761:22
+    |
+761 |                 5 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:763:18
+    |
+763 |             0 as libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:764:14
+    |
+764 |         ) as libc::c_int;
+    |              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:766:44
+    |
+766 |             max_width = goal_width + 10 as libc::c_int;
+    |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:770:21
+    |
+770 |             * (2 as libc::c_int * (100 as libc::c_int - 7 as libc::c_int)
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:770:43
+    |
+770 |             * (2 as libc::c_int * (100 as libc::c_int - 7 as libc::c_int)
+    |                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:770:62
+    |
+770 |             * (2 as libc::c_int * (100 as libc::c_int - 7 as libc::c_int)
+    |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:771:24
+    |
+771 |                 + 1 as libc::c_int) / 200 as libc::c_int;
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:771:46
+    |
+771 |                 + 1 as libc::c_int) / 200 as libc::c_int;
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:773:42
+    |
+773 |     let mut have_read_stdin: bool = 0 as libc::c_int != 0;
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:775:32
+    |
+775 |         have_read_stdin = 1 as libc::c_int != 0;
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:776:55
+    |
+776 |         ok = fmt(stdin, b"-\0" as *const u8 as *const libc::c_char);
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:779:32
+    |
+779 |             let mut file: *mut libc::c_char = *argv.offset(optind as isize);
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:780:59
+    |
+780 |             if strcmp(file, b"-\0" as *const u8 as *const libc::c_char)
+    |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:781:25
+    |
+781 |                 == 0 as libc::c_int
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:783:29
+    |
+783 |                 ok = (ok as libc::c_int & fmt(stdin, file) as libc::c_int) as bool;
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:783:63
+    |
+783 |                 ok = (ok as libc::c_int & fmt(stdin, file) as libc::c_int) as bool;
+    |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:784:40
+    |
+784 |                 have_read_stdin = 1 as libc::c_int != 0;
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:787:71
+    |
+787 |                 in_stream = fopen(file, b"r\0" as *const u8 as *const libc::c_char);
+    |                                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:789:33
+    |
+789 |                     ok = (ok as libc::c_int & fmt(in_stream, file) as libc::c_int)
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:789:71
+    |
+789 |                     ok = (ok as libc::c_int & fmt(in_stream, file) as libc::c_int)
+    |                                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:793:30
+    |
+793 |                         0 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:796:41
+    |
+796 | ...                   0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:798:43
+    |
+798 | ...                   as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:799:34
+    |
+799 | ...                   5 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:803:31
+    |
+803 |                     ok = 0 as libc::c_int != 0;
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:809:27
+    |
+809 |     if have_read_stdin as libc::c_int != 0 && rpl_fclose(stdin) != 0 as libc::c_int {
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:809:73
+    |
+809 |     if have_read_stdin as libc::c_int != 0 && rpl_fclose(stdin) != 0 as libc::c_int {
+    |                                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+   --> src//fmt.rs:810:14
+    |
+810 |         if ::core::mem::size_of::<C2RustUnnamed_1>() as libc::c_ulong != 0 {
+    |              ^^^^ maybe a missing crate `core`?
+    |
+    = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:810:57
+    |
+810 |         if ::core::mem::size_of::<C2RustUnnamed_1>() as libc::c_ulong != 0 {
+    |                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:812:22
+    |
+812 |                 1 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:814:48
+    |
+814 |                 b"%s\0" as *const u8 as *const libc::c_char,
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:816:33
+    |
+816 |                     0 as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:817:72
+    |
+817 |                     b"closing standard input\0" as *const u8 as *const libc::c_char,
+    |                                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:818:26
+    |
+818 |                     5 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:821:21
+    |
+821 |             if 0 as libc::c_int != 0 {} else {
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:826:22
+    |
+826 |                 1 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:828:48
+    |
+828 |                 b"%s\0" as *const u8 as *const libc::c_char,
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:830:33
+    |
+830 |                     0 as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:831:72
+    |
+831 |                     b"closing standard input\0" as *const u8 as *const libc::c_char,
+    |                                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:832:26
+    |
+832 |                     5 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:835:21
+    |
+835 |             if 0 as libc::c_int != 0 {} else {
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:840:21
+    |
+840 |     return if ok as libc::c_int != 0 { 0 as libc::c_int } else { 1 as libc::c_int };
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:840:45
+    |
+840 |     return if ok as libc::c_int != 0 { 0 as libc::c_int } else { 1 as libc::c_int };
+    |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:840:71
+    |
+840 |     return if ok as libc::c_int != 0 { 0 as libc::c_int } else { 1 as libc::c_int };
+    |                                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:842:45
+    |
+842 | unsafe extern "C" fn set_prefix(mut p: *mut libc::c_char) {
+    |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:843:21
+    |
+843 |     let mut s: *mut libc::c_char = 0 as *mut libc::c_char;
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:843:46
+    |
+843 |     let mut s: *mut libc::c_char = 0 as *mut libc::c_char;
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:844:30
+    |
+844 |     prefix_lead_space = 0 as libc::c_int;
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:845:17
+    |
+845 |     while *p as libc::c_int == ' ' as i32 {
+    |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:850:39
+    |
+850 |     prefix_full_length = strlen(p) as libc::c_int;
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:852:37
+    |
+852 |     while s > p && *s.offset(-(1 as libc::c_int) as isize) as libc::c_int == ' ' as i32 {
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:852:63
+    |
+852 |     while s > p && *s.offset(-(1 as libc::c_int) as isize) as libc::c_int == ' ' as i32 {
+    |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:855:25
+    |
+855 |     *s = '\0' as i32 as libc::c_char;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:856:41
+    |
+856 |     prefix_length = s.offset_from(p) as libc::c_long as libc::c_int;
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:856:57
+    |
+856 |     prefix_length = s.offset_from(p) as libc::c_long as libc::c_int;
+    |                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:858:61
+    |
+858 | unsafe extern "C" fn fmt(mut f: *mut FILE, mut file: *const libc::c_char) -> bool {
+    |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:860:17
+    |
+860 |     tabs = 0 as libc::c_int != 0;
+    |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:861:25
+    |
+861 |     other_indent = 0 as libc::c_int;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:867:18
+    |
+867 |     let mut err: libc::c_int = if ferror_unlocked(f) != 0 {
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:868:14
+    |
+868 |         0 as libc::c_int
+    |              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:870:16
+    |
+870 |         -(1 as libc::c_int)
+    |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:874:37
+    |
+874 |     } else if rpl_fclose(f) != 0 as libc::c_int && err < 0 as libc::c_int {
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:874:63
+    |
+874 |     } else if rpl_fclose(f) != 0 as libc::c_int && err < 0 as libc::c_int {
+    |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:877:13
+    |
+877 |     if 0 as libc::c_int <= err {
+    |             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:879:18
+    |
+879 |             0 as libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:882:48
+    |
+882 |                 b"%s\0" as *const u8 as *const libc::c_char
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:885:33
+    |
+885 |                     0 as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:886:60
+    |
+886 |                     b"read error\0" as *const u8 as *const libc::c_char,
+    |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:887:26
+    |
+887 |                     5 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:888:29
+    |
+888 |                 ) as *const libc::c_char
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:890:41
+    |
+890 |             quotearg_n_style_colon(0 as libc::c_int, shell_escape_quoting_style, file),
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:893:23
+    |
+893 |     return err < 0 as libc::c_int;
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:899:45
+    |
+899 |         other_indent = if same_paragraph as libc::c_int != 0 {
+    |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:905:30
+    |
+905 |         if same_paragraph as libc::c_int != 0 && in_column != first_indent {
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:908:52
+    |
+908 |             other_indent = if first_indent == 0 as libc::c_int {
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:909:22
+    |
+909 |                 3 as libc::c_int
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:911:22
+    |
+911 |                 0 as libc::c_int
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:919:16
+    |
+919 |     let mut c: libc::c_int = 0;
+    |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:920:29
+    |
+920 |     last_line_length = 0 as libc::c_int;
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:922:43
+    |
+922 |     while c == '\n' as i32 || c == -(1 as libc::c_int)
+    |                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:927:24
+    |
+927 |         if c == -(1 as libc::c_int) {
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:928:32
+    |
+928 |             next_char = -(1 as libc::c_int);
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:929:25
+    |
+929 |             return 0 as libc::c_int != 0;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:945:42
+    |
+945 |                     if !(same_para(c) as libc::c_int != 0 && in_column == other_indent) {
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:951:32
+    |
+951 |             if same_para(c) as libc::c_int != 0 && in_column != first_indent {
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:954:42
+    |
+954 |                     if !(same_para(c) as libc::c_int != 0 && in_column == other_indent) {
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:960:35
+    |
+960 |             while same_para(c) as libc::c_int != 0 && in_column == other_indent {
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:967:59
+    |
+967 |             b"word < word_limit\0" as *const u8 as *const libc::c_char,
+    |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:968:51
+    |
+968 |             b"src/fmt.c\0" as *const u8 as *const libc::c_char,
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:969:20
+    |
+969 |             624 as libc::c_int as libc::c_uint,
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:969:35
+    |
+969 |             624 as libc::c_int as libc::c_uint,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+   --> src//fmt.rs:970:17
+    |
+970 |             (*::core::mem::transmute::<
+    |                 ^^^^ maybe a missing crate `core`?
+    |
+    = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:972:19
+    |
+972 |                 &[libc::c_char; 28],
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:977:52
+    |
+977 |     let ref mut fresh5 = *word_limit.offset(-(1 as libc::c_int as isize));
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:978:52
+    |
+978 |     let ref mut fresh4 = *word_limit.offset(-(1 as libc::c_int as isize));
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:979:32
+    |
+979 |     (*fresh4).set_final_0(1 as libc::c_int as libc::c_uint);
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:979:47
+    |
+979 |     (*fresh4).set_final_0(1 as libc::c_int as libc::c_uint);
+    |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:982:17
+    |
+982 |     return 1 as libc::c_int != 0;
+    |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:984:57
+    |
+984 | unsafe extern "C" fn copy_rest(mut f: *mut FILE, mut c: libc::c_int) -> libc::c_int {
+    |                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:984:73
+    |
+984 | unsafe extern "C" fn copy_rest(mut f: *mut FILE, mut c: libc::c_int) -> libc::c_int {
+    |                                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:985:23
+    |
+985 |     let mut s: *const libc::c_char = 0 as *const libc::c_char;
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:985:50
+    |
+985 |     let mut s: *const libc::c_char = 0 as *const libc::c_char;
+    |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:986:23
+    |
+986 |     out_column = 0 as libc::c_int;
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:987:74
+    |
+987 |     if in_column > next_prefix_indent || c != '\n' as i32 && c != -(1 as libc::c_int) {
+    |                                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:990:48
+    |
+990 |         while out_column != in_column && *s as libc::c_int != 0 {
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:993:41
+    |
+993 |             putchar_unlocked(*fresh6 as libc::c_int);
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:996:24
+    |
+996 |         if c != -(1 as libc::c_int) && c != '\n' as i32 {
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//fmt.rs:999:24
+    |
+999 |         if c == -(1 as libc::c_int) && in_column >= next_prefix_indent + prefix_length {
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1003:43
+     |
+1003 |     while c != '\n' as i32 && c != -(1 as libc::c_int) {
+     |                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1009:39
+     |
+1009 | unsafe extern "C" fn same_para(mut c: libc::c_int) -> bool {
+     |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1012:24
+     |
+1012 |         && c != -(1 as libc::c_int);
+     |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1014:56
+     |
+1014 | unsafe extern "C" fn get_line(mut f: *mut FILE, mut c: libc::c_int) -> libc::c_int {
+     |                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1014:72
+     |
+1014 | unsafe extern "C" fn get_line(mut f: *mut FILE, mut c: libc::c_int) -> libc::c_int {
+     |                                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1015:20
+     |
+1015 |     let mut start: libc::c_int = 0;
+     |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1016:34
+     |
+1016 |     let mut end_of_parabuf: *mut libc::c_char = 0 as *mut libc::c_char;
+     |                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1016:59
+     |
+1016 |     let mut end_of_parabuf: *mut libc::c_char = 0 as *mut libc::c_char;
+     |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1018:64
+     |
+1018 |     end_of_parabuf = &mut *parabuf.as_mut_ptr().offset(5000 as libc::c_int as isize)
+     |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1019:17
+     |
+1019 |         as *mut libc::c_char;
+     |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1022:26
+     |
+1022 |         .offset((1000 as libc::c_int - 2 as libc::c_int) as isize) as *mut WORD;
+     |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1022:45
+     |
+1022 |         .offset((1000 as libc::c_int - 2 as libc::c_int) as isize) as *mut WORD;
+     |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1027:39
+     |
+1027 |                 set_other_indent(1 as libc::c_int != 0);
+     |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1032:28
+     |
+1032 |             *fresh7 = c as libc::c_char;
+     |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1034:30
+     |
+1034 |             if !(c != -(1 as libc::c_int) && !c_isspace(c)) {
+     |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1039:63
+     |
+1039 |             .length = wptr.offset_from((*word_limit).text) as libc::c_long
+     |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1040:16
+     |
+1040 |             as libc::c_int;
+     |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1048:30
+     |
+1048 |                 (c == -(1 as libc::c_int)
+     |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1049:50
+     |
+1049 |                     || (*word_limit).period() as libc::c_int != 0
+     |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1050:76
+     |
+1050 |                         && (c == '\n' as i32 || (*word_limit).space > 1 as libc::c_int))
+     |                                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1051:24
+     |
+1051 |                     as libc::c_int as libc::c_uint,
+     |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1051:39
+     |
+1051 |                     as libc::c_int as libc::c_uint,
+     |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1053:44
+     |
+1053 |         if c == '\n' as i32 || c == -(1 as libc::c_int) || uniform as libc::c_int != 0 {
+     |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1053:71
+     |
+1053 |         if c == '\n' as i32 || c == -(1 as libc::c_int) || uniform as libc::c_int != 0 {
+     |                                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1055:56
+     |
+1055 |                 .space = if (*word_limit).final_0() as libc::c_int != 0 {
+     |                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1056:22
+     |
+1056 |                 2 as libc::c_int
+     |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1058:22
+     |
+1058 |                 1 as libc::c_int
+     |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1062:35
+     |
+1062 |             set_other_indent(1 as libc::c_int != 0);
+     |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1066:46
+     |
+1066 |         if !(c != '\n' as i32 && c != -(1 as libc::c_int)) {
+     |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1072:54
+     |
+1072 | unsafe extern "C" fn get_prefix(mut f: *mut FILE) -> libc::c_int {
+     |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1073:16
+     |
+1073 |     let mut c: libc::c_int = 0;
+     |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1074:22
+     |
+1074 |     in_column = 0 as libc::c_int;
+     |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1076:30
+     |
+1076 |     if prefix_length == 0 as libc::c_int {
+     |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1083:27
+     |
+1083 |         let mut p: *const libc::c_char = 0 as *const libc::c_char;
+     |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1083:54
+     |
+1083 |         let mut p: *const libc::c_char = 0 as *const libc::c_char;
+     |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1086:21
+     |
+1086 |         while *p as libc::c_int != '\0' as i32 {
+     |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1087:25
+     |
+1087 |             let mut pc: libc::c_uchar = *p as libc::c_uchar;
+     |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1087:47
+     |
+1087 |             let mut pc: libc::c_uchar = *p as libc::c_uchar;
+     |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1088:27
+     |
+1088 |             if c != pc as libc::c_int {
+     |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1099:57
+     |
+1099 | unsafe extern "C" fn get_space(mut f: *mut FILE, mut c: libc::c_int) -> libc::c_int {
+     |                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1099:73
+     |
+1099 | unsafe extern "C" fn get_space(mut f: *mut FILE, mut c: libc::c_int) -> libc::c_int {
+     |                                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1104:25
+     |
+1104 |             tabs = 1 as libc::c_int != 0;
+     |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1105:43
+     |
+1105 |             in_column = (in_column / 8 as libc::c_int + 1 as libc::c_int)
+     |                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1105:62
+     |
+1105 |             in_column = (in_column / 8 as libc::c_int + 1 as libc::c_int)
+     |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1106:24
+     |
+1106 |                 * 8 as libc::c_int;
+     |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1114:27
+     |
+1114 |     let mut start: *const libc::c_char = (*w).text;
+     |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1115:28
+     |
+1115 |     let mut finish: *const libc::c_char = start
+     |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1116:37
+     |
+1116 |         .offset(((*w).length - 1 as libc::c_int) as isize);
+     |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1117:18
+     |
+1117 |     let mut fin: libc::c_uchar = *finish as libc::c_uchar;
+     |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1117:45
+     |
+1117 |     let mut fin: libc::c_uchar = *finish as libc::c_uchar;
+     |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1121:52
+     |
+1121 |                 b"(['`\"\0" as *const u8 as *const libc::c_char,
+     |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1122:27
+     |
+1122 |                 *start as libc::c_int,
+     |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1123:28
+     |
+1123 |             ) != 0 as *mut libc::c_void as *mut libc::c_char) as libc::c_int
+     |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1123:49
+     |
+1123 |             ) != 0 as *mut libc::c_void as *mut libc::c_char) as libc::c_int
+     |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1123:66
+     |
+1123 |             ) != 0 as *mut libc::c_void as *mut libc::c_char) as libc::c_int
+     |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1124:20
+     |
+1124 |                 as libc::c_uint,
+     |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1128:48
+     |
+1128 |             (*(*__ctype_b_loc()).offset(fin as libc::c_int as isize) as libc::c_int
+     |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1128:73
+     |
+1128 |             (*(*__ctype_b_loc()).offset(fin as libc::c_int as isize) as libc::c_int
+     |                                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1129:31
+     |
+1129 |                 & _ISpunct as libc::c_int as libc::c_ushort as libc::c_int != 0)
+     |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1129:46
+     |
+1129 |                 & _ISpunct as libc::c_int as libc::c_ushort as libc::c_int != 0)
+     |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1129:64
+     |
+1129 |                 & _ISpunct as libc::c_int as libc::c_ushort as libc::c_int != 0)
+     |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1130:20
+     |
+1130 |                 as libc::c_int as libc::c_uint,
+     |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1130:35
+     |
+1130 |                 as libc::c_int as libc::c_uint,
+     |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1134:47
+     |
+1134 |             b")]'\"\0" as *const u8 as *const libc::c_char,
+     |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1135:24
+     |
+1135 |             *finish as libc::c_int,
+     |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1143:53
+     |
+1143 |             (strchr(b".?!\0" as *const u8 as *const libc::c_char, *finish as libc::c_int)
+     |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1143:78
+     |
+1143 |             (strchr(b".?!\0" as *const u8 as *const libc::c_char, *finish as libc::c_int)
+     |                                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1144:30
+     |
+1144 |                 != 0 as *mut libc::c_void as *mut libc::c_char) as libc::c_int
+     |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1144:51
+     |
+1144 |                 != 0 as *mut libc::c_void as *mut libc::c_char) as libc::c_int
+     |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1144:68
+     |
+1144 |                 != 0 as *mut libc::c_void as *mut libc::c_char) as libc::c_int
+     |                                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1145:20
+     |
+1145 |                 as libc::c_uint,
+     |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1151:20
+     |
+1151 |     let mut shift: libc::c_int = 0;
+     |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+    --> src//fmt.rs:1155:19
+     |
+1155 |             && (::core::mem::size_of::<libc::c_char>() as libc::c_ulong)
+     |                   ^^^^ maybe a missing crate `core`?
+     |
+     = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1155:40
+     |
+1155 |             && (::core::mem::size_of::<libc::c_char>() as libc::c_ulong)
+     |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1155:59
+     |
+1155 |             && (::core::mem::size_of::<libc::c_char>() as libc::c_ulong)
+     |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1157:63
+     |
+1157 |                     wptr.offset_from(parabuf.as_mut_ptr()) as libc::c_long as size_t,
+     |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1158:27
+     |
+1158 |                 ) <= 8 as libc::c_int as libc::c_ulong
+     |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1158:42
+     |
+1158 |                 ) <= 8 as libc::c_int as libc::c_ulong
+     |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+    --> src//fmt.rs:1159:18
+     |
+1159 |             && ::core::mem::size_of::<libc::c_char>() as libc::c_ulong
+     |                  ^^^^ maybe a missing crate `core`?
+     |
+     = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1159:39
+     |
+1159 |             && ::core::mem::size_of::<libc::c_char>() as libc::c_ulong
+     |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1159:58
+     |
+1159 |             && ::core::mem::size_of::<libc::c_char>() as libc::c_ulong
+     |                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1160:25
+     |
+1160 |                 != 0 as libc::c_int as libc::c_ulong
+     |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1160:40
+     |
+1160 |                 != 0 as libc::c_int as libc::c_ulong
+     |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1163:39
+     |
+1163 |                 let mut __ptr: *const libc::c_char = parabuf.as_mut_ptr()
+     |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1164:31
+     |
+1164 |                     as *const libc::c_char;
+     |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+    --> src//fmt.rs:1167:28
+     |
+1167 |                 __cnt = (::core::mem::size_of::<libc::c_char>() as libc::c_ulong)
+     |                            ^^^^ maybe a missing crate `core`?
+     |
+     = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1167:49
+     |
+1167 |                 __cnt = (::core::mem::size_of::<libc::c_char>() as libc::c_ulong)
+     |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1167:68
+     |
+1167 |                 __cnt = (::core::mem::size_of::<libc::c_char>() as libc::c_ulong)
+     |                                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1169:67
+     |
+1169 |                         wptr.offset_from(parabuf.as_mut_ptr()) as libc::c_long as size_t,
+     |                                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1171:36
+     |
+1171 |                 while __cnt > 0 as libc::c_int as libc::c_ulong {
+     |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1171:51
+     |
+1171 |                 while __cnt > 0 as libc::c_int as libc::c_ulong {
+     |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1174:49
+     |
+1174 |                     if putc_unlocked(*fresh8 as libc::c_int, __stream)
+     |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1175:35
+     |
+1175 |                         == -(1 as libc::c_int)
+     |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+    --> src//fmt.rs:1185:22
+     |
+1185 |                 && ::core::mem::size_of::<libc::c_char>() as libc::c_ulong
+     |                      ^^^^ maybe a missing crate `core`?
+     |
+     = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1185:43
+     |
+1185 |                 && ::core::mem::size_of::<libc::c_char>() as libc::c_ulong
+     |                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1185:62
+     |
+1185 |                 && ::core::mem::size_of::<libc::c_char>() as libc::c_ulong
+     |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1186:29
+     |
+1186 |                     == 0 as libc::c_int as libc::c_ulong
+     |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1186:44
+     |
+1186 |                     == 0 as libc::c_int as libc::c_ulong
+     |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1188:66
+     |
+1188 |                     && wptr.offset_from(parabuf.as_mut_ptr()) as libc::c_long as size_t
+     |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1189:33
+     |
+1189 |                         == 0 as libc::c_int as libc::c_ulong
+     |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1189:48
+     |
+1189 |                         == 0 as libc::c_int as libc::c_ulong
+     |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1192:52
+     |
+1192 |                     parabuf.as_mut_ptr() as *const libc::c_void,
+     |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+    --> src//fmt.rs:1193:23
+     |
+1193 |                     ::core::mem::size_of::<libc::c_char>() as libc::c_ulong,
+     |                       ^^^^ maybe a missing crate `core`?
+     |
+     = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1193:44
+     |
+1193 |                     ::core::mem::size_of::<libc::c_char>() as libc::c_ulong,
+     |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1193:63
+     |
+1193 |                     ::core::mem::size_of::<libc::c_char>() as libc::c_ulong,
+     |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1194:63
+     |
+1194 |                     wptr.offset_from(parabuf.as_mut_ptr()) as libc::c_long as size_t,
+     |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1204:27
+     |
+1204 |     best_break = if (0 as libc::c_int as COST) < -(1 as libc::c_int) as COST {
+     |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1204:57
+     |
+1204 |     best_break = if (0 as libc::c_int as COST) < -(1 as libc::c_int) as COST {
+     |                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1205:16
+     |
+1205 |         -(1 as libc::c_int) as COST
+     |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1207:17
+     |
+1207 |         (((1 as libc::c_int as COST)
+     |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+    --> src//fmt.rs:1208:19
+     |
+1208 |             << (::core::mem::size_of::<COST>() as libc::c_ulong)
+     |                   ^^^^ maybe a missing crate `core`?
+     |
+     = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1208:51
+     |
+1208 |             << (::core::mem::size_of::<COST>() as libc::c_ulong)
+     |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1209:36
+     |
+1209 |                 .wrapping_mul(8 as libc::c_int as libc::c_ulong)
+     |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1209:51
+     |
+1209 |                 .wrapping_mul(8 as libc::c_int as libc::c_ulong)
+     |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1210:36
+     |
+1210 |                 .wrapping_sub(2 as libc::c_int as libc::c_ulong))
+     |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1210:51
+     |
+1210 |                 .wrapping_sub(2 as libc::c_int as libc::c_ulong))
+     |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1211:20
+     |
+1211 |             - 1 as libc::c_int as libc::c_long) * 2 as libc::c_int as libc::c_long
+     |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1211:35
+     |
+1211 |             - 1 as libc::c_int as libc::c_long) * 2 as libc::c_int as libc::c_long
+     |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1211:56
+     |
+1211 |             - 1 as libc::c_int as libc::c_long) * 2 as libc::c_int as libc::c_long
+     |                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1211:71
+     |
+1211 |             - 1 as libc::c_int as libc::c_long) * 2 as libc::c_int as libc::c_long
+     |                                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1212:20
+     |
+1212 |             + 1 as libc::c_int as libc::c_long
+     |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1212:35
+     |
+1212 |             + 1 as libc::c_int as libc::c_long
+     |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1221:26
+     |
+1221 |             <= (if (0 as libc::c_int as COST) < -(1 as libc::c_int) as COST {
+     |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1221:56
+     |
+1221 |             <= (if (0 as libc::c_int as COST) < -(1 as libc::c_int) as COST {
+     |                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1222:24
+     |
+1222 |                 -(1 as libc::c_int) as COST
+     |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1224:25
+     |
+1224 |                 (((1 as libc::c_int as COST)
+     |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+    --> src//fmt.rs:1225:27
+     |
+1225 |                     << (::core::mem::size_of::<COST>() as libc::c_ulong)
+     |                           ^^^^ maybe a missing crate `core`?
+     |
+     = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1225:59
+     |
+1225 |                     << (::core::mem::size_of::<COST>() as libc::c_ulong)
+     |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1226:44
+     |
+1226 |                         .wrapping_mul(8 as libc::c_int as libc::c_ulong)
+     |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1226:59
+     |
+1226 |                         .wrapping_mul(8 as libc::c_int as libc::c_ulong)
+     |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1227:44
+     |
+1227 |                         .wrapping_sub(2 as libc::c_int as libc::c_ulong))
+     |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1227:59
+     |
+1227 |                         .wrapping_sub(2 as libc::c_int as libc::c_ulong))
+     |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1228:28
+     |
+1228 |                     - 1 as libc::c_int as libc::c_long)
+     |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1228:43
+     |
+1228 |                     - 1 as libc::c_int as libc::c_long)
+     |                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1229:28
+     |
+1229 |                     * 2 as libc::c_int as libc::c_long + 1 as libc::c_int as libc::c_long
+     |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1229:43
+     |
+1229 |                     * 2 as libc::c_int as libc::c_long + 1 as libc::c_int as libc::c_long
+     |                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1229:63
+     |
+1229 |                     * 2 as libc::c_int as libc::c_long + 1 as libc::c_int as libc::c_long
+     |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1229:78
+     |
+1229 |                     * 2 as libc::c_int as libc::c_long + 1 as libc::c_int as libc::c_long
+     |                                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1230:23
+     |
+1230 |             }) - 3 as libc::c_int as COST * 3 as libc::c_int as COST
+     |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1230:50
+     |
+1230 |             }) - 3 as libc::c_int as COST * 3 as libc::c_int as COST
+     |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1232:32
+     |
+1232 |             best_break += 3 as libc::c_int as COST * 3 as libc::c_int as COST;
+     |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1232:59
+     |
+1232 |             best_break += 3 as libc::c_int as COST * 3 as libc::c_int as COST;
+     |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1238:38
+     |
+1238 |         parabuf.as_mut_ptr() as *mut libc::c_void,
+     |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1239:39
+     |
+1239 |         (*split_point).text as *const libc::c_void,
+     |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1240:50
+     |
+1240 |         wptr.offset_from((*split_point).text) as libc::c_long as libc::c_ulong,
+     |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1240:66
+     |
+1240 |         wptr.offset_from((*split_point).text) as libc::c_long as libc::c_ulong,
+     |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1242:72
+     |
+1242 |     shift = ((*split_point).text).offset_from(parabuf.as_mut_ptr()) as libc::c_long
+     |                                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1243:12
+     |
+1243 |         as libc::c_int;
+     |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1251:47
+     |
+1251 |         unused_word_type.as_mut_ptr() as *mut libc::c_void,
+     |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1252:31
+     |
+1252 |         split_point as *const libc::c_void,
+     |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1253:50
+     |
+1253 |         ((word_limit.offset_from(split_point) as libc::c_long
+     |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1254:20
+     |
+1254 |             + 1 as libc::c_int as libc::c_long) as libc::c_ulong)
+     |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1254:35
+     |
+1254 |             + 1 as libc::c_int as libc::c_long) as libc::c_ulong)
+     |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1254:52
+     |
+1254 |             + 1 as libc::c_int as libc::c_long) as libc::c_ulong)
+     |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+    --> src//fmt.rs:1255:29
+     |
+1255 |             .wrapping_mul(::core::mem::size_of::<WORD>() as libc::c_ulong),
+     |                             ^^^^ maybe a missing crate `core`?
+     |
+     = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1255:61
+     |
+1255 |             .wrapping_mul(::core::mem::size_of::<WORD>() as libc::c_ulong),
+     |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1259:73
+     |
+1259 |             -(split_point.offset_from(unused_word_type.as_mut_ptr()) as libc::c_long
+     |                                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1266:18
+     |
+1266 |     let mut len: libc::c_int = 0;
+     |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1269:27
+     |
+1269 |     let mut saved_length: libc::c_int = 0;
+     |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1270:36
+     |
+1270 |     (*word_limit).best_cost = 0 as libc::c_int as COST;
+     |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1273:38
+     |
+1273 |     start = word_limit.offset(-(1 as libc::c_int as isize));
+     |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1275:25
+     |
+1275 |         best = if (0 as libc::c_int as COST) < -(1 as libc::c_int) as COST {
+     |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1275:55
+     |
+1275 |         best = if (0 as libc::c_int as COST) < -(1 as libc::c_int) as COST {
+     |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1276:20
+     |
+1276 |             -(1 as libc::c_int) as COST
+     |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1278:21
+     |
+1278 |             (((1 as libc::c_int as COST)
+     |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+    --> src//fmt.rs:1279:23
+     |
+1279 |                 << (::core::mem::size_of::<COST>() as libc::c_ulong)
+     |                       ^^^^ maybe a missing crate `core`?
+     |
+     = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1279:55
+     |
+1279 |                 << (::core::mem::size_of::<COST>() as libc::c_ulong)
+     |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1280:40
+     |
+1280 |                     .wrapping_mul(8 as libc::c_int as libc::c_ulong)
+     |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1280:55
+     |
+1280 |                     .wrapping_mul(8 as libc::c_int as libc::c_ulong)
+     |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1281:40
+     |
+1281 |                     .wrapping_sub(2 as libc::c_int as libc::c_ulong))
+     |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1281:55
+     |
+1281 |                     .wrapping_sub(2 as libc::c_int as libc::c_ulong))
+     |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1282:24
+     |
+1282 |                 - 1 as libc::c_int as libc::c_long) * 2 as libc::c_int as libc::c_long
+     |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1282:39
+     |
+1282 |                 - 1 as libc::c_int as libc::c_long) * 2 as libc::c_int as libc::c_long
+     |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1282:60
+     |
+1282 |                 - 1 as libc::c_int as libc::c_long) * 2 as libc::c_int as libc::c_long
+     |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1282:75
+     |
+1282 |                 - 1 as libc::c_int as libc::c_long) * 2 as libc::c_int as libc::c_long
+     |                                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1283:24
+     |
+1283 |                 + 1 as libc::c_int as libc::c_long
+     |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1283:39
+     |
+1283 |                 + 1 as libc::c_int as libc::c_long
+     |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1296:44
+     |
+1296 |                 && last_line_length > 0 as libc::c_int
+     |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1299:58
+     |
+1299 |                     += ((len - last_line_length) * 10 as libc::c_int) as COST
+     |                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1300:61
+     |
+1300 |                         * ((len - last_line_length) * 10 as libc::c_int) as COST
+     |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1301:32
+     |
+1301 |                         / 2 as libc::c_int as libc::c_long;
+     |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1301:47
+     |
+1301 |                         / 2 as libc::c_int as libc::c_long;
+     |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1311:38
+     |
+1311 |             len += (*w.offset(-(1 as libc::c_int as isize))).space + (*w).length;
+     |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1323:18
+     |
+1323 |     cost = 70 as libc::c_int as COST * 70 as libc::c_int as COST;
+     |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1323:46
+     |
+1323 |     cost = 70 as libc::c_int as COST * 70 as libc::c_int as COST;
+     |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1325:33
+     |
+1325 |         if (*this.offset(-(1 as libc::c_int as isize))).period() != 0 {
+     |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1326:37
+     |
+1326 |             if (*this.offset(-(1 as libc::c_int as isize))).final_0() != 0 {
+     |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1327:31
+     |
+1327 |                 cost -= 50 as libc::c_int as COST * 50 as libc::c_int as COST;
+     |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1327:59
+     |
+1327 |                 cost -= 50 as libc::c_int as COST * 50 as libc::c_int as COST;
+     |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1329:32
+     |
+1329 |                 cost += 600 as libc::c_int as COST * 600 as libc::c_int as COST;
+     |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1329:61
+     |
+1329 |                 cost += 600 as libc::c_int as COST * 600 as libc::c_int as COST;
+     |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1331:40
+     |
+1331 |         } else if (*this.offset(-(1 as libc::c_int as isize))).punct() != 0 {
+     |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1332:27
+     |
+1332 |             cost -= 40 as libc::c_int as COST * 40 as libc::c_int as COST;
+     |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1332:55
+     |
+1332 |             cost -= 40 as libc::c_int as COST * 40 as libc::c_int as COST;
+     |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1333:68
+     |
+1333 |         } else if this > unused_word_type.as_mut_ptr().offset(1 as libc::c_int as isize)
+     |                                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1334:37
+     |
+1334 |             && (*this.offset(-(2 as libc::c_int as isize))).final_0() as libc::c_int != 0
+     |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1334:74
+     |
+1334 |             && (*this.offset(-(2 as libc::c_int as isize))).final_0() as libc::c_int != 0
+     |                                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1337:27
+     |
+1337 |                 += 200 as libc::c_int as COST * 200 as libc::c_int as COST
+     |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1337:56
+     |
+1337 |                 += 200 as libc::c_int as COST * 200 as libc::c_int as COST
+     |                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1338:45
+     |
+1338 |                     / ((*this.offset(-(1 as libc::c_int as isize))).length
+     |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1339:32
+     |
+1339 |                         + 2 as libc::c_int) as libc::c_long;
+     |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1339:48
+     |
+1339 |                         + 2 as libc::c_int) as libc::c_long;
+     |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1343:23
+     |
+1343 |         cost -= 40 as libc::c_int as COST * 40 as libc::c_int as COST;
+     |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1343:51
+     |
+1343 |         cost -= 40 as libc::c_int as COST * 40 as libc::c_int as COST;
+     |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1346:23
+     |
+1346 |             += 150 as libc::c_int as COST * 150 as libc::c_int as COST
+     |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1346:52
+     |
+1346 |             += 150 as libc::c_int as COST * 150 as libc::c_int as COST
+     |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1347:42
+     |
+1347 |                 / ((*this).length + 2 as libc::c_int) as libc::c_long;
+     |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1347:58
+     |
+1347 |                 / ((*this).length + 2 as libc::c_int) as libc::c_long;
+     |                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1351:62
+     |
+1351 | unsafe extern "C" fn line_cost(mut next: *mut WORD, mut len: libc::c_int) -> COST {
+     |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1352:16
+     |
+1352 |     let mut n: libc::c_int = 0;
+     |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1355:21
+     |
+1355 |         return 0 as libc::c_int as COST;
+     |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1358:23
+     |
+1358 |     cost = (n * 10 as libc::c_int) as COST * (n * 10 as libc::c_int) as COST;
+     |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1358:57
+     |
+1358 |     cost = (n * 10 as libc::c_int) as COST * (n * 10 as libc::c_int) as COST;
+     |                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1362:27
+     |
+1362 |             += (n * 10 as libc::c_int) as COST * (n * 10 as libc::c_int) as COST
+     |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1362:61
+     |
+1362 |             += (n * 10 as libc::c_int) as COST * (n * 10 as libc::c_int) as COST
+     |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1363:24
+     |
+1363 |                 / 2 as libc::c_int as libc::c_long;
+     |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1363:39
+     |
+1363 |                 / 2 as libc::c_int as libc::c_long;
+     |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1376:61
+     |
+1376 | unsafe extern "C" fn put_line(mut w: *mut WORD, mut indent: libc::c_int) {
+     |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1378:23
+     |
+1378 |     out_column = 0 as libc::c_int;
+     |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1383:47
+     |
+1383 |     endline = ((*w).next_break).offset(-(1 as libc::c_int as isize));
+     |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1394:23
+     |
+1394 |     let mut s: *const libc::c_char = 0 as *const libc::c_char;
+     |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1394:50
+     |
+1394 |     let mut s: *const libc::c_char = 0 as *const libc::c_char;
+     |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1395:16
+     |
+1395 |     let mut n: libc::c_int = 0;
+     |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1398:21
+     |
+1398 |     while n != 0 as libc::c_int {
+     |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1401:37
+     |
+1401 |         putchar_unlocked(*fresh9 as libc::c_int);
+     |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1406:43
+     |
+1406 | unsafe extern "C" fn put_space(mut space: libc::c_int) {
+     |                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1407:27
+     |
+1407 |     let mut space_target: libc::c_int = 0;
+     |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1408:25
+     |
+1408 |     let mut tab_target: libc::c_int = 0;
+     |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1411:42
+     |
+1411 |         tab_target = space_target / 8 as libc::c_int * 8 as libc::c_int;
+     |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1411:61
+     |
+1411 |         tab_target = space_target / 8 as libc::c_int * 8 as libc::c_int;
+     |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1412:31
+     |
+1412 |         if (out_column + 1 as libc::c_int) < tab_target {
+     |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1415:49
+     |
+1415 |                 out_column = (out_column / 8 as libc::c_int + 1 as libc::c_int)
+     |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1415:68
+     |
+1415 |                 out_column = (out_column / 8 as libc::c_int + 1 as libc::c_int)
+     |                                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1416:28
+     |
+1416 |                     * 8 as libc::c_int;
+     |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1426:30
+     |
+1426 |     let mut args: Vec::<*mut libc::c_char> = Vec::new();
+     |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+    --> src//fmt.rs:1434:17
+     |
+1434 |     args.push(::core::ptr::null_mut());
+     |                 ^^^^ maybe a missing crate `core`?
+     |
+     = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1438:37
+     |
+1438 |                 (args.len() - 1) as libc::c_int,
+     |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//fmt.rs:1439:48
+     |
+1439 |                 args.as_mut_ptr() as *mut *mut libc::c_char,
+     |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0599]: no method named `set_final_0` found for struct `Word` in the current scope
+   --> src//fmt.rs:979:15
+    |
+195 | pub struct Word {
+    | --------------- method `set_final_0` not found for this struct
+...
+979 |     (*fresh4).set_final_0(1 as libc::c_int as libc::c_uint);
+    |               ^^^^^^^^^^^ method not found in `Word`
+
+error[E0599]: no method named `set_period` found for struct `Word` in the current scope
+   --> src//fmt.rs:980:15
+    |
+195 | pub struct Word {
+    | --------------- method `set_period` not found for this struct
+...
+980 |     (*fresh5).set_period((*fresh4).final_0());
+    |               ^^^^^^^^^^ method not found in `Word`
+
+error[E0599]: no method named `final_0` found for struct `Word` in the current scope
+   --> src//fmt.rs:980:36
+    |
+195 | pub struct Word {
+    | --------------- method `final_0` not found for this struct
+...
+980 |     (*fresh5).set_period((*fresh4).final_0());
+    |                                    ^^^^^^^ method not found in `Word`
+
+error[E0599]: no method named `set_final_0` found for struct `Word` in the current scope
+    --> src//fmt.rs:1047:14
+     |
+195  | pub struct Word {
+     | --------------- method `set_final_0` not found for this struct
+...
+1047 |             .set_final_0(
+     |              ^^^^^^^^^^^ method not found in `Word`
+
+error[E0599]: no method named `period` found for struct `Word` in the current scope
+    --> src//fmt.rs:1049:38
+     |
+195  | pub struct Word {
+     | --------------- method `period` not found for this struct
+...
+1049 |                     || (*word_limit).period() as libc::c_int != 0
+     |                                      ^^^^^^ method not found in `Word`
+
+error[E0599]: no method named `final_0` found for struct `Word` in the current scope
+    --> src//fmt.rs:1055:43
+     |
+195  | pub struct Word {
+     | --------------- method `final_0` not found for this struct
+...
+1055 |                 .space = if (*word_limit).final_0() as libc::c_int != 0 {
+     |                                           ^^^^^^^ method not found in `Word`
+
+error[E0599]: no method named `set_paren` found for struct `Word` in the current scope
+    --> src//fmt.rs:1119:10
+     |
+195  | pub struct Word {
+     | --------------- method `set_paren` not found for this struct
+...
+1119 |         .set_paren(
+     |          ^^^^^^^^^ method not found in `Word`
+
+error[E0599]: no method named `set_punct` found for struct `Word` in the current scope
+    --> src//fmt.rs:1127:10
+     |
+195  | pub struct Word {
+     | --------------- method `set_punct` not found for this struct
+...
+1127 |         .set_punct(
+     |          ^^^^^^^^^ method not found in `Word`
+
+error[E0599]: no method named `set_period` found for struct `Word` in the current scope
+    --> src//fmt.rs:1142:10
+     |
+195  | pub struct Word {
+     | --------------- method `set_period` not found for this struct
+...
+1142 |         .set_period(
+     |          ^^^^^^^^^^ method not found in `Word`
+
+error[E0599]: no method named `period` found for struct `Word` in the current scope
+    --> src//fmt.rs:1325:57
+     |
+195  | pub struct Word {
+     | --------------- method `period` not found for this struct
+...
+1325 |         if (*this.offset(-(1 as libc::c_int as isize))).period() != 0 {
+     |                                                         ^^^^^^ method not found in `Word`
+
+error[E0599]: no method named `final_0` found for struct `Word` in the current scope
+    --> src//fmt.rs:1326:61
+     |
+195  | pub struct Word {
+     | --------------- method `final_0` not found for this struct
+...
+1326 |             if (*this.offset(-(1 as libc::c_int as isize))).final_0() != 0 {
+     |                                                             ^^^^^^^ method not found in `Word`
+
+error[E0599]: no method named `punct` found for struct `Word` in the current scope
+    --> src//fmt.rs:1331:64
+     |
+195  | pub struct Word {
+     | --------------- method `punct` not found for this struct
+...
+1331 |         } else if (*this.offset(-(1 as libc::c_int as isize))).punct() != 0 {
+     |                                                                ^^^^^ method not found in `Word`
+
+error[E0599]: no method named `final_0` found for struct `Word` in the current scope
+    --> src//fmt.rs:1334:61
+     |
+195  | pub struct Word {
+     | --------------- method `final_0` not found for this struct
+...
+1334 |             && (*this.offset(-(2 as libc::c_int as isize))).final_0() as libc::c_int != 0
+     |                                                             ^^^^^^^ method not found in `Word`
+
+error[E0599]: no method named `paren` found for struct `Word` in the current scope
+    --> src//fmt.rs:1342:16
+     |
+195  | pub struct Word {
+     | --------------- method `paren` not found for this struct
+...
+1342 |     if (*this).paren() != 0 {
+     |                ^^^^^ method not found in `Word`
+
+error[E0599]: no method named `final_0` found for struct `Word` in the current scope
+    --> src//fmt.rs:1344:23
+     |
+195  | pub struct Word {
+     | --------------- method `final_0` not found for this struct
+...
+1344 |     } else if (*this).final_0() != 0 {
+     |                       ^^^^^^^ method not found in `Word`
+
+error: aborting due to 724 previous errors
+
+Some errors have detailed explanations: E0433, E0599.
+For more information about an error, try `rustc --explain E0433`.

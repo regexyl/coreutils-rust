@@ -1,0 +1,2578 @@
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//chown_core.rs:7:25
+  |
+7 |     fn printf(_: *const libc::c_char, _: ...) -> libc::c_int;
+  |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//chown_core.rs:7:50
+  |
+7 |     fn printf(_: *const libc::c_char, _: ...) -> libc::c_int;
+  |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:10:20
+   |
+10 |     fn close(__fd: libc::c_int) -> libc::c_int;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:10:36
+   |
+10 |     fn close(__fd: libc::c_int) -> libc::c_int;
+   |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:11:21
+   |
+11 |     fn fchown(__fd: libc::c_int, __owner: __uid_t, __group: __gid_t) -> libc::c_int;
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:11:73
+   |
+11 |     fn fchown(__fd: libc::c_int, __owner: __uid_t, __group: __gid_t) -> libc::c_int;
+   |                                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:13:15
+   |
+13 |         __fd: libc::c_int,
+   |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:14:24
+   |
+14 |         __file: *const libc::c_char,
+   |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:17:17
+   |
+17 |         __flag: libc::c_int,
+   |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:18:10
+   |
+18 |     ) -> libc::c_int;
+   |          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:20:15
+   |
+20 |         __fd: libc::c_int,
+   |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:21:24
+   |
+21 |         __file: *const libc::c_char,
+   |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:23:17
+   |
+23 |         __flag: libc::c_int,
+   |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:24:10
+   |
+24 |     ) -> libc::c_int;
+   |          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:25:20
+   |
+25 |     fn fstat(__fd: libc::c_int, __buf: *mut stat) -> libc::c_int;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:25:54
+   |
+25 |     fn fstat(__fd: libc::c_int, __buf: *mut stat) -> libc::c_int;
+   |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:26:25
+   |
+26 |     fn strcmp(_: *const libc::c_char, _: *const libc::c_char) -> libc::c_int;
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:26:49
+   |
+26 |     fn strcmp(_: *const libc::c_char, _: *const libc::c_char) -> libc::c_int;
+   |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:26:66
+   |
+26 |     fn strcmp(_: *const libc::c_char, _: *const libc::c_char) -> libc::c_int;
+   |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:27:25
+   |
+27 |     fn strlen(_: *const libc::c_char) -> libc::c_ulong;
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:27:42
+   |
+27 |     fn strlen(_: *const libc::c_char) -> libc::c_ulong;
+   |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:28:23
+   |
+28 |     fn stpcpy(_: *mut libc::c_char, _: *const libc::c_char) -> *mut libc::c_char;
+   |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:28:47
+   |
+28 |     fn stpcpy(_: *mut libc::c_char, _: *const libc::c_char) -> *mut libc::c_char;
+   |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:28:69
+   |
+28 |     fn stpcpy(_: *mut libc::c_char, _: *const libc::c_char) -> *mut libc::c_char;
+   |                                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:29:21
+   |
+29 |     fn free(_: *mut libc::c_void);
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:30:35
+   |
+30 |     fn __errno_location() -> *mut libc::c_int;
+   |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:32:12
+   |
+32 |         n: libc::c_int,
+   |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:34:21
+   |
+34 |         arg: *const libc::c_char,
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:35:15
+   |
+35 |     ) -> *mut libc::c_char;
+   |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:36:53
+   |
+36 |     fn quotearg_style(s: quoting_style, arg: *const libc::c_char) -> *mut libc::c_char;
+   |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:36:75
+   |
+36 |     fn quotearg_style(s: quoting_style, arg: *const libc::c_char) -> *mut libc::c_char;
+   |                                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:38:12
+   |
+38 |         n: libc::c_int,
+   |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:40:21
+   |
+40 |         arg: *const libc::c_char,
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:41:15
+   |
+41 |     ) -> *mut libc::c_char;
+   |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:42:40
+   |
+42 |     fn umaxtostr(_: uintmax_t, _: *mut libc::c_char) -> *mut libc::c_char;
+   |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:42:62
+   |
+42 |     fn umaxtostr(_: uintmax_t, _: *mut libc::c_char) -> *mut libc::c_char;
+   |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:43:39
+   |
+43 |     fn imaxtostr(_: intmax_t, _: *mut libc::c_char) -> *mut libc::c_char;
+   |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:43:61
+   |
+43 |     fn imaxtostr(_: intmax_t, _: *mut libc::c_char) -> *mut libc::c_char;
+   |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:45:15
+   |
+45 |         __fd: libc::c_int,
+   |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:46:24
+   |
+46 |         __file: *const libc::c_char,
+   |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:47:18
+   |
+47 |         __oflag: libc::c_int,
+   |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:49:10
+   |
+49 |     ) -> libc::c_int;
+   |          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:51:30
+   |
+51 |         __domainname: *const libc::c_char,
+   |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:52:25
+   |
+52 |         __msgid: *const libc::c_char,
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:53:21
+   |
+53 |         __category: libc::c_int,
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:54:15
+   |
+54 |     ) -> *mut libc::c_char;
+   |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:55:35
+   |
+55 |     fn xmalloc(s: size_t) -> *mut libc::c_void;
+   |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:56:28
+   |
+56 |     fn xstrdup(str: *const libc::c_char) -> *mut libc::c_char;
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:56:50
+   |
+56 |     fn xstrdup(str: *const libc::c_char) -> *mut libc::c_char;
+   |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:59:19
+   |
+59 |         __status: libc::c_int,
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:60:19
+   |
+60 |         __errnum: libc::c_int,
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:61:26
+   |
+61 |         __format: *const libc::c_char,
+   |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:65:24
+   |
+65 |         _: *const *mut libc::c_char,
+   |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:66:18
+   |
+66 |         options: libc::c_int,
+   |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:68:77
+   |
+68 |             unsafe extern "C" fn(*mut *const FTSENT, *mut *const FTSENT) -> libc::c_int,
+   |                                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:72:38
+   |
+72 |     fn rpl_fts_close(_: *mut FTS) -> libc::c_int;
+   |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:74:52
+   |
+74 |     fn rpl_fts_set(_: *mut FTS, _: *mut FTSENT, _: libc::c_int) -> libc::c_int;
+   |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:74:68
+   |
+74 |     fn rpl_fts_set(_: *mut FTS, _: *mut FTSENT, _: libc::c_int) -> libc::c_int;
+   |                                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:76:19
+   |
+76 | pub type size_t = libc::c_ulong;
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:77:23
+   |
+77 | pub type __intmax_t = libc::c_long;
+   |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:78:24
+   |
+78 | pub type __uintmax_t = libc::c_ulong;
+   |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:79:20
+   |
+79 | pub type __dev_t = libc::c_ulong;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:80:20
+   |
+80 | pub type __uid_t = libc::c_uint;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:81:20
+   |
+81 | pub type __gid_t = libc::c_uint;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:82:20
+   |
+82 | pub type __ino_t = libc::c_ulong;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:83:21
+   |
+83 | pub type __mode_t = libc::c_uint;
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:84:22
+   |
+84 | pub type __nlink_t = libc::c_uint;
+   |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:85:20
+   |
+85 | pub type __off_t = libc::c_long;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:86:21
+   |
+86 | pub type __time_t = libc::c_long;
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:87:24
+   |
+87 | pub type __blksize_t = libc::c_int;
+   |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:88:23
+   |
+88 | pub type __blkcnt_t = libc::c_long;
+   |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:89:30
+   |
+89 | pub type __syscall_slong_t = libc::c_long;
+   |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//chown_core.rs:90:22
+   |
+90 | pub type ptrdiff_t = libc::c_long;
+   |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:104:23
+    |
+104 |     pub pw_name: *mut libc::c_char,
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:105:25
+    |
+105 |     pub pw_passwd: *mut libc::c_char,
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:108:24
+    |
+108 |     pub pw_gecos: *mut libc::c_char,
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:109:22
+    |
+109 |     pub pw_dir: *mut libc::c_char,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:110:24
+    |
+110 |     pub pw_shell: *mut libc::c_char,
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:115:23
+    |
+115 |     pub gr_name: *mut libc::c_char,
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:116:25
+    |
+116 |     pub gr_passwd: *mut libc::c_char,
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:118:27
+    |
+118 |     pub gr_mem: *mut *mut libc::c_char,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:133:17
+    |
+133 |     pub __pad2: libc::c_int,
+    |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:138:28
+    |
+138 |     pub __glibc_reserved: [libc::c_int; 2],
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:143:26
+    |
+143 | pub type quoting_style = libc::c_uint;
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:161:26
+    |
+161 | pub type Change_status = libc::c_uint;
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:166:22
+    |
+166 | pub type Verbosity = libc::c_uint;
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:178:25
+    |
+178 |     pub user_name: *mut libc::c_char,
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:179:26
+    |
+179 |     pub group_name: *mut libc::c_char,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:188:24
+    |
+188 |     pub fts_path: *mut libc::c_char,
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:189:18
+    |
+189 |     pub fts_rfd: libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:190:21
+    |
+190 |     pub fts_cwd_fd: libc::c_int,
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:194:75
+    |
+194 |         unsafe extern "C" fn(*mut *const _ftsent, *mut *const _ftsent) -> libc::c_int,
+    |                                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:196:22
+    |
+196 |     pub fts_options: libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:204:19
+    |
+204 |     pub ir_data: [libc::c_int; 4],
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:205:25
+    |
+205 |     pub ir_default_val: libc::c_int,
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:206:19
+    |
+206 |     pub ir_front: libc::c_uint,
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:207:18
+    |
+207 |     pub ir_back: libc::c_uint,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:223:21
+    |
+223 |     pub fts_number: libc::c_long,
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:224:27
+    |
+224 |     pub fts_pointer: *mut libc::c_void,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:225:27
+    |
+225 |     pub fts_accpath: *mut libc::c_char,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:226:24
+    |
+226 |     pub fts_path: *mut libc::c_char,
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:227:20
+    |
+227 |     pub fts_errno: libc::c_int,
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:228:20
+    |
+228 |     pub fts_symfd: libc::c_int,
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:233:19
+    |
+233 |     pub fts_info: libc::c_ushort,
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:234:20
+    |
+234 |     pub fts_flags: libc::c_ushort,
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:235:20
+    |
+235 |     pub fts_instr: libc::c_ushort,
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:237:20
+    |
+237 |     pub fts_name: [libc::c_char; 0],
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:245:23
+    |
+245 | pub type RCH_status = libc::c_uint;
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:248:13
+    |
+248 |     mut fd: libc::c_int,
+    |             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:249:22
+    |
+249 |     mut file: *const libc::c_char,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:252:6
+    |
+252 | ) -> libc::c_int {
+    |      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:253:50
+    |
+253 |     return fchownat(fd, file, owner, group, 0 as libc::c_int);
+    |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:257:13
+    |
+257 |     mut fd: libc::c_int,
+    |             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:258:22
+    |
+258 |     mut file: *const libc::c_char,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:261:6
+    |
+261 | ) -> libc::c_int {
+    |      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:262:54
+    |
+262 |     return fchownat(fd, file, owner, group, 0x100 as libc::c_int);
+    |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:268:45
+    |
+268 |     (*chopt).affect_symlink_referent = 1 as libc::c_int != 0;
+    |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:269:29
+    |
+269 |     (*chopt).recurse = 0 as libc::c_int != 0;
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:270:34
+    |
+270 |     (*chopt).force_silent = 0 as libc::c_int != 0;
+    |                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:271:36
+    |
+271 |     (*chopt).user_name = 0 as *mut libc::c_char;
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:272:37
+    |
+272 |     (*chopt).group_name = 0 as *mut libc::c_char;
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:276:37
+    |
+276 |     free((*chopt).user_name as *mut libc::c_void);
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:277:38
+    |
+277 |     free((*chopt).group_name as *mut libc::c_void);
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:279:57
+    |
+279 | unsafe extern "C" fn uid_to_str(mut uid: uid_t) -> *mut libc::c_char {
+    |                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:280:19
+    |
+280 |     let mut buf: [libc::c_char; 21] = [0; 21];
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:282:20
+    |
+282 |         if !((0 as libc::c_int as uid_t) < -(1 as libc::c_int) as uid_t) {
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:282:51
+    |
+282 |         if !((0 as libc::c_int as uid_t) < -(1 as libc::c_int) as uid_t) {
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:289:57
+    |
+289 | unsafe extern "C" fn gid_to_str(mut gid: gid_t) -> *mut libc::c_char {
+    |                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:290:19
+    |
+290 |     let mut buf: [libc::c_char; 21] = [0; 21];
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:292:20
+    |
+292 |         if !((0 as libc::c_int as gid_t) < -(1 as libc::c_int) as gid_t) {
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:292:51
+    |
+292 |         if !((0 as libc::c_int as gid_t) < -(1 as libc::c_int) as gid_t) {
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:300:62
+    |
+300 | pub unsafe extern "C" fn gid_to_name(mut gid: gid_t) -> *mut libc::c_char {
+    |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:305:62
+    |
+305 | pub unsafe extern "C" fn uid_to_name(mut uid: uid_t) -> *mut libc::c_char {
+    |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:310:22
+    |
+310 |     mut user: *const libc::c_char,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:311:23
+    |
+311 |     mut group: *const libc::c_char,
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:312:11
+    |
+312 | ) -> *mut libc::c_char {
+    |           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:313:24
+    |
+313 |     let mut spec: *mut libc::c_char = 0 as *mut libc::c_char;
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:313:49
+    |
+313 |     let mut spec: *mut libc::c_char = 0 as *mut libc::c_char;
+    |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:318:40
+    |
+318 |                     .wrapping_add(1 as libc::c_int as libc::c_ulong)
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:318:55
+    |
+318 |                     .wrapping_add(1 as libc::c_int as libc::c_ulong)
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:320:40
+    |
+320 |                     .wrapping_add(1 as libc::c_int as libc::c_ulong),
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:320:55
+    |
+320 |                     .wrapping_add(1 as libc::c_int as libc::c_ulong),
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:321:23
+    |
+321 |             ) as *mut libc::c_char;
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:323:74
+    |
+323 |                 stpcpy(stpcpy(spec, user), b":\0" as *const u8 as *const libc::c_char),
+    |                                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:335:22
+    |
+335 |     mut file: *const libc::c_char,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:337:26
+    |
+337 |     mut old_user: *const libc::c_char,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:338:27
+    |
+338 |     mut old_group: *const libc::c_char,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:339:22
+    |
+339 |     mut user: *const libc::c_char,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:340:23
+    |
+340 |     mut group: *const libc::c_char,
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:342:25
+    |
+342 |     let mut fmt: *const libc::c_char = 0 as *const libc::c_char;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:342:52
+    |
+342 |     let mut fmt: *const libc::c_char = 0 as *const libc::c_char;
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:343:28
+    |
+343 |     let mut old_spec: *mut libc::c_char = 0 as *mut libc::c_char;
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:343:53
+    |
+343 |     let mut old_spec: *mut libc::c_char = 0 as *mut libc::c_char;
+    |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:344:24
+    |
+344 |     let mut spec: *mut libc::c_char = 0 as *mut libc::c_char;
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:344:49
+    |
+344 |     let mut spec: *mut libc::c_char = 0 as *mut libc::c_char;
+    |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:345:19
+    |
+345 |     if changed as libc::c_uint == CH_NOT_APPLIED as libc::c_int as libc::c_uint {
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:345:53
+    |
+345 |     if changed as libc::c_uint == CH_NOT_APPLIED as libc::c_int as libc::c_uint {
+    |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:345:68
+    |
+345 |     if changed as libc::c_uint == CH_NOT_APPLIED as libc::c_int as libc::c_uint {
+    |                                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:348:29
+    |
+348 |                 0 as *const libc::c_char,
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:350:44
+    |
+350 |                     as *const u8 as *const libc::c_char,
+    |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:351:22
+    |
+351 |                 5 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:359:60
+    |
+359 |         if !user.is_null() { old_user } else { 0 as *const libc::c_char },
+    |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:360:62
+    |
+360 |         if !group.is_null() { old_group } else { 0 as *const libc::c_char },
+    |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:362:22
+    |
+362 |     match changed as libc::c_uint {
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:366:33
+    |
+366 |                     0 as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:368:35
+    |
+368 |                         as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:369:26
+    |
+369 |                     5 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:373:33
+    |
+373 |                     0 as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:375:35
+    |
+375 |                         as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:376:26
+    |
+376 |                     5 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:380:33
+    |
+380 |                     0 as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:382:35
+    |
+382 |                         as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:383:26
+    |
+383 |                     5 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:391:37
+    |
+391 |                         0 as *const libc::c_char,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:393:52
+    |
+393 | ...                   as *const u8 as *const libc::c_char,
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:394:30
+    |
+394 |                         5 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:398:37
+    |
+398 |                         0 as *const libc::c_char,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:400:39
+    |
+400 | ...                   as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:401:30
+    |
+401 |                         5 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:405:37
+    |
+405 |                         0 as *const libc::c_char,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:407:39
+    |
+407 | ...                   as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:408:30
+    |
+408 |                         5 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:414:37
+    |
+414 |                         0 as *const libc::c_char,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:416:39
+    |
+416 | ...                   as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:417:30
+    |
+417 |                         5 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:421:37
+    |
+421 |                         0 as *const libc::c_char,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:423:39
+    |
+423 | ...                   as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:424:30
+    |
+424 |                         5 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:428:37
+    |
+428 |                         0 as *const libc::c_char,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:430:39
+    |
+430 | ...                   as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:431:30
+    |
+431 |                         5 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:434:39
+    |
+434 |                 free(old_spec as *mut libc::c_void);
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:436:34
+    |
+436 |                 spec = 0 as *mut libc::c_char;
+    |                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:442:33
+    |
+442 |                     0 as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:444:35
+    |
+444 |                         as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:445:26
+    |
+445 |                     5 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:449:33
+    |
+449 |                     0 as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:451:35
+    |
+451 |                         as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:452:26
+    |
+452 |                     5 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:456:33
+    |
+456 |                     0 as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:457:76
+    |
+457 |                     b"ownership of %s retained\n\0" as *const u8 as *const libc::c_char,
+    |                                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:458:26
+    |
+458 |                     5 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:467:27
+    |
+467 |     free(old_spec as *mut libc::c_void);
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:468:23
+    |
+468 |     free(spec as *mut libc::c_void);
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:471:17
+    |
+471 |     mut cwd_fd: libc::c_int,
+    |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:472:22
+    |
+472 |     mut file: *const libc::c_char,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:498:25
+    |
+498 |     let mut open_flags: libc::c_int = 0o4000 as libc::c_int | 0o400 as libc::c_int;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:498:49
+    |
+498 |     let mut open_flags: libc::c_int = 0o4000 as libc::c_int | 0o400 as libc::c_int;
+    |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:498:72
+    |
+498 |     let mut open_flags: libc::c_int = 0o4000 as libc::c_int | 0o400 as libc::c_int;
+    |                                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:499:17
+    |
+499 |     let mut fd: libc::c_int = 0;
+    |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:500:31
+    |
+500 |     if required_uid == -(1 as libc::c_int) as uid_t
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:501:35
+    |
+501 |         && required_gid == -(1 as libc::c_int) as gid_t
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:505:43
+    |
+505 |     if !((*orig_st).st_mode & 0o170000 as libc::c_int as libc::c_uint
+    |                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:505:58
+    |
+505 |     if !((*orig_st).st_mode & 0o170000 as libc::c_int as libc::c_uint
+    |                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:506:24
+    |
+506 |         == 0o100000 as libc::c_int as libc::c_uint)
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:506:39
+    |
+506 |         == 0o100000 as libc::c_int as libc::c_uint)
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:508:45
+    |
+508 |         if (*orig_st).st_mode & 0o170000 as libc::c_int as libc::c_uint
+    |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:508:60
+    |
+508 |         if (*orig_st).st_mode & 0o170000 as libc::c_int as libc::c_uint
+    |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:509:27
+    |
+509 |             == 0o40000 as libc::c_int as libc::c_uint
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:509:42
+    |
+509 |             == 0o40000 as libc::c_int as libc::c_uint
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:511:38
+    |
+511 |             open_flags |= 0o40000 as libc::c_int;
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:516:36
+    |
+516 |     fd = openat(cwd_fd, file, 0 as libc::c_int | open_flags);
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:517:15
+    |
+517 |     if !(0 as libc::c_int <= fd
+    |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:518:41
+    |
+518 |         || *__errno_location() == 13 as libc::c_int
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:519:49
+    |
+519 |             && (*orig_st).st_mode & 0o170000 as libc::c_int as libc::c_uint
+    |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:519:64
+    |
+519 |             && (*orig_st).st_mode & 0o170000 as libc::c_int as libc::c_uint
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:520:32
+    |
+520 |                 == 0o100000 as libc::c_int as libc::c_uint
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:520:47
+    |
+520 |                 == 0o100000 as libc::c_int as libc::c_uint
+    |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:522:50
+    |
+522 |                 fd = openat(cwd_fd, file, 0o1 as libc::c_int | open_flags);
+    |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:523:22
+    |
+523 |                 0 as libc::c_int <= fd
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:526:49
+    |
+526 |         return (if *__errno_location() == 13 as libc::c_int {
+    |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:527:37
+    |
+527 |             RC_do_ordinary_chown as libc::c_int
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:529:25
+    |
+529 |             RC_error as libc::c_int
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:532:35
+    |
+532 |     if fstat(fd, &mut st) != 0 as libc::c_int {
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:536:39
+    |
+536 |     } else if (required_uid == -(1 as libc::c_int) as uid_t || required_uid == st.st_uid)
+    |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:537:36
+    |
+537 |         && (required_gid == -(1 as libc::c_int) as gid_t || required_gid == st.st_gid)
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:539:41
+    |
+539 |         if fchown(fd, uid, gid) == 0 as libc::c_int {
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:540:44
+    |
+540 |             status = (if close(fd) == 0 as libc::c_int {
+    |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:541:26
+    |
+541 |                 RC_ok as libc::c_int
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:543:29
+    |
+543 |                 RC_error as libc::c_int
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:550:26
+    |
+550 |     let mut saved_errno: libc::c_int = *__errno_location();
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:564:36
+    |
+564 |     let mut file_full_name: *const libc::c_char = (*ent).fts_path;
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:565:26
+    |
+565 |     let mut file: *const libc::c_char = (*ent).fts_accpath;
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:585:29
+    |
+585 |     let mut ok: bool = 1 as libc::c_int != 0;
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:587:42
+    |
+587 |     let mut symlink_changed: bool = 1 as libc::c_int != 0;
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:588:30
+    |
+588 |     match (*ent).fts_info as libc::c_int {
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:597:77
+    |
+597 |                     if strcmp(file_full_name, b"/\0" as *const u8 as *const libc::c_char)
+    |                                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:598:33
+    |
+598 |                         == 0 as libc::c_int
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:601:34
+    |
+601 | ...                   0 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:602:34
+    |
+602 | ...                   0 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:604:45
+    |
+604 | ...                   0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:606:60
+    |
+606 | ...                   as *const u8 as *const libc::c_char,
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:607:38
+    |
+607 | ...                   5 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:616:34
+    |
+616 | ...                   0 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:617:34
+    |
+617 | ...                   0 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:619:45
+    |
+619 | ...                   0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:621:60
+    |
+621 | ...                   as *const u8 as *const libc::c_char,
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:622:38
+    |
+622 | ...                   5 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:625:38
+    |
+625 | ...                   0 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:630:38
+    |
+630 | ...                   1 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:632:63
+    |
+632 | ...                   b"/\0" as *const u8 as *const libc::c_char,
+    |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:637:30
+    |
+637 |                         0 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:638:30
+    |
+638 |                         0 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:640:41
+    |
+640 | ...                   0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:642:56
+    |
+642 | ...                   as *const u8 as *const libc::c_char,
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:643:34
+    |
+643 | ...                   5 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:646:48
+    |
+646 |                     rpl_fts_set(fts, ent, 4 as libc::c_int);
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:648:33
+    |
+648 |                     return 0 as libc::c_int != 0;
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:650:29
+    |
+650 |                 return 1 as libc::c_int != 0;
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:655:29
+    |
+655 |                 return 1 as libc::c_int != 0;
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:659:41
+    |
+659 |             if (*ent).fts_level == 0 as libc::c_int as libc::c_long
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:659:56
+    |
+659 |             if (*ent).fts_level == 0 as libc::c_int as libc::c_long
+    |                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:660:46
+    |
+660 |                 && (*ent).fts_number == 0 as libc::c_int as libc::c_long
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:660:61
+    |
+660 |                 && (*ent).fts_number == 0 as libc::c_int as libc::c_long
+    |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:662:42
+    |
+662 |                 (*ent).fts_number = 1 as libc::c_int as libc::c_long;
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:662:57
+    |
+662 |                 (*ent).fts_number = 1 as libc::c_int as libc::c_long;
+    |                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:663:44
+    |
+663 |                 rpl_fts_set(fts, ent, 1 as libc::c_int);
+    |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:664:29
+    |
+664 |                 return 1 as libc::c_int != 0;
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:668:26
+    |
+668 |                     0 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:671:37
+    |
+671 |                         0 as *const libc::c_char,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:672:70
+    |
+672 |                         b"cannot access %s\0" as *const u8 as *const libc::c_char,
+    |                                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:673:30
+    |
+673 |                         5 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:678:23
+    |
+678 |             ok = 0 as libc::c_int != 0;
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:683:26
+    |
+683 |                     0 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:685:52
+    |
+685 |                     b"%s\0" as *const u8 as *const libc::c_char,
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:687:30
+    |
+687 |                         0 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:693:23
+    |
+693 |             ok = 0 as libc::c_int != 0;
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:698:26
+    |
+698 |                     0 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:701:37
+    |
+701 |                         0 as *const libc::c_char,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:703:39
+    |
+703 | ...                   as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:704:30
+    |
+704 |                         5 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:709:23
+    |
+709 |             ok = 0 as libc::c_int != 0;
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:714:26
+    |
+714 |                     0 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:715:26
+    |
+715 |                     0 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:717:37
+    |
+717 |                         0 as *const libc::c_char,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:719:52
+    |
+719 | ...                   as *const u8 as *const libc::c_char,
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:720:30
+    |
+720 |                         5 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:723:30
+    |
+723 |                         0 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:728:29
+    |
+728 |                 return 0 as libc::c_int != 0;
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:734:25
+    |
+734 |         do_chown = 0 as libc::c_int != 0;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:736:38
+    |
+736 |     } else if required_uid == -(1 as libc::c_int) as uid_t
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:737:35
+    |
+737 |         && required_gid == -(1 as libc::c_int) as gid_t
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:738:34
+    |
+738 |         && (*chopt).verbosity as libc::c_uint == V_off as libc::c_int as libc::c_uint
+    |                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:738:59
+    |
+738 |         && (*chopt).verbosity as libc::c_uint == V_off as libc::c_int as libc::c_uint
+    |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:738:74
+    |
+738 |         && (*chopt).verbosity as libc::c_uint == V_off as libc::c_int as libc::c_uint
+    |                                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:741:25
+    |
+741 |         do_chown = 1 as libc::c_int != 0;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:745:48
+    |
+745 |         if (*chopt).affect_symlink_referent as libc::c_int != 0
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:746:52
+    |
+746 |             && (*file_stats).st_mode & 0o170000 as libc::c_int as libc::c_uint
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:746:67
+    |
+746 |             && (*file_stats).st_mode & 0o170000 as libc::c_int as libc::c_uint
+    |                                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:747:32
+    |
+747 |                 == 0o120000 as libc::c_int as libc::c_uint
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:747:47
+    |
+747 |                 == 0o120000 as libc::c_int as libc::c_uint
+    |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:749:69
+    |
+749 |             if fstatat((*fts).fts_cwd_fd, file, &mut stat_buf, 0 as libc::c_int)
+    |                                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:750:25
+    |
+750 |                 != 0 as libc::c_int
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:754:30
+    |
+754 |                         0 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:757:41
+    |
+757 | ...                   0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:759:43
+    |
+759 | ...                   as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:760:34
+    |
+760 | ...                   5 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:765:27
+    |
+765 |                 ok = 0 as libc::c_int != 0;
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:769:26
+    |
+769 |         do_chown = ok as libc::c_int != 0
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:770:40
+    |
+770 |             && (required_uid == -(1 as libc::c_int) as uid_t
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:772:40
+    |
+772 |             && (required_gid == -(1 as libc::c_int) as gid_t
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:775:14
+    |
+775 |     if ok as libc::c_int != 0
+    |              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:776:32
+    |
+776 |         && ((*ent).fts_info as libc::c_int == 1 as libc::c_int
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:776:52
+    |
+776 |         && ((*ent).fts_info as libc::c_int == 1 as libc::c_int
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:777:35
+    |
+777 |             || (*ent).fts_info as libc::c_int == 2 as libc::c_int
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:777:55
+    |
+777 |             || (*ent).fts_info as libc::c_int == 2 as libc::c_int
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:778:35
+    |
+778 |             || (*ent).fts_info as libc::c_int == 6 as libc::c_int
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:778:55
+    |
+778 |             || (*ent).fts_info as libc::c_int == 6 as libc::c_int
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:779:35
+    |
+779 |             || (*ent).fts_info as libc::c_int == 4 as libc::c_int)
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:779:55
+    |
+779 |             || (*ent).fts_info as libc::c_int == 4 as libc::c_int)
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:784:65
+    |
+784 |         if strcmp(file_full_name, b"/\0" as *const u8 as *const libc::c_char)
+    |                                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:785:21
+    |
+785 |             == 0 as libc::c_int
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:788:22
+    |
+788 |                 0 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:789:22
+    |
+789 |                 0 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:791:33
+    |
+791 |                     0 as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:793:35
+    |
+793 |                         as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:794:26
+    |
+794 |                     5 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:800:22
+    |
+800 |                 0 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:801:22
+    |
+801 |                 0 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:803:33
+    |
+803 |                     0 as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:805:48
+    |
+805 |                         as *const u8 as *const libc::c_char,
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:806:26
+    |
+806 |                     5 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:809:26
+    |
+809 |                     0 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:814:26
+    |
+814 |                     1 as libc::c_int,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:816:51
+    |
+816 |                     b"/\0" as *const u8 as *const libc::c_char,
+    |                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:821:18
+    |
+821 |             0 as libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:822:18
+    |
+822 |             0 as libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:824:29
+    |
+824 |                 0 as *const libc::c_char,
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:826:31
+    |
+826 |                     as *const libc::c_char,
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:827:22
+    |
+827 |                 5 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:830:21
+    |
+830 |         return 0 as libc::c_int != 0;
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:834:70
+    |
+834 |             ok = lchownat((*fts).fts_cwd_fd, file, uid, gid) == 0 as libc::c_int;
+    |                                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:835:52
+    |
+835 |             if !ok && *__errno_location() == 95 as libc::c_int {
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:836:27
+    |
+836 |                 ok = 1 as libc::c_int != 0;
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:837:40
+    |
+837 |                 symlink_changed = 0 as libc::c_int != 0;
+    |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:849:26
+    |
+849 |             match err as libc::c_uint {
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:852:77
+    |
+852 |                     ok = chownat((*fts).fts_cwd_fd, file, uid, gid) == 0 as libc::c_int;
+    |                                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:855:31
+    |
+855 |                     ok = 0 as libc::c_int != 0;
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:858:37
+    |
+858 |                     do_chown = 0 as libc::c_int != 0;
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:859:31
+    |
+859 |                     ok = 0 as libc::c_int != 0;
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:866:24
+    |
+866 |         if do_chown as libc::c_int != 0 && !ok && !(*chopt).force_silent {
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:868:22
+    |
+868 |                 0 as libc::c_int,
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:870:34
+    |
+870 |                 if uid != -(1 as libc::c_int) as uid_t {
+    |                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:872:37
+    |
+872 |                         0 as *const libc::c_char,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:874:39
+    |
+874 | ...                   as *const libc::c_char,
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:875:30
+    |
+875 |                         5 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:879:37
+    |
+879 |                         0 as *const libc::c_char,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:880:74
+    |
+880 |                         b"changing group of %s\0" as *const u8 as *const libc::c_char,
+    |                                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:881:30
+    |
+881 |                         5 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:888:30
+    |
+888 |     if (*chopt).verbosity as libc::c_uint != V_off as libc::c_int as libc::c_uint {
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:888:55
+    |
+888 |     if (*chopt).verbosity as libc::c_uint != V_off as libc::c_int as libc::c_uint {
+    |                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:888:70
+    |
+888 |     if (*chopt).verbosity as libc::c_uint != V_off as libc::c_int as libc::c_uint {
+    |                                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:889:45
+    |
+889 |         let mut changed: bool = do_chown as libc::c_int != 0 && ok as libc::c_int != 0
+    |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:889:71
+    |
+889 |         let mut changed: bool = do_chown as libc::c_int != 0 && ok as libc::c_int != 0
+    |                                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:890:35
+    |
+890 |             && symlink_changed as libc::c_int != 0
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:891:33
+    |
+891 |             && !((uid == -(1 as libc::c_int) as uid_t || uid == (*file_stats).st_uid)
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:892:35
+    |
+892 |                 && (gid == -(1 as libc::c_int) as gid_t || gid == (*file_stats).st_gid));
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:893:23
+    |
+893 |         if changed as libc::c_int != 0
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:894:38
+    |
+894 |             || (*chopt).verbosity as libc::c_uint
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:895:30
+    |
+895 |                 == V_high as libc::c_int as libc::c_uint
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:895:45
+    |
+895 |                 == V_high as libc::c_int as libc::c_uint
+    |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:898:30
+    |
+898 |                 CH_FAILED as libc::c_int
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:900:35
+    |
+900 |                 CH_NOT_APPLIED as libc::c_int
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:902:43
+    |
+902 |                 CH_NO_CHANGE_REQUESTED as libc::c_int
+    |                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:904:33
+    |
+904 |                 CH_SUCCEEDED as libc::c_int
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:906:35
+    |
+906 |             let mut old_usr: *mut libc::c_char = if !file_stats.is_null() {
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:909:27
+    |
+909 |                 0 as *mut libc::c_char
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:911:35
+    |
+911 |             let mut old_grp: *mut libc::c_char = if !file_stats.is_null() {
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:914:27
+    |
+914 |                 0 as *mut libc::c_char
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:916:35
+    |
+916 |             let mut new_usr: *mut libc::c_char = if !((*chopt).user_name).is_null() {
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:918:37
+    |
+918 |             } else if uid != -(1 as libc::c_int) as libc::c_uint {
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:918:53
+    |
+918 |             } else if uid != -(1 as libc::c_int) as libc::c_uint {
+    |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:921:27
+    |
+921 |                 0 as *mut libc::c_char
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:923:35
+    |
+923 |             let mut new_grp: *mut libc::c_char = if !((*chopt).group_name).is_null() {
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:925:37
+    |
+925 |             } else if gid != -(1 as libc::c_int) as libc::c_uint {
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:925:53
+    |
+925 |             } else if gid != -(1 as libc::c_int) as libc::c_uint {
+    |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:928:27
+    |
+928 |                 0 as *mut libc::c_char
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:938:34
+    |
+938 |             free(old_usr as *mut libc::c_void);
+    |                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:939:34
+    |
+939 |             free(old_grp as *mut libc::c_void);
+    |                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:941:38
+    |
+941 |                 free(new_usr as *mut libc::c_void);
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:944:38
+    |
+944 |                 free(new_grp as *mut libc::c_void);
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:949:36
+    |
+949 |         rpl_fts_set(fts, ent, 4 as libc::c_int);
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:955:26
+    |
+955 |     mut files: *mut *mut libc::c_char,
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:956:20
+    |
+956 |     mut bit_flags: libc::c_int,
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:963:29
+    |
+963 |     let mut ok: bool = 1 as libc::c_int != 0;
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:964:25
+    |
+964 |     let mut stat_flags: libc::c_int = if required_uid != -(1 as libc::c_int) as uid_t
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:964:65
+    |
+964 |     let mut stat_flags: libc::c_int = if required_uid != -(1 as libc::c_int) as uid_t
+    |                                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:965:35
+    |
+965 |         || required_gid != -(1 as libc::c_int) as gid_t
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:966:48
+    |
+966 |         || (*chopt).affect_symlink_referent as libc::c_int != 0
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:967:34
+    |
+967 |         || (*chopt).verbosity as libc::c_uint != V_off as libc::c_int as libc::c_uint
+    |                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:967:59
+    |
+967 |         || (*chopt).verbosity as libc::c_uint != V_off as libc::c_int as libc::c_uint
+    |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:967:74
+    |
+967 |         || (*chopt).verbosity as libc::c_uint != V_off as libc::c_int as libc::c_uint
+    |                                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:969:14
+    |
+969 |         0 as libc::c_int
+    |              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:971:16
+    |
+971 |         0x8 as libc::c_int
+    |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:978:44
+    |
+978 |             if *__errno_location() != 0 as libc::c_int {
+    |                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:981:30
+    |
+981 |                         0 as libc::c_int,
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:984:41
+    |
+984 | ...                   0 as *const libc::c_char,
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:985:73
+    |
+985 | ...                   b"fts_read failed\0" as *const u8 as *const libc::c_char,
+    |                                                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:986:34
+    |
+986 | ...                   5 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:990:27
+    |
+990 |                 ok = 0 as libc::c_int != 0;
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//chown_core.rs:994:25
+    |
+994 |             ok = (ok as libc::c_int
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//chown_core.rs:1003:22
+     |
+1003 |                 ) as libc::c_int) as bool;
+     |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//chown_core.rs:1006:35
+     |
+1006 |     if rpl_fts_close(fts) != 0 as libc::c_int {
+     |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//chown_core.rs:1008:18
+     |
+1008 |             0 as libc::c_int,
+     |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//chown_core.rs:1011:29
+     |
+1011 |                 0 as *const libc::c_char,
+     |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//chown_core.rs:1012:62
+     |
+1012 |                 b"fts_close failed\0" as *const u8 as *const libc::c_char,
+     |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//chown_core.rs:1013:22
+     |
+1013 |                 5 as libc::c_int,
+     |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+    --> src//chown_core.rs:1016:19
+     |
+1016 |         ok = 0 as libc::c_int != 0;
+     |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0601]: `main` function not found in crate `chown_core`
+    --> src//chown_core.rs:1019:2
+     |
+1019 | }
+     |  ^ consider adding a `main` function to `src//chown_core.rs`
+
+error: aborting due to 429 previous errors
+
+Some errors have detailed explanations: E0433, E0601.
+For more information about an error, try `rustc --explain E0433`.

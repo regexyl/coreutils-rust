@@ -1,0 +1,1153 @@
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//make_prime_list.rs:9:39
+  |
+9 |     fn fclose(__stream: *mut FILE) -> libc::c_int;
+  |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:10:40
+   |
+10 |     fn fprintf(_: *mut FILE, _: *const libc::c_char, _: ...) -> libc::c_int;
+   |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:10:65
+   |
+10 |     fn fprintf(_: *mut FILE, _: *const libc::c_char, _: ...) -> libc::c_int;
+   |                                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:11:25
+   |
+11 |     fn printf(_: *const libc::c_char, _: ...) -> libc::c_int;
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:11:50
+   |
+11 |     fn printf(_: *const libc::c_char, _: ...) -> libc::c_int;
+   |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:12:25
+   |
+12 |     fn puts(__s: *const libc::c_char) -> libc::c_int;
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:12:42
+   |
+12 |     fn puts(__s: *const libc::c_char) -> libc::c_int;
+   |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:13:39
+   |
+13 |     fn ferror(__stream: *mut FILE) -> libc::c_int;
+   |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:15:17
+   |
+15 |         _: *mut libc::c_void,
+   |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:16:12
+   |
+16 |         _: libc::c_int,
+   |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:17:12
+   |
+17 |         _: libc::c_ulong,
+   |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:18:15
+   |
+18 |     ) -> *mut libc::c_void;
+   |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:19:20
+   |
+19 |     fn strerror(_: libc::c_int) -> *mut libc::c_char;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:19:41
+   |
+19 |     fn strerror(_: libc::c_int) -> *mut libc::c_char;
+   |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:20:21
+   |
+20 |     fn free(_: *mut libc::c_void);
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:22:19
+   |
+22 |         _: *const libc::c_char,
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:23:22
+   |
+23 |         _: *mut *mut libc::c_char,
+   |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:24:12
+   |
+24 |         _: libc::c_int,
+   |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:25:10
+   |
+25 |     ) -> libc::c_long;
+   |          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:26:18
+   |
+26 |     fn malloc(_: libc::c_ulong) -> *mut libc::c_void;
+   |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:26:41
+   |
+26 |     fn malloc(_: libc::c_ulong) -> *mut libc::c_void;
+   |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:28:16
+   |
+28 |     fn exit(_: libc::c_int) -> !;
+   |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:29:35
+   |
+29 |     fn __errno_location() -> *mut libc::c_int;
+   |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:31:24
+   |
+31 | pub type __uintmax_t = libc::c_ulong;
+   |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:32:20
+   |
+32 | pub type __off_t = libc::c_long;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:33:22
+   |
+33 | pub type __off64_t = libc::c_long;
+   |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:35:19
+   |
+35 | pub type size_t = libc::c_ulong;
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:39:17
+   |
+39 |     pub _flags: libc::c_int,
+   |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:40:28
+   |
+40 |     pub _IO_read_ptr: *mut libc::c_char,
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:41:28
+   |
+41 |     pub _IO_read_end: *mut libc::c_char,
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:42:29
+   |
+42 |     pub _IO_read_base: *mut libc::c_char,
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:43:30
+   |
+43 |     pub _IO_write_base: *mut libc::c_char,
+   |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:44:29
+   |
+44 |     pub _IO_write_ptr: *mut libc::c_char,
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:45:29
+   |
+45 |     pub _IO_write_end: *mut libc::c_char,
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:46:28
+   |
+46 |     pub _IO_buf_base: *mut libc::c_char,
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:47:27
+   |
+47 |     pub _IO_buf_end: *mut libc::c_char,
+   |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:48:29
+   |
+48 |     pub _IO_save_base: *mut libc::c_char,
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:49:31
+   |
+49 |     pub _IO_backup_base: *mut libc::c_char,
+   |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:50:28
+   |
+50 |     pub _IO_save_end: *mut libc::c_char,
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:53:18
+   |
+53 |     pub _fileno: libc::c_int,
+   |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:54:18
+   |
+54 |     pub _flags2: libc::c_int,
+   |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:56:22
+   |
+56 |     pub _cur_column: libc::c_ushort,
+   |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:57:25
+   |
+57 |     pub _vtable_offset: libc::c_schar,
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:58:21
+   |
+58 |     pub _shortbuf: [libc::c_char; 1],
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:59:21
+   |
+59 |     pub _lock: *mut libc::c_void,
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:64:28
+   |
+64 |     pub _freeres_buf: *mut libc::c_void,
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:66:16
+   |
+66 |     pub _mode: libc::c_int,
+   |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:67:20
+   |
+67 |     pub _unused2: [libc::c_char; 20],
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:75:12
+   |
+75 |     pub p: libc::c_uint,
+   |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:80:46
+   |
+80 | unsafe extern "C" fn atoi(mut __nptr: *const libc::c_char) -> libc::c_int {
+   |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:80:63
+   |
+80 | unsafe extern "C" fn atoi(mut __nptr: *const libc::c_char) -> libc::c_int {
+   |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:83:19
+   |
+83 |         0 as *mut libc::c_void as *mut *mut libc::c_char,
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:83:45
+   |
+83 |         0 as *mut libc::c_void as *mut *mut libc::c_char,
+   |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:84:15
+   |
+84 |         10 as libc::c_int,
+   |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:85:10
+   |
+85 |     ) as libc::c_int;
+   |          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:88:43
+   |
+88 |     let mut x: wide_uint = (0xf5397db1 as libc::c_uint
+   |                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:89:18
+   |
+89 |         >> (4 as libc::c_int as libc::c_ulong)
+   |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:89:33
+   |
+89 |         >> (4 as libc::c_int as libc::c_ulong)
+   |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:91:37
+   |
+91 |                 a.wrapping_div(2 as libc::c_int as libc::c_ulong)
+   |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:91:52
+   |
+91 |                 a.wrapping_div(2 as libc::c_int as libc::c_ulong)
+   |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:92:30
+   |
+92 |                     & 0x7 as libc::c_int as libc::c_ulong,
+   |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:92:45
+   |
+92 |                     & 0x7 as libc::c_int as libc::c_ulong,
+   |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:95:38
+   |
+95 |         let mut y: wide_uint = (2 as libc::c_int as libc::c_ulong)
+   |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//make_prime_list.rs:95:53
+   |
+95 |         let mut y: wide_uint = (2 as libc::c_int as libc::c_ulong)
+   |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:104:65
+    |
+104 | unsafe extern "C" fn process_prime(mut info: *mut prime, mut p: libc::c_uint) {
+    |                                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:105:37
+    |
+105 |     let mut max: wide_uint = -(1 as libc::c_int) as wide_uint;
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:108:41
+    |
+108 |     (*info).lim = max.wrapping_div(p as libc::c_ulong);
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:112:18
+    |
+112 |     mut nesting: libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:113:25
+    |
+113 |     mut wide_uint_bits: libc::c_uint,
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:115:37
+    |
+115 |     let mut hex_digits_per_literal: libc::c_int = 7 as libc::c_int;
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:115:56
+    |
+115 |     let mut hex_digits_per_literal: libc::c_int = 7 as libc::c_int;
+    |                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:116:31
+    |
+116 |     let mut bits_per_literal: libc::c_int = hex_digits_per_literal * 4 as libc::c_int;
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:116:75
+    |
+116 |     let mut bits_per_literal: libc::c_int = hex_digits_per_literal * 4 as libc::c_int;
+    |                                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:117:24
+    |
+117 |     let mut remainder: libc::c_uint = (n
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:118:19
+    |
+118 |         & (((1 as libc::c_int) << bits_per_literal) - 1 as libc::c_int) as libc::c_ulong)
+    |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:118:60
+    |
+118 |         & (((1 as libc::c_int) << bits_per_literal) - 1 as libc::c_int) as libc::c_ulong)
+    |                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:118:76
+    |
+118 |         & (((1 as libc::c_int) << bits_per_literal) - 1 as libc::c_int) as libc::c_ulong)
+    |                                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:119:12
+    |
+119 |         as libc::c_uint;
+    |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:120:26
+    |
+120 |     if n != remainder as libc::c_ulong {
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:121:36
+    |
+121 |         let mut needs_parentheses: libc::c_int = (n >> bits_per_literal
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:122:41
+    |
+122 |             >> bits_per_literal != 0 as libc::c_int as libc::c_ulong) as libc::c_int;
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:122:56
+    |
+122 |             >> bits_per_literal != 0 as libc::c_int as libc::c_ulong) as libc::c_int;
+    |                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:122:74
+    |
+122 |             >> bits_per_literal != 0 as libc::c_int as libc::c_ulong) as libc::c_int;
+    |                                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:124:50
+    |
+124 |             printf(b"(\0" as *const u8 as *const libc::c_char);
+    |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:128:28
+    |
+128 |             nesting + 1 as libc::c_int,
+    |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:133:52
+    |
+133 |                 b")\n%*s\0" as *const u8 as *const libc::c_char,
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:134:32
+    |
+134 |                 nesting + 3 as libc::c_int,
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:135:46
+    |
+135 |                 b"\0" as *const u8 as *const libc::c_char,
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:138:54
+    |
+138 |         printf(b" << %d | \0" as *const u8 as *const libc::c_char, bits_per_literal);
+    |                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:140:57
+    |
+140 |         printf(b"(uintmax_t) \0" as *const u8 as *const libc::c_char);
+    |                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:142:32
+    |
+142 |             .wrapping_sub(1 as libc::c_int as libc::c_uint)
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:142:47
+    |
+142 |             .wrapping_sub(1 as libc::c_int as libc::c_uint)
+    |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:143:47
+    |
+143 |             .wrapping_rem(bits_per_literal as libc::c_uint)
+    |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:144:32
+    |
+144 |             .wrapping_rem(4 as libc::c_int as libc::c_uint)
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:144:47
+    |
+144 |             .wrapping_rem(4 as libc::c_int as libc::c_uint)
+    |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:145:32
+    |
+145 |             .wrapping_add(1 as libc::c_int as libc::c_uint) as libc::c_int;
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:145:47
+    |
+145 |             .wrapping_add(1 as libc::c_int as libc::c_uint) as libc::c_int;
+    |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:145:64
+    |
+145 |             .wrapping_add(1 as libc::c_int as libc::c_uint) as libc::c_int;
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:148:45
+    |
+148 |         b"0x%0*xU\0" as *const u8 as *const libc::c_char,
+    |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:153:75
+    |
+153 | unsafe extern "C" fn output_primes(mut primes: *const prime, mut nprimes: libc::c_uint) {
+    |                                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:154:16
+    |
+154 |     let mut i: libc::c_uint = 0;
+    |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:155:16
+    |
+155 |     let mut p: libc::c_uint = 0;
+    |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:156:23
+    |
+156 |     let mut is_prime: libc::c_int = 0;
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:157:29
+    |
+157 |     let mut wide_uint_bits: libc::c_uint = 0 as libc::c_int as libc::c_uint;
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:157:49
+    |
+157 |     let mut wide_uint_bits: libc::c_uint = 0 as libc::c_int as libc::c_uint;
+    |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:157:64
+    |
+157 |     let mut wide_uint_bits: libc::c_uint = 0 as libc::c_int as libc::c_uint;
+    |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:158:38
+    |
+158 |     let mut mask: wide_uint = -(1 as libc::c_int) as wide_uint;
+    |                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:159:27
+    |
+159 |     wide_uint_bits = 0 as libc::c_int as libc::c_uint;
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:159:42
+    |
+159 |     wide_uint_bits = 0 as libc::c_int as libc::c_uint;
+    |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:161:23
+    |
+161 |         mask >>= 1 as libc::c_int;
+    |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:164:76
+    |
+164 |     puts(b"/* Generated file -- DO NOT EDIT */\n\0" as *const u8 as *const libc::c_char);
+    |                                                                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:166:65
+    |
+166 |         b"#define WIDE_UINT_BITS %u\n\0" as *const u8 as *const libc::c_char,
+    |                                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:169:14
+    |
+169 |     i = 0 as libc::c_int as libc::c_uint;
+    |              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:169:29
+    |
+169 |     i = 0 as libc::c_int as libc::c_uint;
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:170:14
+    |
+170 |     p = 2 as libc::c_int as libc::c_uint;
+    |              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:170:29
+    |
+170 |     p = 2 as libc::c_int as libc::c_uint;
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:172:21
+    |
+172 |         let mut d8: libc::c_uint = if i.wrapping_add(8 as libc::c_int as libc::c_uint)
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:172:59
+    |
+172 |         let mut d8: libc::c_uint = if i.wrapping_add(8 as libc::c_int as libc::c_uint)
+    |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:172:74
+    |
+172 |         let mut d8: libc::c_uint = if i.wrapping_add(8 as libc::c_int as libc::c_uint)
+    |                                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:175:50
+    |
+175 |             ((*primes.offset(i.wrapping_add(8 as libc::c_int as libc::c_uint) as isize))
+    |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:175:65
+    |
+175 |             ((*primes.offset(i.wrapping_add(8 as libc::c_int as libc::c_uint) as isize))
+    |                                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:179:21
+    |
+179 |             0xff as libc::c_int as libc::c_uint
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:179:36
+    |
+179 |             0xff as libc::c_int as libc::c_uint
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:181:20
+    |
+181 |         if (255 as libc::c_int as libc::c_uint) < d8 {
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:181:35
+    |
+181 |         if (255 as libc::c_int as libc::c_uint) < d8 {
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:185:58
+    |
+185 |             b"P (%u, %u,\n   (\0" as *const u8 as *const libc::c_char,
+    |                                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:191:18
+    |
+191 |             0 as libc::c_int,
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:195:68
+    |
+195 |             b"),\n   UINTMAX_MAX / %u)\n\0" as *const u8 as *const libc::c_char,
+    |                                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:201:71
+    |
+201 |     printf(b"\n#undef FIRST_OMITTED_PRIME\n\0" as *const u8 as *const libc::c_char);
+    |                                                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:203:33
+    |
+203 |         p = p.wrapping_add(2 as libc::c_int as libc::c_uint);
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:203:48
+    |
+203 |         p = p.wrapping_add(2 as libc::c_int as libc::c_uint);
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:204:18
+    |
+204 |         i = 0 as libc::c_int as libc::c_uint;
+    |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:204:33
+    |
+204 |         i = 0 as libc::c_int as libc::c_uint;
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:205:25
+    |
+205 |         is_prime = 1 as libc::c_int;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:212:22
+    |
+212 |             if (p as libc::c_ulong).wrapping_mul((*primes.offset(i as isize)).pinv)
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:215:33
+    |
+215 |                 is_prime = 0 as libc::c_int;
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:225:73
+    |
+225 |     printf(b"#define FIRST_OMITTED_PRIME %u\n\0" as *const u8 as *const libc::c_char, p);
+    |                                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:227:52
+    |
+227 | unsafe extern "C" fn xalloc(mut s: size_t) -> *mut libc::c_void {
+    |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:228:21
+    |
+228 |     let mut p: *mut libc::c_void = malloc(s);
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:234:65
+    |
+234 |         b"Virtual memory exhausted.\n\0" as *const u8 as *const libc::c_char,
+    |                                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:236:15
+    |
+236 |     exit(1 as libc::c_int);
+    |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:239:15
+    |
+239 |     mut argc: libc::c_int,
+    |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:240:25
+    |
+240 |     mut argv: *mut *mut libc::c_char,
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:241:6
+    |
+241 | ) -> libc::c_int {
+    |      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:242:20
+    |
+242 |     let mut limit: libc::c_int = 0;
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:243:25
+    |
+243 |     let mut sieve: *mut libc::c_char = 0 as *mut libc::c_char;
+    |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:243:50
+    |
+243 |     let mut sieve: *mut libc::c_char = 0 as *mut libc::c_char;
+    |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:247:22
+    |
+247 |     let mut nprimes: libc::c_uint = 0;
+    |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:248:21
+    |
+248 |     if argc != 2 as libc::c_int {
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:252:27
+    |
+252 |                 as *const libc::c_char,
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:253:31
+    |
+253 |             *argv.offset(0 as libc::c_int as isize),
+    |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:255:21
+    |
+255 |         return 1 as libc::c_int;
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:257:36
+    |
+257 |     limit = atoi(*argv.offset(1 as libc::c_int as isize));
+    |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:258:21
+    |
+258 |     if limit < 3 as libc::c_int {
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:259:21
+    |
+259 |         return 0 as libc::c_int;
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:261:21
+    |
+261 |     if limit & 1 as libc::c_int == 0 {
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:264:27
+    |
+264 |     size = ((limit - 1 as libc::c_int) / 2 as libc::c_int) as size_t;
+    |                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:264:47
+    |
+264 |     size = ((limit - 1 as libc::c_int) / 2 as libc::c_int) as size_t;
+    |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:265:34
+    |
+265 |     sieve = xalloc(size) as *mut libc::c_char;
+    |                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:266:26
+    |
+266 |     memset(sieve as *mut libc::c_void, 1 as libc::c_int, size);
+    |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:266:45
+    |
+266 |     memset(sieve as *mut libc::c_void, 1 as libc::c_int, size);
+    |                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+   --> src//make_prime_list.rs:268:29
+    |
+268 |         size.wrapping_mul(::core::mem::size_of::<prime>() as libc::c_ulong),
+    |                             ^^^^ maybe a missing crate `core`?
+    |
+    = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:268:62
+    |
+268 |         size.wrapping_mul(::core::mem::size_of::<prime>() as libc::c_ulong),
+    |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:270:20
+    |
+270 |     nprimes = 0 as libc::c_int as libc::c_uint;
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:270:35
+    |
+270 |     nprimes = 0 as libc::c_int as libc::c_uint;
+    |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:271:14
+    |
+271 |     i = 0 as libc::c_int as size_t;
+    |              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:273:20
+    |
+273 |         let mut p: libc::c_uint = (3 as libc::c_int as libc::c_ulong)
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:273:41
+    |
+273 |         let mut p: libc::c_uint = (3 as libc::c_int as libc::c_ulong)
+    |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:273:56
+    |
+273 |         let mut p: libc::c_uint = (3 as libc::c_int as libc::c_ulong)
+    |                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:274:33
+    |
+274 |             .wrapping_add((2 as libc::c_int as libc::c_ulong).wrapping_mul(i))
+    |                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:274:48
+    |
+274 |             .wrapping_add((2 as libc::c_int as libc::c_ulong).wrapping_mul(i))
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:275:16
+    |
+275 |             as libc::c_uint;
+    |                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:276:20
+    |
+276 |         let mut j: libc::c_uint = 0;
+    |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:282:32
+    |
+282 |             .wrapping_sub(3 as libc::c_int as libc::c_uint)
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:282:47
+    |
+282 |             .wrapping_sub(3 as libc::c_int as libc::c_uint)
+    |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:283:32
+    |
+283 |             .wrapping_div(2 as libc::c_int as libc::c_uint);
+    |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:283:47
+    |
+283 |             .wrapping_div(2 as libc::c_int as libc::c_uint);
+    |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:284:21
+    |
+284 |         while (j as libc::c_ulong) < size {
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:285:46
+    |
+285 |             *sieve.offset(j as isize) = 0 as libc::c_int as libc::c_char;
+    |                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:285:61
+    |
+285 |             *sieve.offset(j as isize) = 0 as libc::c_int as libc::c_char;
+    |                                                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:291:49
+    |
+291 |                 && *sieve.offset(i as isize) as libc::c_int == 0 as libc::c_int)
+    |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:291:69
+    |
+291 |                 && *sieve.offset(i as isize) as libc::c_int == 0 as libc::c_int)
+    |                                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:298:24
+    |
+298 |     free(sieve as *mut libc::c_void);
+    |                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:299:29
+    |
+299 |     free(prime_list as *mut libc::c_void);
+    |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:303:59
+    |
+303 |             b"write error: %s\n\0" as *const u8 as *const libc::c_char,
+    |                                                           ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:306:21
+    |
+306 |         return 1 as libc::c_int;
+    |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:308:17
+    |
+308 |     return 0 as libc::c_int;
+    |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:311:30
+    |
+311 |     let mut args: Vec::<*mut libc::c_char> = Vec::new();
+    |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: maybe a missing crate `core`?
+   --> src//make_prime_list.rs:319:17
+    |
+319 |     args.push(::core::ptr::null_mut());
+    |                 ^^^^ maybe a missing crate `core`?
+    |
+    = help: consider adding `extern crate core` to use the `core` crate
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:323:37
+    |
+323 |                 (args.len() - 1) as libc::c_int,
+    |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+   --> src//make_prime_list.rs:324:48
+    |
+324 |                 args.as_mut_ptr() as *mut *mut libc::c_char,
+    |                                                ^^^^ use of undeclared crate or module `libc`
+
+error: aborting due to 191 previous errors
+
+For more information about this error, try `rustc --explain E0433`.

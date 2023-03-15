@@ -1,0 +1,460 @@
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//operand2sig.rs:4:19
+  |
+4 |         _: *const libc::c_char,
+  |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//operand2sig.rs:5:22
+  |
+5 |         _: *mut *mut libc::c_char,
+  |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//operand2sig.rs:6:12
+  |
+6 |         _: libc::c_int,
+  |            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//operand2sig.rs:7:10
+  |
+7 |     ) -> libc::c_long;
+  |          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//operand2sig.rs:8:21
+  |
+8 |     fn free(_: *mut libc::c_void);
+  |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+ --> src//operand2sig.rs:9:35
+  |
+9 |     fn __errno_location() -> *mut libc::c_int;
+  |                                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:10:25
+   |
+10 |     fn strchr(_: *const libc::c_char, _: libc::c_int) -> *mut libc::c_char;
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:10:42
+   |
+10 |     fn strchr(_: *const libc::c_char, _: libc::c_int) -> *mut libc::c_char;
+   |                                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:10:63
+   |
+10 |     fn strchr(_: *const libc::c_char, _: libc::c_int) -> *mut libc::c_char;
+   |                                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:12:30
+   |
+12 |         __domainname: *const libc::c_char,
+   |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:13:25
+   |
+13 |         __msgid: *const libc::c_char,
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:14:21
+   |
+14 |         __category: libc::c_int,
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:15:15
+   |
+15 |     ) -> *mut libc::c_char;
+   |               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:16:28
+   |
+16 |     fn xstrdup(str: *const libc::c_char) -> *mut libc::c_char;
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:16:50
+   |
+16 |     fn xstrdup(str: *const libc::c_char) -> *mut libc::c_char;
+   |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:18:19
+   |
+18 |         __status: libc::c_int,
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:19:19
+   |
+19 |         __errnum: libc::c_int,
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:20:26
+   |
+20 |         __format: *const libc::c_char,
+   |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:23:26
+   |
+23 |     fn quote(arg: *const libc::c_char) -> *const libc::c_char;
+   |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:23:50
+   |
+23 |     fn quote(arg: *const libc::c_char) -> *const libc::c_char;
+   |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:24:19
+   |
+24 |     fn sig2str(_: libc::c_int, _: *mut libc::c_char) -> libc::c_int;
+   |                   ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:24:40
+   |
+24 |     fn sig2str(_: libc::c_int, _: *mut libc::c_char) -> libc::c_int;
+   |                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:24:57
+   |
+24 |     fn sig2str(_: libc::c_int, _: *mut libc::c_char) -> libc::c_int;
+   |                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:25:26
+   |
+25 |     fn str2sig(_: *const libc::c_char, _: *mut libc::c_int) -> libc::c_int;
+   |                          ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:25:48
+   |
+25 |     fn str2sig(_: *const libc::c_char, _: *mut libc::c_int) -> libc::c_int;
+   |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:25:64
+   |
+25 |     fn str2sig(_: *const libc::c_char, _: *mut libc::c_int) -> libc::c_int;
+   |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:29:25
+   |
+29 |     mut operand: *const libc::c_char,
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:30:23
+   |
+30 |     mut signame: *mut libc::c_char,
+   |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:31:6
+   |
+31 | ) -> libc::c_int {
+   |      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:32:21
+   |
+32 |     let mut signum: libc::c_int = 0;
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:33:21
+   |
+33 |     if (*operand as libc::c_uint).wrapping_sub('0' as i32 as libc::c_uint)
+   |                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:33:62
+   |
+33 |     if (*operand as libc::c_uint).wrapping_sub('0' as i32 as libc::c_uint)
+   |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:34:17
+   |
+34 |         <= 9 as libc::c_int as libc::c_uint
+   |                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:34:32
+   |
+34 |         <= 9 as libc::c_int as libc::c_uint
+   |                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:36:28
+   |
+36 |         let mut endp: *mut libc::c_char = 0 as *mut libc::c_char;
+   |                            ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:36:53
+   |
+36 |         let mut endp: *mut libc::c_char = 0 as *mut libc::c_char;
+   |                                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:37:36
+   |
+37 |         *__errno_location() = 0 as libc::c_int;
+   |                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:38:20
+   |
+38 |         let mut l: libc::c_long = strtol(operand, &mut endp, 10 as libc::c_int);
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:38:68
+   |
+38 |         let mut l: libc::c_long = strtol(operand, &mut endp, 10 as libc::c_int);
+   |                                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:39:20
+   |
+39 |         let mut i: libc::c_int = l as libc::c_int;
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:39:39
+   |
+39 |         let mut i: libc::c_int = l as libc::c_int;
+   |                                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:40:47
+   |
+40 |         signum = if operand == endp as *const libc::c_char || *endp as libc::c_int != 0
+   |                                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:40:72
+   |
+40 |         signum = if operand == endp as *const libc::c_char || *endp as libc::c_int != 0
+   |                                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:41:49
+   |
+41 |             || *__errno_location() != 0 || i as libc::c_long != l
+   |                                                 ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:43:20
+   |
+43 |             -(1 as libc::c_int)
+   |                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:47:29
+   |
+47 |         if signum != -(1 as libc::c_int) {
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:49:41
+   |
+49 |                 &= if signum >= 0xff as libc::c_int {
+   |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:50:29
+   |
+50 |                     0xff as libc::c_int
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:52:29
+   |
+52 |                     0x7f as libc::c_int
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:56:31
+   |
+56 |         let mut upcased: *mut libc::c_char = xstrdup(operand);
+   |                               ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:57:25
+   |
+57 |         let mut p: *mut libc::c_char = 0 as *mut libc::c_char;
+   |                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:57:50
+   |
+57 |         let mut p: *mut libc::c_char = 0 as *mut libc::c_char;
+   |                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:61:72
+   |
+61 |                 b"abcdefghijklmnopqrstuvwxyz\0" as *const u8 as *const libc::c_char,
+   |                                                                        ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:62:23
+   |
+62 |                 *p as libc::c_int,
+   |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:66:29
+   |
+66 |                 *p = (*p as libc::c_int + ('A' as i32 - 'a' as i32)) as libc::c_char;
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:66:73
+   |
+66 |                 *p = (*p as libc::c_int + ('A' as i32 - 'a' as i32)) as libc::c_char;
+   |                                                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:70:52
+   |
+70 |         if !(str2sig(upcased, &mut signum) == 0 as libc::c_int
+   |                                                    ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:71:37
+   |
+71 |             || *upcased.offset(0 as libc::c_int as isize) as libc::c_int == 'S' as i32
+   |                                     ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:71:62
+   |
+71 |             || *upcased.offset(0 as libc::c_int as isize) as libc::c_int == 'S' as i32
+   |                                                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:72:41
+   |
+72 |                 && *upcased.offset(1 as libc::c_int as isize) as libc::c_int
+   |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:72:66
+   |
+72 |                 && *upcased.offset(1 as libc::c_int as isize) as libc::c_int
+   |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:74:41
+   |
+74 |                 && *upcased.offset(2 as libc::c_int as isize) as libc::c_int
+   |                                         ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:74:66
+   |
+74 |                 && *upcased.offset(2 as libc::c_int as isize) as libc::c_int
+   |                                                                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:76:48
+   |
+76 |                 && str2sig(upcased.offset(3 as libc::c_int as isize), &mut signum)
+   |                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:77:29
+   |
+77 |                     == 0 as libc::c_int)
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:79:29
+   |
+79 |             signum = -(1 as libc::c_int);
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:81:30
+   |
+81 |         free(upcased as *mut libc::c_void);
+   |                              ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:83:22
+   |
+83 |     if signum < 0 as libc::c_int || sig2str(signum, signame) != 0 as libc::c_int {
+   |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:83:70
+   |
+83 |     if signum < 0 as libc::c_int || sig2str(signum, signame) != 0 as libc::c_int {
+   |                                                                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:85:18
+   |
+85 |             0 as libc::c_int,
+   |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:86:18
+   |
+86 |             0 as libc::c_int,
+   |                  ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:88:29
+   |
+88 |                 0 as *const libc::c_char,
+   |                             ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:89:64
+   |
+89 |                 b"%s: invalid signal\0" as *const u8 as *const libc::c_char,
+   |                                                                ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:90:22
+   |
+90 |                 5 as libc::c_int,
+   |                      ^^^^ use of undeclared crate or module `libc`
+
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`
+  --> src//operand2sig.rs:94:23
+   |
+94 |         return -(1 as libc::c_int);
+   |                       ^^^^ use of undeclared crate or module `libc`
+
+error[E0601]: `main` function not found in crate `operand2sig`
+  --> src//operand2sig.rs:97:2
+   |
+97 | }
+   |  ^ consider adding a `main` function to `src//operand2sig.rs`
+
+error: aborting due to 76 previous errors
+
+Some errors have detailed explanations: E0433, E0601.
+For more information about an error, try `rustc --explain E0433`.
