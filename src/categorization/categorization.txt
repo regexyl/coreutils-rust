@@ -1,0 +1,664 @@
+clippy_ls_vdir.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 2
+error[E0601]: `main` function not found in crate `ls_vdir`: 1
+
+clippy_cp_hash.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 49
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 1
+error[E0601]: `main` function not found in crate `cp_hash`: 1
+
+clippy_basenc.txt
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 19
+warning: unnecessary parentheses around block return value: 8
+help: remove these parentheses: 8
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?: 1462
+
+clippy_hostid.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 160
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 2
+
+clippy_uniq.txt
+error: Binary expression is not supposed to be used: 2
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 714
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 20
+warning: unnecessary parentheses around block return value: 2
+help: remove these parentheses: 2
+
+clippy_ln.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 784
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 8
+
+clippy_getlimits.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 572
+error[E0433]: failed to resolve: use of undeclared crate or module `f128`: 4
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 18
+
+clippy_operand2sig.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 75
+error[E0601]: `main` function not found in crate `operand2sig`: 1
+
+clippy_realpath.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 403
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 7
+
+clippy_users.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 255
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 5
+
+clippy_comm.txt
+error: Binary expression is not supposed to be used: 4
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 633
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 13
+
+clippy_wc.txt
+error: cannot find derive macro `BitfieldStruct` in this scope: 1
+error: cannot find attribute `bitfield` in this scope: 4
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 882
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 9
+error[E0740]: unions cannot contain fields that may need dropping: 3
+help: when the type does not implement `Copy`, wrap it inside a `ManuallyDrop<_>` and ensure it is manually dropped: 3
+
+clippy_nohup.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 308
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 4
+
+clippy_fold.txt
+error: Binary expression is not supposed to be used: 4
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 459
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 25
+
+clippy_cp.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 1090
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 14
+warning: unnecessary parentheses around assigned value: 4
+help: remove these parentheses: 5
+warning: unnecessary parentheses around block return value: 1
+
+clippy_od.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 2122
+error[E0433]: failed to resolve: use of undeclared crate or module `f128`: 15
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 123
+warning: unnecessary parentheses around method argument: 3
+help: remove these parentheses: 17
+warning: unnecessary parentheses around block return value: 14
+
+clippy_shred.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 1225
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 18
+warning: unnecessary parentheses around function argument: 2
+help: remove these parentheses: 2
+
+clippy_expand.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 303
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 7
+
+clippy_force_link.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 121
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 2
+error[E0601]: `main` function not found in crate `force_link`: 1
+
+clippy_echo.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 286
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 3
+
+clippy_ls_dir.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 2
+error[E0601]: `main` function not found in crate `ls_dir`: 1
+
+clippy_truncate.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 914
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 14
+warning: unnecessary parentheses around block return value: 8
+help: remove these parentheses: 8
+
+clippy_paste.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 492
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 8
+warning: unnecessary parentheses around block return value: 4
+help: remove these parentheses: 4
+
+clippy_install.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 1240
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 19
+
+clippy_whoami.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 184
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 3
+
+clippy_mkdir.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 428
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 4
+
+clippy_false.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 151
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 2
+
+clippy_cksum.txt
+error: Binary expression is not supposed to be used: 1
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 241
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 1
+warning: unnecessary parentheses around assigned value: 1
+help: remove these parentheses: 3
+warning: unnecessary parentheses around block return value: 2
+error[E0601]: `main` function not found in crate `cksum`: 1
+
+clippy_chown.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 395
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 5
+
+clippy_chown_core.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 428
+error[E0601]: `main` function not found in crate `chown_core`: 1
+
+clippy_yes.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 202
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 2
+
+clippy_prog_fprintf.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 47
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 2
+error[E0601]: `main` function not found in crate `prog_fprintf`: 1
+
+clippy_timeout.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 538
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 7
+error[E0740]: unions cannot contain fields that may need dropping: 2
+help: when the type does not implement `Copy`, wrap it inside a `ManuallyDrop<_>` and ensure it is manually dropped: 2
+
+clippy_df.txt
+error: cannot find derive macro `BitfieldStruct` in this scope: 1
+error: cannot find attribute `bitfield` in this scope: 4
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 1173
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 20
+error[E0599]: no method named `me_remote` found for struct `mount_entry` in the current scope: 7
+error[E0599]: no method named `me_dummy` found for struct `mount_entry` in the current scope: 8
+
+clippy_expand_common.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 326
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 10
+warning: unnecessary parentheses around block return value: 2
+help: remove these parentheses: 2
+error[E0601]: `main` function not found in crate `expand_common`: 1
+
+clippy_stty.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 2449
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 30
+
+clippy_true.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 151
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 2
+
+clippy_tac.txt
+error: Binary expression is not supposed to be used: 2
+error: cannot find derive macro `BitfieldStruct` in this scope: 1
+error: cannot find attribute `bitfield` in this scope: 8
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 712
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 6
+warning: unnecessary parentheses around block return value: 2
+help: remove these parentheses: 2
+
+clippy_dd.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 4184
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 107
+warning: unnecessary parentheses around block return value: 33
+help: remove these parentheses: 35
+warning: unnecessary parentheses around function argument: 2
+error[E0740]: unions cannot contain fields that may need dropping: 2
+help: when the type does not implement `Copy`, wrap it inside a `ManuallyDrop<_>` and ensure it is manually dropped: 2
+
+clippy_logname.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 177
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 3
+
+clippy_who.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 936
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 23
+warning: unnecessary parentheses around method argument: 1
+help: remove these parentheses: 1
+
+clippy_join.txt
+error: Binary expression is not supposed to be used: 1
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 994
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 30
+
+clippy_kill.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 354
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 3
+
+clippy_rmdir.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 358
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 2
+
+clippy_readlink.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 271
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 2
+
+clippy_uname_uname.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 2
+error[E0601]: `main` function not found in crate `uname_uname`: 1
+
+clippy_chroot.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 519
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 14
+
+clippy_rm.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 450
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 7
+
+clippy_pr.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 2258
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 44
+warning: unnecessary parentheses around block return value: 24
+help: remove these parentheses: 25
+warning: unnecessary parentheses around method argument: 1
+
+clippy_printenv.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 221
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 3
+
+clippy_nproc.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 224
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 2
+
+clippy_split.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 2386
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 71
+warning: unnecessary parentheses around block return value: 14
+help: remove these parentheses: 16
+warning: unnecessary parentheses around function argument: 2
+
+clippy_env.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 1287
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 49
+error[E0740]: unions cannot contain fields that may need dropping: 2
+help: when the type does not implement `Copy`, wrap it inside a `ManuallyDrop<_>` and ensure it is manually dropped: 2
+
+clippy_du.txt
+error: cannot find derive macro `BitfieldStruct` in this scope: 1
+error: cannot find attribute `bitfield` in this scope: 4
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 953
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 16
+error[E0599]: no method named `me_remote` found for struct `mount_entry` in the current scope: 1
+error[E0599]: no method named `me_dummy` found for struct `mount_entry` in the current scope: 1
+
+clippy_dircolors.txt
+error: Binary expression is not supposed to be used: 1
+error: cannot find derive macro `BitfieldStruct` in this scope: 1
+error: cannot find attribute `bitfield` in this scope: 4
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 5736
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 9
+warning: unnecessary parentheses around assigned value: 1
+help: remove these parentheses: 2
+warning: unnecessary parentheses around method argument: 1
+error[E0740]: unions cannot contain fields that may need dropping: 3
+help: when the type does not implement `Copy`, wrap it inside a `ManuallyDrop<_>` and ensure it is manually dropped: 3
+error[E0599]: no method named `set_maybe_empty_object` found for struct `obstack` in the current scope: 1
+
+clippy_id.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 547
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 12
+
+clippy_link.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 201
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 3
+
+clippy_nice.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 350
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 6
+
+clippy_mktemp.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 439
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 7
+
+clippy_pathchk.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 376
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 2
+
+clippy_seq.txt
+error[E0432]: unresolved import `num_traits`: 1
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 831
+error[E0433]: failed to resolve: use of undeclared crate or module `f128`: 37
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 8
+warning: unnecessary parentheses around block return value: 4
+help: remove these parentheses: 4
+
+clippy_printf.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 647
+error[E0433]: failed to resolve: use of undeclared crate or module `f128`: 7
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 10
+warning: unnecessary parentheses around block return value: 2
+help: remove these parentheses: 5
+warning: unnecessary parentheses around assigned value: 1
+warning: unnecessary parentheses around function argument: 2
+
+clippy_ptx.txt
+error: cannot find derive macro `BitfieldStruct` in this scope: 1
+error: cannot find attribute `bitfield` in this scope: 8
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 1115
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 24
+warning: unnecessary parentheses around block return value: 1
+help: remove these parentheses: 3
+warning: unnecessary parentheses around function argument: 2
+
+clippy_mkfifo.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 332
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 5
+
+clippy_chcon.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 668
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 7
+
+clippy_group_list.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 97
+error[E0601]: `main` function not found in crate `group_list`: 1
+
+clippy_pinky.txt
+error: Binary expression is not supposed to be used: 2
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 1152
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 25
+warning: unnecessary parentheses around block return value: 12
+help: remove these parentheses: 14
+warning: unnecessary parentheses around assigned value: 2
+
+clippy_uname.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 384
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 4
+
+clippy_cut.txt
+error: Binary expression is not supposed to be used: 4
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 603
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 23
+
+clippy_tty.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 219
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 3
+
+clippy_basename.txt
+error[E0433]: failed to resolve: maybe a missing crate `core`?[0m: 2
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?[0m: 259
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did y                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ou mean to load this crate from crates.io via `Cargo.toml` instead?[0m: 1
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 2
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?: 260
+
+clippy_touch.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 524
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 7
+
+clippy_set_fields.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 266
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 7
+warning: unnecessary parentheses around block return value: 2
+help: remove these parentheses: 2
+error[E0601]: `main` function not found in crate `set_fields`: 1
+
+clippy_unexpand.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 405
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 8
+warning: unnecessary parentheses around block return value: 4
+help: remove these parentheses: 4
+
+clippy_chmod.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 630
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 5
+
+clippy_find_mount_point.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 116
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 1
+warning: unnecessary parentheses around assigned value: 1
+help: remove these parentheses: 1
+error[E0601]: `main` function not found in crate `find_mount_point`: 1
+
+clippy_cat.txt
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 32
+warning: unnecessary parentheses around block return value: 16
+help: remove these parentheses: 16
+error[E0658]: use of unstable library feature 'rustc_private': this crate is being loaded from the sysroot, an unstable location; did you mean to load this crate from crates.io via `Cargo.toml` instead?: 2208
+error[E0308]: mismatched types: 6
+help: you can convert an `i32` to an `i64`: 6
+error[E0054]: cannot cast as `bool`: 6
+help: compare with zero instead: 6
+
+clippy_numfmt.txt
+error[E0432]: unresolved import `num_traits`: 1
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 1389
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 26
+error[E0433]: failed to resolve: use of undeclared crate or module `f128`: 63
+
+clippy_sleep.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 218
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 3
+
+clippy_copy.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 2398
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 20
+warning: unnecessary parentheses around function argument: 1
+help: remove these parentheses: 2
+warning: unnecessary parentheses around block return value: 1
+error[E0601]: `main` function not found in crate `copy`: 1
+
+clippy_lbracket.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 679
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 5
+
+clippy_relpath.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 102
+error[E0601]: `main` function not found in crate `relpath`: 1
+
+clippy_stat.txt
+error: cannot find derive macro `BitfieldStruct` in this scope: 1
+error: cannot find attribute `bitfield` in this scope: 4
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 1310
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 18
+warning: unnecessary parentheses around block return value: 1
+help: remove these parentheses: 1
+error[E0599]: no method named `me_dummy` found for struct `mount_entry` in the current scope: 1
+
+clippy_remove.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 488
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 1
+error[E0601]: `main` function not found in crate `remove`: 1
+
+clippy_pwd.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 460
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 10
+
+clippy_uptime.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 376
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 5
+
+clippy_test.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 656
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 5
+
+clippy_selinux.txt
+error[E0601]: `main` function not found in crate `selinux`: 1
+
+clippy_iopoll.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 186
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 3
+warning: unnecessary parentheses around block return value: 1
+help: remove these parentheses: 1
+error[E0601]: `main` function not found in crate `iopoll`: 1
+
+clippy_dirname.txt
+error: Binary expression is not supposed to be used: 1
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 244
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 2
+
+clippy_make_prime_list.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 189
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 2
+
+clippy_mknod.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 498
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 11
+
+clippy_shuf.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 865
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 44
+warning: unnecessary parentheses around block return value: 6
+help: remove these parentheses: 10
+warning: unnecessary parentheses around function argument: 4
+
+clippy_groups.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 260
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 5
+
+clippy_csplit.txt
+error: cannot find derive macro `BitfieldStruct` in this scope: 1
+error: cannot find attribute `bitfield` in this scope: 8
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 1588
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 49
+warning: unnecessary parentheses around block return value: 9
+help: remove these parentheses: 11
+warning: unnecessary parentheses around function argument: 2
+error[E0740]: unions cannot contain fields that may need dropping: 2
+help: when the type does not implement `Copy`, wrap it inside a `ManuallyDrop<_>` and ensure it is manually dropped: 2
+
+clippy_expr.txt
+error: cannot find derive macro `BitfieldStruct` in this scope: 1
+error: cannot find attribute `bitfield` in this scope: 8
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 922
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 24
+error[E0530]: let bindings cannot shadow statics: 1
+warning: unnecessary parentheses around function argument: 2
+help: remove these parentheses: 2
+error[E0740]: unions cannot contain fields that may need dropping: 1
+help: when the type does not implement `Copy`, wrap it inside a `ManuallyDrop<_>` and ensure it is manually dropped: 1
+error[E0599]: no method named `set_newline_anchor` found for struct `re_pattern_buffer` in the current scope: 1
+
+clippy_digest.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 808
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 7
+warning: unnecessary parentheses around assigned value: 2
+help: remove these parentheses: 2
+
+clippy_ls_ls.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 2
+error[E0601]: `main` function not found in crate `ls_ls`: 1
+
+clippy_stdbuf.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 490
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 14
+warning: unnecessary parentheses around function argument: 2
+help: remove these parentheses: 2
+
+clippy_fmt.txt
+error: Binary expression is not supposed to be used: 1
+error: cannot find derive macro `BitfieldStruct` in this scope: 1
+error: cannot find attribute `bitfield` in this scope: 5
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 689
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 13
+error[E0599]: no method named `set_final_0` found for struct `Word` in the current scope: 2
+error[E0599]: no method named `set_period` found for struct `Word` in the current scope: 2
+error[E0599]: no method named `final_0` found for struct `Word` in the current scope: 5
+error[E0599]: no method named `period` found for struct `Word` in the current scope: 2
+error[E0599]: no method named `set_paren` found for struct `Word` in the current scope: 1
+error[E0599]: no method named `set_punct` found for struct `Word` in the current scope: 1
+error[E0599]: no method named `punct` found for struct `Word` in the current scope: 1
+error[E0599]: no method named `paren` found for struct `Word` in the current scope: 1
+
+clippy_date.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 701
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 20
+
+clippy_runcon.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 559
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 20
+
+clippy_mv.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 591
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 8
+
+clippy_tsort.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 346
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 13
+warning: unnecessary parentheses around function argument: 2
+help: remove these parentheses: 2
+
+clippy_unlink.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 186
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 3
+
+clippy_nl.txt
+error: Binary expression is not supposed to be used: 1
+error: cannot find derive macro `BitfieldStruct` in this scope: 1
+error: cannot find attribute `bitfield` in this scope: 8
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 716
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 15
+
+clippy_ls.txt
+error: Binary expression is not supposed to be used: 3
+error: cannot find derive macro `BitfieldStruct` in this scope: 1
+error: cannot find attribute `bitfield` in this scope: 4
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 8896
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 99
+warning: unnecessary parentheses around method argument: 5
+help: remove these parentheses: 6
+warning: unnecessary parentheses around function argument: 1
+error[E0740]: unions cannot contain fields that may need dropping: 5
+help: when the type does not implement `Copy`, wrap it inside a `ManuallyDrop<_>` and ensure it is manually dropped: 5
+error[E0599]: no method named `set_maybe_empty_object` found for struct `obstack` in the current scope: 1
+
+clippy_chgrp.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 414
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 7
+
+clippy_sort.txt
+error: cannot find derive macro `BitfieldStruct` in this scope: 1
+error: cannot find attribute `bitfield` in this scope: 4
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 3679
+error[E0433]: failed to resolve: use of undeclared crate or module `f128`: 5
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 94
+warning: unnecessary parentheses around function argument: 4
+help: remove these parentheses: 8
+warning: unnecessary parentheses around block return value: 4
+error[E0740]: unions cannot contain fields that may need dropping: 5
+help: when the type does not implement `Copy`, wrap it inside a `ManuallyDrop<_>` and ensure it is manually dropped: 5
+
+clippy_tee.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 407
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 9
+
+clippy_head.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 928
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 12
+warning: unnecessary parentheses around block return value: 2
+help: remove these parentheses: 2
+
+clippy_libstdbuf.txt
+error[E0601]: `main` function not found in crate `libstdbuf`: 1
+
+clippy_sync.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 312
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 5
+
+clippy_tail.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 2084
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 35
+warning: unnecessary parentheses around block return value: 2
+help: remove these parentheses: 2
+
+clippy_tr.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 1478
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 48
+warning: unnecessary parentheses around function argument: 1
+help: remove these parentheses: 7
+warning: unnecessary parentheses around block return value: 6
+
+clippy_crctab.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 2049
+error[E0601]: `main` function not found in crate `crctab`: 1
+
+clippy_version.txt
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 2
+error[E0601]: `main` function not found in crate `version`: 1
+
+clippy_sum.txt
+error: Binary expression is not supposed to be used: 2
+error[E0433]: failed to resolve: use of undeclared crate or module `libc`: 283
+error[E0433]: failed to resolve: maybe a missing crate `core`?: 2
+warning: unnecessary parentheses around block return value: 2
+help: remove these parentheses: 2
+error[E0601]: `main` function not found in crate `sum`: 1
+
