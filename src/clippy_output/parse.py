@@ -38,7 +38,7 @@ for file_name in os.listdir(input_path):
                 else:
                     statistics[file_name] = {block: 1}
 
-                if block.startswith("error[E0433]") or block.startswith("warning:") or block.startswith("help: remove these parentheses"):
+                if block.startswith("error[E0433]") or block.startswith("error[E0658]") or block.startswith("warning:") or block.startswith("help: remove these parentheses"):
                     continue
 
                 if file_name in statistics_skimmed:
